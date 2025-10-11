@@ -94,6 +94,7 @@ export default function LikeShare() {
     }
     getFingerprint();
     messageApi.success('Like Success');
+    getUserLike();
   };
 
   const onShare = async () => {
@@ -192,7 +193,7 @@ export default function LikeShare() {
         onClick={onToggleLike}
       >
         <span className={styles.icon}>👍</span>
-        <span>{userInfo?.star?.find((i) => i === pageKey) ? '已点赞' : '点赞'}</span>
+        <span>{userInfo?.star?.find((i) => i === pageKey) ? 'Liked' : 'Like'}</span>
         <span className={styles.count}>
           {pageInfo?.star?.find((i) => i.pageKey === pageKey)?.count ?? 0}
         </span>
@@ -200,7 +201,7 @@ export default function LikeShare() {
 
       <button className={styles.btn} onClick={onShare}>
         <span className={styles.icon}>🔗</span>
-        <span>{copied ? '已复制链接' : '转发/分享'}</span>
+        <span>{copied ? 'Link copied' : 'Share'}</span>
         <span className={styles.count}>
           {pageInfo?.share?.find((i) => i.pageKey === pageKey)?.count ?? 0}
         </span>
