@@ -65,8 +65,10 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="step-1" label="1: Registration & Application" default>
     #### Registration & Application (Sep 29 – Dec 10)
-    - Register an account at Heltec Automation, and apply on this page.
-    - Create a GitHub Pull Request including a brief summary, find more info in the templete(网址).
+    - Register an account at [Heltec Automation](https://heltec.org/), and participant on [this page](https://participant.heltec.org).
+    - Frok [Heltec Wi-Ki](https://github.com/HelTecAutomation) repository, and clone the forked project into local.
+      - Your project docs formart please refer to: [PR Format instructions for project share (Template)](https://wiki.heltec.org/news/contest-content-template/contest-content-template);
+      - More detailed usage documentation please refer to: [Contest Content Template Usage Guide](https://wiki.heltec.org/news/contest-content-template-usage-guide/contest-content-template-usage-guide)
     - You can update or edit your submission anytime before Dec 10.
   </TabItem>
 
