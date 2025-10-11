@@ -4,6 +4,7 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 import useIsBrowser from '@docusaurus/useIsBrowser';
 import { getStarshareOnce } from '@site/src/utils/starshareClient';
+import { getUserStarshareOnce } from '@site/src/utils/getUserInfoClient';
 import { useDoc } from '@docusaurus/plugin-content-docs/client';
 import { useBlogPost } from '@docusaurus/plugin-content-blog/client';
 import FingerprintJS from '@fingerprintjs/fingerprintjs';
@@ -168,19 +169,13 @@ export default function LikeShare() {
     const fp = await FingerprintJS.load({ monitoring: false });
     const result = await fp.get();
 
-    const res = await fetch(`https://contest.heltec.org/api/contest/starshare/${result.visitorId}`, {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
-    if (!res.ok) {
-      messageApi.error('Server failed.');
-      return;
-    }
-
-    const data = await res.json();
-    setUserInfo(data);
+    getUserStarshareOnce({ fg: result.visitorId, hold: 1000, ttlMs: 1000 })
+      .then((data) => {
+        if (data) setUserInfo(data);
+      })
+      .catch(() => {
+        messageApi.error('Server failed.');
+      });
   }
 
   if (!isBrowser) return null;
