@@ -89,7 +89,7 @@ export default function LikeShare() {
     });
 
     if (!res.ok) {
-      messageApi.error('Server failed.');
+      messageApi.error('You’ve already liked this.');
       return;
     }
     getFingerprint();
