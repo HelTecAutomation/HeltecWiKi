@@ -18,6 +18,9 @@ In the `Frontmatter` content, the author's name must be the same as the name sub
 ## Your project title
 
 ![](img/01.svg)
+
+<!-- truncate -->
+
 :::tip
 A horizontal image that shows your final work or the effect you achieved, with a recommended ratio of 16:9 (Not mandatory), such as 1000 x 562 resolution. `svg`, `png`, `jpg`, `jpeg` are fine.
 
@@ -28,7 +31,6 @@ This image serves two purposes:
 
 
 A brief summary of what your project is doing, what it achieves, what problems it solves, etc.
-<!-- truncate -->
 
 :::note
 The above content is **required** (Except for the tips in the tip and note boxes), and the following content is recommended but not required. You can freely play according to your actual situation.

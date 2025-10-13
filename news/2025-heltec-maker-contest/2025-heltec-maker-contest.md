@@ -64,7 +64,7 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="step-1" label="1: Registration & Application" default>
     #### Registration & Application (Sep 29 – Dec 10)
-    - Register an account at [Heltec Automation](https://heltec.org/), and participant on [this page](https://participant.heltec.org).
+    - Register an account at [Heltec Automation](https://heltec.org/), and participant on [this page](https://participant.heltec.org/activity/2025-heltec-maker-contest).
     - Frok [Heltec Wi-Ki](https://github.com/HelTecAutomation) repository, and clone the forked project into local.
       - Your project docs formart please refer to: [Maker Contest Content Format Template](https://wiki.heltec.org/news/contest-content-template/contest-content-template);
       - More detailed usage documentation please refer to: [Contest Content Template Usage Guide](https://wiki.heltec.org/news/contest-content-template-usage-guide/contest-content-template-usage-guide)
