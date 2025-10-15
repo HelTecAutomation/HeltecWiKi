@@ -73,7 +73,7 @@ function BrowseBy() {
 
   return (
     <section className={styles.browseBy}>
-      <div className="container">
+      <div className="container" key={activeCategory}>
         <div className="text--center margin-bottom--xl">
           <Heading as="h2">Browse by</Heading>
           <p>Explore our wikis organized by categories</p>
