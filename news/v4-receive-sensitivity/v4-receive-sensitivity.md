@@ -1,7 +1,7 @@
 ---
 title: "LoRa 32 V4 receiver sensitivity issue discussed"
-description: "Formatting Instructions for Documents Submitted for the 2025 Heltec Maker Contest"
-category: "Template"
+description: "LoRa 32 V4 receiver sensitivity issue discussed"
+category: "Technical"
 author: "Aaron Lee"
 date: "2025-10-15"
 image: "img/01.png"
