@@ -105,20 +105,48 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Devices Guide',
           items: [
             {
               label: 'Tutorial',
               to: '/docs/intro',
             },
+            {
+              label: 'LoRaWAN Appliaction',
+              to: '/docs/devices/lorawan-application/',
+            },
+            {
+              label: 'Open Source Hardware',
+              to: '/docs/devices/open-source-hardware/',
+            },
+            {
+              label: 'Wi-FI HaLow',
+              to: '/docs/devices/wifi-halow/',
+            },
+            {
+              label: 'General Docs',
+              to: '/docs/category/general-docs',
+            },
           ],
         },
         {
-          title: 'SnapEmu',
+          title: 'Platform',
           items: [
             {
               label: 'SnapEmu',
-              to: '/docs/snapemu',
+              to: '/docs/platform/snapemu/',
+            },
+            {
+              label: 'BMS Tool',
+              to: 'https://flash.nmiot.net:3333/',
+            },
+            {
+              label: 'Resource',
+              to: 'https://resource.heltec.cn/',
+            },
+            {
+              label: 'MQB',
+              to: 'https://mqb.heltec.org/',
             },
           ],
         },
@@ -126,24 +154,21 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Discord',
-              href: 'https://discord.gg/BPbBaMgu',
+              label: 'Store',
+              href: 'https://heltec.org/',
             },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
             {
               label: 'News',
               to: '/news',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/HelTecAutomation/HeltecNewDocs',
+              label: 'Supports',
+              to: 'https://heltec.org/about/contact/',
             },
+            
           ],
         },
+        
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },

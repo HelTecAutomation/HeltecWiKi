@@ -181,6 +181,7 @@
 }
 
 .browseByImage {
+  width: 100%;
   height: 200px;
   overflow: hidden;
   position: relative;
@@ -190,31 +191,43 @@
   justify-content: center;
 }
 
-.browseByImage img {
+.browseByImage .image_widget {
+  width: 100%;
+  height: 200px;
+}
+
+/* .browseByImage img {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
-}
+} */
 
 .browseByImage .browseByImage_0 {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 200px;
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
 
 .browseByImage .browseByImage_1 {
   width: 100%;
-  height: 100%;
+  height: 200px;
   object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.browseByImage .browseByImage_2 {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
 
 .browseByImage .browseByImage_3 {
   width: 100%;
-  height: 100%;
-  object-fit:  contain;
+  height: 200px;
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
 
@@ -370,10 +383,9 @@
   justify-content: center;
 }
 
-.wikiImage img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
+.wikiImage .image_widget {
+  width: 100%;
+  height: 200px !important;
 }
 
 .wikiContent {
@@ -527,7 +539,16 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   border: 1px solid var(--dark-border-light);
+  cursor: pointer;
 }
+
+.supportChannel:hover {
+  transform: translateY(-5px);
+  transition: 0.5s all;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+  border-color: var(--ifm-color-primary);
+}
+
 
 .channelIcon {
   font-size: 2rem;
@@ -547,13 +568,31 @@
 
 .supportImage {
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .supportImage img {
   max-width: 100%;
   height: auto;
   filter: brightness(0.8) contrast(1.2);
+}
+
+.navi_icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+
+}
+
+.navi_icon .navi_item {
+  cursor: pointer;
+}
+
+.navi_icon .navi_item img {
+ width: 60px;
+ height: 60px;
+ object-fit: contain;
 }
 
 /* Community Section */

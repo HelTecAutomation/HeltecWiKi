@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Open Source Hardware
 ---
 
-# Open Source Devices
+
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

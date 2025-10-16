@@ -7,6 +7,8 @@ import { useState } from "react";
 import { getLatestWiki } from "@site/src/data/latest-wiki";
 import { browseByData, getCategoryTitles } from "@site/src/data/browse-by-data";
 import styles from "./index.module.css";
+import ImageWidget from "../components/ImageWidget";
+import {Skeleton} from "antd"
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -100,7 +102,9 @@ function BrowseBy() {
               <div key={idx} className="col col--3 " style={{marginBottom:"15px"}}>
                 <div className={styles.browseByCard}>
                   <div className={styles.browseByImage}>
-                    <img src={doc.image} alt={doc.title} className={styles[`browseByImage_${idx}`]}/>
+                    {/* <ImageWidget src={doc.image}/> */}
+                    <ImageWidget className={styles.image_widget} src={doc.image} imageStyle={styles[`browseByImage_${idx}`]}/>
+                    {/* <img src={doc.image} alt={doc.title} className={styles[`browseByImage_${idx}`]}/> */}
                     <div className={styles.browseByOverlay}>
                       <Link
                         to={doc.path}
@@ -171,7 +175,10 @@ function LatestWiki() {
               <div key={wiki.id} className="col col--3">
                 <div className={styles.wikiCard}>
                   <div className={styles.wikiImage}>
-                    <img src={wiki.image} alt={wiki.title} />
+                    <ImageWidget className={styles.image_widget} src={wiki.image}/>
+                    
+                    {/* <Skeleton.Button className={styles.image_widget} block active /> */}
+                    {/* <img src={wiki.image} alt={wiki.title} /> */}
                   </div>
                   <div className={styles.wikiContent}>
                     <span className={styles.wikiCategory}>{wiki.category}</span>
@@ -236,6 +243,30 @@ function LatestWiki() {
 }
 
 function TechSupport() {
+
+  const navi_list = [
+    {
+      icon: "/img/main-img/github.png",
+      url: "https://github.com/HelTecAutomation"
+    },
+    {
+      icon: "/img/main-img/facebook.png",
+      url: "https://www.facebook.com/profile.php?id=61580053774905"
+    },
+    {
+      icon: "/img/main-img/twitter.png",
+      url: "https://x.com/Heltec Auto"
+    },
+    {
+      icon: "/img/main-img/youtube.png",
+      url: "https://www.youtube.com/@HeltecAutomation"
+    },
+    {
+      icon: "/img/main-img/reddit.png",
+      url: "https://www.reddit.com/user/Heltec Automation6/"
+    }
+  ]
+
   return (
     <section className={styles.techSupport}>
       <div className="container">
@@ -287,9 +318,18 @@ function TechSupport() {
           <div className="col col--6">
             <div className={styles.supportImage}>
               <img
-                src="/img/undraw_docusaurus_tree.svg"
+                src="/img/main-img/support.webp"
                 alt="Technical Support"
               />
+            </div>
+            <div className={styles.navi_icon}>
+                {
+                  navi_list.map((item, index)=>{
+                    return <div key={index} className={styles.navi_item} onClick={()=>{ window.open(item.url, "_blank") }}>
+                          <img src={item.icon} alt="heltec" className={`styles.navi_icon_${index}`}/>
+                    </div>
+                  })
+                }
             </div>
           </div>
         </div>
