@@ -204,4 +204,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { scanDocsDirectory, generateJavaScriptCode, normalizeImage, byPinnedThenDate };
+module.exports = { scanDocsDirectory, generateJavaScriptCode, normalizeImage, byPinnedThenDate, main };

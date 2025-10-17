@@ -4,7 +4,7 @@ description: "Formatting Instructions for Documents Submitted for the 2025 Helte
 category: "Template"
 author: "heltec-author"
 date: "2025-9-23"
-image: "img/01.svg"
+image: "img/template1.svg"
 ---
 
 :::tip

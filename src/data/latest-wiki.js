@@ -1,4 +1,4 @@
-// Auto-generated Wiki data - Last updated: 2025-10-17T10:10:06.986Z
+// Auto-generated Wiki data - Last updated: 2025-10-17T10:38:42.668Z
 export const latestWikiData = [
   {
     "id": 1,
@@ -47,7 +47,7 @@ export const latestWikiData = [
     "description": "Formatting Instructions for Documents Submitted for the 2025 Heltec Maker Contest",
     "category": "template",
     "date": "2025-9-23",
-    "image": "/news-assets/contest-content-template/contest-content-template/01.svg",
+    "image": "/img/undraw_docusaurus_mountain.svg",
     "slug": "/news/contest-content-template/contest-content-template",
     "tags": [],
     "pinned": false
