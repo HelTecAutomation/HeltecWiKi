@@ -103,8 +103,8 @@ function BrowseBy() {
                 <div className={styles.browseByCard}>
                   <div className={styles.browseByImage}>
                     {/* <ImageWidget src={doc.image}/> */}
-                    <ImageWidget className={styles.image_widget} src={doc.image} imageStyle={styles[`browseByImage_${idx}`]}/>
-                    {/* <img src={doc.image} alt={doc.title} className={styles[`browseByImage_${idx}`]}/> */}
+                    {/* <ImageWidget className={styles.image_widget} src={doc.image} imageStyle={styles[`browseByImage_${idx}`]}/> */}
+                    <img src={doc.image} alt={doc.title} className={styles[`browseByImage_${idx}`]}/>
                     <div className={styles.browseByOverlay}>
                       <Link
                         to={doc.path}
@@ -175,10 +175,10 @@ function LatestWiki() {
               <div key={wiki.id} className="col col--3">
                 <div className={styles.wikiCard}>
                   <div className={styles.wikiImage}>
-                    <ImageWidget className={styles.image_widget} src={wiki.image}/>
+                    {/* <ImageWidget className={styles.image_widget} src={wiki.image}/> */}
                     
                     {/* <Skeleton.Button className={styles.image_widget} block active /> */}
-                    {/* <img src={wiki.image} alt={wiki.title} /> */}
+                    <img src={wiki.image} alt={wiki.title} />
                   </div>
                   <div className={styles.wikiContent}>
                     <span className={styles.wikiCategory}>{wiki.category}</span>
@@ -249,6 +249,10 @@ function TechSupport() {
       icon: "/img/main-img/github.png",
       url: "https://github.com/HelTecAutomation"
     },
+     {
+      icon: "/img/main-img/reddit.png",
+      url: "https://www.reddit.com/user/Heltec Automation6/"
+    },
     {
       icon: "/img/main-img/facebook.png",
       url: "https://www.facebook.com/profile.php?id=61580053774905"
@@ -262,8 +266,12 @@ function TechSupport() {
       url: "https://www.youtube.com/@HeltecAutomation"
     },
     {
-      icon: "/img/main-img/reddit.png",
-      url: "https://www.reddit.com/user/Heltec Automation6/"
+      icon: "/img/main-img/instagram.png",
+      url: "https://www.instagram.com/heltec automation"
+    },
+    {
+      icon: "/img/main-img/tiktok.png",
+      url: "https://www.tiktok.com/@heltec.automation"
     }
   ]
 

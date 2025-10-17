@@ -25,12 +25,61 @@ function normalizeImage(image, mdAbsPath, slug) {
   }
 
   const fileName = path.basename(absImg);
-  const destDir = path.join(STATIC_DIR, STATIC_BUCKET, slug);
+  const parentDir = path.join(STATIC_DIR, STATIC_BUCKET);
+  const targetSlug = slug.toLowerCase(); // 统一小写 slug
+  const destDir = path.join(parentDir, targetSlug);
   const destAbs = path.join(destDir, fileName);
-  const destUrl = `/${toUrlPath(path.join(STATIC_BUCKET, slug, fileName))}`;
+  const destUrl = `/${toUrlPath(path.join(STATIC_BUCKET, targetSlug, fileName)).toLowerCase()}`;
 
-  fs.mkdirSync(destDir, { recursive: true });
-  if (!fs.existsSync(destAbs)) fs.copyFileSync(absImg, destAbs);
+  if (fs.existsSync(parentDir)) {
+    try {
+      const entries = fs.readdirSync(parentDir, { withFileTypes: true });
+      for (const e of entries) {
+        if (e.isDirectory() && e.name.toLowerCase() === targetSlug) {
+          const fullPath = path.join(parentDir, e.name);
+          try {
+            fs.rmSync(fullPath, { recursive: true, force: true });
+            console.log(`🧹  (case-insensitive) removed: ${fullPath}`);
+          } catch (err) {
+            console.warn(`⚠️  failed to remove (case-insensitive) ${fullPath}:`, err.message);
+          }
+        }
+      }
+    } catch (err) {
+      console.warn(`⚠️  Failed reading parent dir ${parentDir}:`, err.message);
+    }
+  }
+
+  // ============================
+  // 2) 再次强制删除目标（精确路径），以防上一步没有命中
+  // ============================
+  try {
+    if (fs.existsSync(destDir)) {
+      fs.rmSync(destDir, { recursive: true, force: true });
+      console.log(`🧹  (exact) removed: ${destDir}`);
+    }
+  } catch (err) {
+    console.warn(`⚠️  failed to remove exact dest ${destDir}:`, err.message);
+  }
+
+  // ============================
+  // 3) 重新创建目录并拷贝文件（覆盖）
+  // ============================
+  try {
+    fs.mkdirSync(destDir, { recursive: true });
+  } catch (err) {
+    console.error(`❌  failed to create dest dir ${destDir}:`, err.message);
+    return "/img/undraw_docusaurus_mountain.svg";
+  }
+
+  try {
+    fs.copyFileSync(absImg, destAbs);
+    console.log(`📸  Copied image to: ${destAbs}`);
+  } catch (err) {
+    console.error(`❌  failed to copy ${absImg} -> ${destAbs}:`, err.message);
+    return "/img/undraw_docusaurus_mountain.svg";
+  }
+
   return destUrl;
 }
 
@@ -62,19 +111,21 @@ function scanDocsDirectory() {
 
           if (fm.title && fm.description && fm.date) {
             const rawSlug = path.join(relativePath, file.replace(/\.(md|mdx)$/i, ""));
-            const slug = toUrlPath(rawSlug);
+            const slug = toUrlPath(rawSlug).toLowerCase();
 
-            // 文件路径
             const pagePath = `/news/${slug}`;
 
-            const category = Array.isArray(fm.category)
-                ? fm.category.join(", ")
-                : (fm.category || "Uncategorized");
+            const category = (Array.isArray(fm.category)
+              ? fm.category.join(", ")
+              : (fm.category || "Uncategorized")
+            ).toLowerCase();
 
             const image = normalizeImage(fm.image, filePath, slug);
 
             const pinned = Boolean(fm.pinned ?? fm.featured ?? fm.top);
             // 日期建议统一成 YYYY-MM-DD，不做强校验
+            console.log(image);
+            
             wikiData.push({
               id: id++,
               title: fm.title,
@@ -83,7 +134,7 @@ function scanDocsDirectory() {
               date: fm.date,
               image,
               slug: pagePath,
-              tags: fm.tags || [],
+              tags: (fm.tags || []).map(t => t.toLowerCase()),
               pinned,
             });
           }
@@ -139,7 +190,7 @@ function main() {
 
     const jsCode = generateJavaScriptCode(wikiData);
     fs.writeFileSync(OUTPUT_FILE, jsCode, "utf8");
-    writeBlogMetaJson(wikiData);               
+    writeBlogMetaJson(wikiData);
 
     console.log(`✅ Successfully generated ${OUTPUT_FILE}`);
     console.log(`📊 Processed ${wikiData.length} documents`);

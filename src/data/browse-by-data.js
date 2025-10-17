@@ -9,22 +9,22 @@ export const browseByData = [
     docList: [
        {
         path: "/docs/devices/lorawan-application/lora-gateway/",
-        image: "/img/main-img/3.png",
+        image: "img/main-img/3.png",
         title: "LoRa Gateway Series",
       },
       {
         path: "/docs/devices/lorawan-application/lora-node-devices/",
-        image: "/img/main-img/lora_node.jpg",
+        image: "img/main-img/lora_node.jpg",
         title: "LoRa Node Devices",
       },
       {
         path: "https://heltec.org/wireless-aggregator/",
-        image: "/img/main-img/wireless_aggregator.png",
+        image: "img/main-img/wireless_aggregator.png",
         title: "Wireless Aggregator",
       },
       {
         path: "/docs/devices/lorawan-application/lora-node-devices/meshpocket/",
-        image: "/img/main-img/meshpocket.jpg",
+        image: "img/main-img/meshpocket.jpg",
         title: "MeshPocket ",
       },
     ],
@@ -37,22 +37,22 @@ export const browseByData = [
     docList: [
        {
         path: "/docs/devices/open-source-hardware/esp32-series/esp32-quick-start",
-        image: "/img/main-img/esp32qs.jpg",
+        image: "img/main-img/esp32qs.jpg",
         title: "Heltec ESP32 Series Quick Start",
       },
       {
         path: "/devices/open-source-hardware/nrf52840-series/nrf52840-series-quick-start",
-        image: "/img/main-img/nrf.jpg",
+        image: "img/main-img/nrf.jpg",
         title: "Heltec nRF52840 Series Quick Start",
       },
       {
         path: "/docs/devices/open-source-hardware/cubecell-series/cubecell-quick-start",
-        image: "/img/main-img/wifi_kit_32.jpg",
+        image: "img/main-img/wifi_kit_32.jpg",
         title: "Heltec CubeCell Series Quick Start",
       },
       {
         path: "/docs/devices/open-source-hardware/esp32-series/wireless_boot",
-        image: "/img/main-img/capsule.png",
+        image: "img/main-img/capsule.png",
         title: "Heltec WirelessBoot System",
       },
     
@@ -66,23 +66,23 @@ export const browseByData = [
     docList: [
       {
         path: "https://heltec.org/what-is-wi-fi-halow/",
-        image: "/img/main-img/wifi_halow.png",
+        image: "img/main-img/wifi_halow.png",
         title: "What is Wi-Fi HaLow",
       },
       {
         path: "/docs/devices/wifi-halow/ht-h7608/",
-        image: "/img/main-img/7608.png",
+        image: "img/main-img/7608.png",
         title: "Wi-FI HaLow Router",
       },
       {
         path: "/docs/devices/wifi-halow/ht-hd01/",
-        image: "/img/main-img/dongle.webp",
+        image: "img/main-img/dongle.webp",
         title: "Wi-FI HaLow Dongle",
       },
     
       {
         path: "/docs/devices/wifi-halow/ht-hc32/",
-        image: "/img/main-img/sensor.jpg",
+        image: "img/main-img/sensor.jpg",
         title: "ESP32 Wi-FI HaLow Camera",
       },
     ],
@@ -95,22 +95,22 @@ export const browseByData = [
     docList: [
       {
         path: "/docs/devices/general-docs/lorawan-instructions/",
-        image: "/img/main-img/lora.png",
+        image: "img/main-img/lora.png",
         title: "LoRa Communication Protocol Deep Dive",
       },
       {
         path: "/docs/devices/open-source-hardware/esp32-series/esp32-quick-start?esp32=meshtastic",
-        image: "/img/main-img/meshtastic.png",
+        image: "img/main-img/meshtastic.png",
         title: "WiFi Mesh Network Construction",
       },
       {
         path: "https://flash.nmiot.net:3333/",
-        image: "/img/main-img/meshsolar_confige.png",
+        image: "img/main-img/meshsolar_confige.png",
         title: "MeshSolar WebSerial Tool",
       },
       {
         path: "/docs/platforms",
-        image: "/img/main-img/4.png",
+        image: "img/main-img/4.png",
         title: "Cloud Platform Integration Guide",
       },
     ],

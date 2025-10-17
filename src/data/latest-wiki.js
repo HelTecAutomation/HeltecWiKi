@@ -1,10 +1,10 @@
-// Auto-generated Wiki data - Last updated: 2025-10-15T07:06:59.994Z
+// Auto-generated Wiki data - Last updated: 2025-10-17T08:52:11.641Z
 export const latestWikiData = [
   {
     "id": 1,
     "title": "2025 Heltec Maker Contest (Pinned)",
     "description": "The 2025 Heltec Maker Challenge is here—our very first global maker contest!",
-    "category": "IoT",
+    "category": "iot",
     "date": "2025-9-18",
     "image": "/news-assets/2025-heltec-maker-contest/2025-heltec-maker-contest/01.png",
     "slug": "/news/2025-heltec-maker-contest/2025-heltec-maker-contest",
@@ -18,8 +18,8 @@ export const latestWikiData = [
   {
     "id": 5,
     "title": "LoRa 32 V4 receiver sensitivity issue discussed",
-    "description": "Formatting Instructions for Documents Submitted for the 2025 Heltec Maker Contest",
-    "category": "Template",
+    "description": "LoRa 32 V4 receiver sensitivity issue discussed",
+    "category": "technical",
     "date": "2025-10-15",
     "image": "/news-assets/v4-receive-sensitivity/v4-receive-sensitivity/01.png",
     "slug": "/news/v4-receive-sensitivity/v4-receive-sensitivity",
@@ -30,7 +30,7 @@ export const latestWikiData = [
     "id": 4,
     "title": "Contest Content Template Usage Guide",
     "description": "How to Use the Contest Content Template",
-    "category": "Contest",
+    "category": "contest",
     "date": "2025-9-23",
     "image": "/news-assets/contest-content-template-usage-guide/contest-content-template-usage-guide/template.jpg",
     "slug": "/news/contest-content-template-usage-guide/contest-content-template-usage-guide",
@@ -45,7 +45,7 @@ export const latestWikiData = [
     "id": 3,
     "title": "Maker Contest Content Format Template",
     "description": "Formatting Instructions for Documents Submitted for the 2025 Heltec Maker Contest",
-    "category": "Template",
+    "category": "template",
     "date": "2025-9-23",
     "image": "/news-assets/contest-content-template/contest-content-template/01.svg",
     "slug": "/news/contest-content-template/contest-content-template",
@@ -56,7 +56,7 @@ export const latestWikiData = [
     "id": 2,
     "title": "2025 Heltec Maker Contest Privacy Policy",
     "description": "2025 Heltec Maker Contest Privacy Policy",
-    "category": "IoT",
+    "category": "iot",
     "date": "2025-9-22",
     "image": "/news-assets/2025-heltec-maker-contest-privacy-policy/2025-heltec-maker-contest-privacy-policy/policy.jpg",
     "slug": "/news/2025-heltec-maker-contest-privacy-policy/2025-heltec-maker-contest-privacy-policy",

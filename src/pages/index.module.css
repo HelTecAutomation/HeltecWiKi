@@ -388,6 +388,12 @@
   height: 200px !important;
 }
 
+.wikiImage img {
+  width: 100%;
+  height: 200px !important;
+  object-fit: fill;
+}
+
 .wikiContent {
   padding: 1.5rem;
   flex-grow: 1;
@@ -567,7 +573,7 @@
 }
 
 .supportImage {
-  text-align: center;
+  text-align: cover;
   padding: 1rem;
 }
 
@@ -592,7 +598,8 @@
 .navi_icon .navi_item img {
  width: 60px;
  height: 60px;
- object-fit: contain;
+ object-fit: cover;
+
 }
 
 /* Community Section */

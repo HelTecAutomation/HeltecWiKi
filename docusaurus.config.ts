@@ -35,6 +35,27 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['en', 'en'], 
+        highlightSearchTermsOnTargetPage: true,
+        removeDefaultStopWordFilter: true,
+      },
+    ],
+  ],
+
+  themeConfig: {
+    navbar: {
+      title: 'My Site',
+      items: [
+        { type: 'search', position: 'right' }, 
+      ],
+    },
+  },
 
   presets: [
     [
@@ -165,13 +186,13 @@ const config: Config = {
               label: 'Supports',
               to: 'https://heltec.org/about/contact/',
             },
-            
           ],
         },
         
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
+
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
