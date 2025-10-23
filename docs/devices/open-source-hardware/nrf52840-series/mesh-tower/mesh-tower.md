@@ -58,10 +58,10 @@ MeshTower is a solar-powered outdoor communication system built on MeshSolar tec
 ## Product Usage Guide
 
 **The following documentation will help you get started quickly with the product**
-- [Install development environment](/docs/devices/open-source-devices/nrf52840-series/nrf52840-series-quick-start?nrf52840=nrf52840)
-- [Applied to LoRaWAN](/docs/devices/open-source-devices/nrf52840-series/nrf52840-series-quick-start?nrf52840=lorawan)
-- [Applied to Meshtatic](/docs/devices/open-source-devices/nrf52840-series/nrf52840-series-quick-start?nrf52840=meshtastic)
-- [How to use license](docs/devices/general-docs/how_to_use_license)
+- [Install development environment](/docs/devices/open-source-hardware/nrf52840-series/nrf52840-series-quick-start?nrf52840=nrf52840)
+- [Applied to LoRaWAN](/docs/devices/open-source-hardware/nrf52840-series/nrf52840-series-quick-start?nrf52840=lorawan)
+- [Applied to Meshtatic](/docs/devices/open-source-hardware/nrf52840-series/nrf52840-series-quick-start?nrf52840=meshtastic)
+- [How to use license](/docs/devices/general-docs/how_to_use_license)
 
 
 

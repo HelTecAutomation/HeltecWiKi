@@ -51,7 +51,7 @@ WiFi LoRa 32 is a compact and versatile IoT development board from Heltec Automa
 | USB Socket         | Micro USB                  | TypeC                                        |      
 | Crystal Oscillator | Ordinary crystal oscillator| High precision temperature<br />compensated crystal oscillator |      
 | LowPower           | 800uA                      | `<10uA`                                     |      
-| Other              | 数据20                     | Better impedance matching of RF circuits.    |      
+| Other              | /                          | Better impedance matching of RF circuits.    |      
 
 ## Important Resources
 - [Datasheet](https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA_V3.2.pdf)
@@ -62,7 +62,7 @@ WiFi LoRa 32 is a compact and versatile IoT development board from Heltec Automa
 ## Product Usage Guide
 
 **The following documentation will help you get started quickly with the product**
-- [Install development environment](/docs/devices/open-source-devices/esp32-series/esp32-quick-start?esp32=esp32)
-- [Applied to LoRaWAN](/docs/devices/open-source-devices/esp32-series/esp32-quick-start?esp32=lorawan)
-- [Applied to Meshtatic](/docs/devices/open-source-devices/esp32-series/esp32-quick-start?esp32=meshtastic)
-- [How to use license](docs/devices/general-docs/how_to_use_license)
+- [Install development environment](/docs/devices/open-source-hardware/esp32-series/esp32-quick-start?esp32=esp32)
+- [Applied to LoRaWAN](/docs/devices/open-source-hardware/esp32-series/esp32-quick-start?esp32=lorawan)
+- [Applied to Meshtatic](/docs/devices/open-source-hardware/esp32-series/esp32-quick-start?esp32=meshtastic)
+- [How to use license](/docs/devices/general-docs/how_to_use_license)

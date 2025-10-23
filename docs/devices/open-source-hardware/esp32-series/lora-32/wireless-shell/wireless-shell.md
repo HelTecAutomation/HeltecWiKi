@@ -49,7 +49,7 @@ Wireless Shell(V3) is a compact (38.4×16.1×3.2 mm) low-power LoRa module with 
 ## Product Usage Guide
 
 **The following documentation will help you get started quickly with the product**
-- [Install development environment](/docs/devices/open-source-devices/esp32-series/esp32-quick-start?esp32=esp32)
-- [Applied to LoRaWAN](/docs/devices/open-source-devices/esp32-series/esp32-quick-start?esp32=lorawan)
-- [Applied to Meshtatic](/docs/devices/open-source-devices/esp32-series/esp32-quick-start?esp32=meshtastic)
-- [How to use license](docs/devices/general-docs/how_to_use_license)
+- [Install development environment](/docs/devices/open-source-hardware/esp32-series/esp32-quick-start?esp32=esp32)
+- [Applied to LoRaWAN](/docs/devices/open-source-hardware/esp32-series/esp32-quick-start?esp32=lorawan)
+- [Applied to Meshtatic](/docs/devices/open-source-hardware/esp32-series/esp32-quick-start?esp32=meshtastic)
+- [How to use license](/docs/devices/general-docs/how_to_use_license)

@@ -5,6 +5,7 @@ title: WiFi LoRa 32
 
 import DocCard from '@theme/DocCard';
 
+The WiFi LoRa 32 series includes three independent products — V2, V3, and V4. Each version is developed based on the design experience of its predecessors, with enhanced performance and optimized functionality. The following section provides detailed documentation for each version.
 
 
 ## Version comparison
@@ -22,6 +23,8 @@ import DocCard from '@theme/DocCard';
 | **Screen**                  | Soldered              | Soldered               | Soldered + B2B connector      |
 | **Craft & Protection**      | Silver / Partial      | Silver / Partial       | Gold / Full                   |
 | **Other Improvements**      | –                     | RF impedance optimized | Enhanced RF & power stability |
+
+## Product Guide
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';
