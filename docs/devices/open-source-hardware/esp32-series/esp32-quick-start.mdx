@@ -258,15 +258,17 @@ Heltec ESP32 LoRaWAN library need a license to active, it's relative to ESP32's 
 - AppEui -- Application IEEE EUI (big endian), 8 bytes;
 - AppKey -- AES encryption/decryption cipher application key, 16 bytes;
 
-```{Tip} This example uses the OTAA pattern as an example, and for the differences in the ABP pattern, please refer to this link: [ABP mode](/docs/devices/general-docs/lorawan-instructions/lorawan_abp)
-```
+:::tip
+This example uses the OTAA pattern as an example, and for the differences in the ABP pattern, please refer to this link: [ABP mode](/docs/devices/general-docs/lorawan-instructions/lorawan_abp)
+:::
 
 6. Effective load is here.
 
 ![](img/config_parameter/05.png)
 
-``` {Note} Print too much messages may cause the system unstable.
-```
+:::note
+Print too much messages may cause the system unstable.
+:::
 
 7. Other relevant parameters are in the `.ino` file, You can come back to it after you know lorawan well.
 
@@ -470,15 +472,30 @@ Please double check the following two things:
 </TabItem>
 <TabItem value="meshtastic" >
 
-**Meshtastic®** is a project that enables you to use inexpensive LoRa radios as a long range off-grid communication platform in areas without existing or reliable communications infrastructure. This project is 100% community driven and open source! For a more detailed description of Meshtastic please refer to their website and forum: [https://meshtastic.org/](https://meshtastic.org/).
 
-This topic describes how to get started with Meshtastic. 
+**Meshtastic®** is a project that enables you to use inexpensive LoRa radios as a long range off-grid communication platform in areas without existing or reliable communications infrastructure. This project is 100% community driven and open source! For a more detailed description of Meshtastic please refer to their website and forum: [https://meshtastic.org](https://meshtastic.org).
 
-Currently, Heltec recommends the following devices for Meshtastic:
+## How to Install ESP32 Series Meshtastic Firmware 
+
+Using the four flashing methods for the WiFi LoRa 32 V4 as an example, the installation process is largely the same for other ESP32 series devices.
+
+<iframe
+  width="100%"
+  height="400"
+  src=" https://www.youtube.com/embed/g_bCHeNPgZA?=91s"
+  title="Heltec Capsule Sensor V3. A Portable LoRa/LoRaWAN Node device compatible with Meshtastic"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+
+---
+
+## ESP32 series devices supporting meshtastic
 
 | Product | Description |
 |-|:-|
-| [WiFi LoRa 32 V3](https://heltec.org/project/wifi-lora-32-v3/) | it is known as **Heltec V3** |
+| [WiFi LoRa 32 ](https://heltec.org/project/wifi-lora-32-v4/) | Upgraded to V4 version|
 | [Wireless Tracker](https://heltec.org/project/wireless-tracker/) | it comes with a GPS module. |
 | [Wireless Stick Lite](https://heltec.org/project/wireless-stick-lite-v2/) | no screen |
 | [Wireless Paper](https://heltec.org/project/wireless-paper/) | It comes with E-Ink screen |
@@ -488,19 +505,22 @@ Currently, Heltec recommends the following devices for Meshtastic:
 | [Vision Master E213](https://heltec.org/project/vision-master-e213/) | 2.13 inch E-Ink Display |
 | [Vision Master E290](https://heltec.org/project/vision-master-e290/) | 2.90 inch E-Ink Display |
 | [Vision Master T190](https://heltec.org/project/vision-master-t190/) | 1.90 inch TFT Display |
-| [Mesh Node T114](https://heltec.org/project/mesh-node-t114) | 1.14 inch TFT Display, nRF52 MCU, Strong low power |
 
-*This topic uses WiFi LoRa 32 V3 as an example.*
 
-## Install ESP32 USB to Serial Drivers
+## How to Use Meshtastic
+
+**This topic uses the WiFi LoRa 32 V3 as an example to demonstrate the complete Meshtastic setup, starting from flashing the firmware.**
+
+### Install ESP32 USB to Serial Drivers
 Use a USB cable to connect your computer to your device. Open your `Device Manager`, `Port`, if your computer doesn't recognize the device, You may need to install a driver from Silicon Labs for the CP210X USB to UART bridge: [CP210X USB to UART bridge - Download](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=overview)
 
 :::tip
 After installing the driver, make sure to reboot your computer to finish the installation process.
 :::
 
-## Flash Firmware
-**The Web-Based Installer requires either Chrome or Edge browsers but is an excellent choice for quickly flashing devices. This method is highly recommended for firmware flashing, especially for new users of the project, as it is easy to use.**
+### Flash Meshtastic Firmware via the Web Flasher
+
+The Web-Based Installer requires either Chrome or Edge browsers but is an excellent choice for quickly flashing devices. This method is highly recommended for firmware flashing, especially for new users of the project, as it is easy to use.
 
 1. Plug in your device.
 
@@ -536,14 +556,14 @@ Network problems cause Flash pages to stay in "Conneting......".
 
 ![](img/meshtastic/07.jpg)
 
-## Install the Meshtastic App
+### Install the Meshtastic App
 - [Android APP](https://meshtastic.org/docs/software/android/installation/)
 - [Web Client](https://client.meshtastic.org/)
 - [iOS/iPadOS/macOS App](https://meshtastic.org/docs/software/apple/installation/)
 
 ***Let's take Android as an example to show you how to use the APP at an entry-level. We will continue to update IOS Web operations in the future.***
 
-## Set Regional Settings
+### Set Regional Settings
 In order to start communicating over the mesh, you must set your region. This setting controls which frequency range your device uses and should be set according to your regional location.
 1. Open the app, find your device via Bluetooth as shown below. Click to connect the device. 
 
@@ -570,7 +590,7 @@ EU_433 and EU_868 have to adhere to an hourly duty cycle limitation of 10%. Your
 
 ![](img/meshtastic/12.jpg)
 
-## Get started with Meshtastic
+### Get started with Meshtastic
 1. The map option will be able to view the location information of the companion, which can be provided by the GPS module on the device, or by the phone to which the device is connected.
 
 ![](img/meshtastic/13.jpg)
@@ -583,11 +603,10 @@ EU_433 and EU_868 have to adhere to an hourly duty cycle limitation of 10%. Your
 
 ![](img/meshtastic/15.jpg)
 
-## More Settings and usage
+### More Settings and usage
 Click the top right button to see more configurable options.
 
 ![](img/meshtastic/16.jpg)
-
 
 
 

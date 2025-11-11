@@ -68,9 +68,7 @@ If you disconnect before the installation is complete, don't panic. Click **Inst
 
 ### Via Git
 
-1. 
-
-"**Github**" describes how to install this framework via git. Just follow the steps in the relevant link:
+1.**Github** describes how to install this framework via git. Just follow the steps in the relevant link:
 
 :::tip
 Please follow the suggested path as much as possible to avoid unnecessary trouble.
@@ -157,9 +155,9 @@ Connect your Mesh Node series board to computer via a **high quality** Micro USB
 <TabItem value="lorawan" >
 # LoRaWAN Getting Start  
 
-This article is intended to describe how to use the [Heltec ESP32 LoRaWAN library](https://github.com/HelTecAutomation/Heltec_ESP32/tree/master/examples/LoRaWAN/LoRaWan).
+This article is intended to describe how to use the [Heltec nRF LoRaWAN libraries](https://github.com/HelTecAutomation/Heltec_nRF52).
 
-This library is make LoRaWAN 1.0.2 protocol running with ESP32 Arduino. Only support the ESP32 + LoRa series products made by [HelTec Automation(TM)](https://heltec.org), and a [LoRa gateway](https://heltec.org/proudct_center/lora/lora-gateway/) is must needed.
+This library is make LoRaWAN 1.0.2 protocol running with nRF Arduino. Only support the nRF + LoRa series products made by [HelTec Automation(TM)](https://heltec.org), and a [LoRa gateway](https://heltec.org/proudct_center/lora/lora-gateway/) is must needed.
 
 :::warning
 Heltec ESP32 LoRaWAN library need a license to active, it's relative to ESP32's Chip ID. Query your board's license here: [http://resource.heltec.cn/search](http://resource.heltec.cn/search).
@@ -173,7 +171,7 @@ Heltec ESP32 LoRaWAN library need a license to active, it's relative to ESP32's 
 
 ## Preparation
 1. Install Arduino IDE. How to install please click [here](/docs/devices/general-docs/how_to_install_git_and_arduino).
-2. Install [Heltec nRF32 series Arduino development framework](https://github.com/HelTecAutomation/Heltec_nRF52).  Installation manual  please refer to [here](/docs/devices/open-source-devices/nrf52840-series/nrf52840-series-quick-start).
+2. Install [Heltec nRF series Arduino development framework](https://github.com/HelTecAutomation/Heltec_nRF52).  Installation manual  please refer to [here](http://localhost:3000/docs/devices/open-source-hardware/nrf52840-series/nrf52840-series-quick-start?nrf52840=nrf52840).
 3. An [Mesh Node](https://heltec.org/).
 4. High quality USB cable. 
 
@@ -429,71 +427,49 @@ Please double check the following two things:
 </TabItem>
 <TabItem value="meshtastic" >
 
-**Meshtastic®** is a project that enables you to use inexpensive LoRa radios as a long range off-grid communication platform in areas without existing or reliable communications infrastructure. This project is 100% community driven and open source! For a more detailed description of Meshtastic please refer to their website and forum: [https://meshtastic.org/](https://meshtastic.org/).
+**Meshtastic®** is a project that enables you to use inexpensive LoRa radios as a long range off-grid communication platform in areas without existing or reliable communications infrastructure. This project is 100% community driven and open source! For a more detailed description of Meshtastic please refer to their website and forum: [https://meshtastic.org](https://meshtastic.org).
 
 This topic describes how to get started with Meshtastic. 
 
-Currently, Heltec recommends the following devices for Meshtastic:
+nRF series devices supporting meshtastic
 
 | Product | Description |
 |-|:-|
-| [WiFi LoRa 32 V3](https://heltec.org/project/wifi-lora-32-v3/) | it is known as **Heltec V3** |
-| [Wireless Tracker](https://heltec.org/project/wireless-tracker/) | it comes with a GPS module. |
-| [Wireless Stick Lite](https://heltec.org/project/wireless-stick-lite-v2/) | no screen |
-| [Wireless Paper](https://heltec.org/project/wireless-paper/) | It comes with E-Ink screen |
-| [Wireless Bridge](https://heltec.org/project/wireless-bridge/) | It has a strong aluminum alloy shell |
-| [Capsule Sensor V3](https://heltec.org/project/heltec-capsule-sensor-v3/) | Stylish LoRaWAN toys that can integrate GPS modules |
-| [Wireless Mini Shell(HT-CT62)](https://heltec.org/project/ht-ct62/) | Cost-effective LoRa+ESP32-C3 module |
-| [Vision Master E213](https://heltec.org/project/vision-master-e213/) | 2.13 inch E-Ink Display |
-| [Vision Master E290](https://heltec.org/project/vision-master-e290/) | 2.90 inch E-Ink Display |
-| [Vision Master T190](https://heltec.org/project/vision-master-t190/) | 1.90 inch TFT Display |
 | [Mesh Node T114](https://heltec.org/project/mesh-node-t114) | 1.14 inch TFT Display, nRF52 MCU, Strong low power |
+|[MeshPocket ](https://heltec.org/project/meshpocket/) | Qi2 Magnetic Charging Power Bank, Meshtastic Compatible |
+|[MeshTower](https://heltec.org/project/meshtower/) | Bluetooth + LoRa, solar-powered, waterproof. Ideal for Meshtastic|
+|[MeshSolar](https://heltec.org/project/meshsolar/) | Bluetooth + LoRa, solar-powered, Ideal for Meshtastic|
 
-*This topic uses WiFi LoRa 32 V3 as an example.*
+## How to Use Meshtastic
 
-## Install ESP32 USB to Serial Drivers
-Use a USB cable to connect your computer to your device. Open your `Device Manager`, `Port`, if your computer doesn't recognize the device, You may need to install a driver from Silicon Labs for the CP210X USB to UART bridge: [CP210X USB to UART bridge - Download](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=overview)
-
-:::tip
-After installing the driver, make sure to reboot your computer to finish the installation process.
-:::
+**This topic uses the Mesh Node T114 as an example to demonstrate the complete Meshtastic setup, starting from flashing the firmware.**
 
 ## Flash Firmware
-**The Web-Based Installer requires either Chrome or Edge browsers but is an excellent choice for quickly flashing devices. This method is highly recommended for firmware flashing, especially for new users of the project, as it is easy to use.**
 
-1. Plug in your device.
+Firmware through USB-CDC is a particularly suitable way for beginners, even if you are a professional programmer, the method can also save you a lot of time.
 
-2. Visit [flasher.meshtastic.org](https://flasher.meshtastic.org/) requires Chrome or Edge browser. Follow the instructions, select the model of the corresponding board.
-
-![](img/meshtastic/02.png)
-
-4. Select the appropriate firmware version; the latest stable version is generally recommended.
-
-![](img/meshtastic/03.jpg)
-
-5. Click button to flash.
-
-![](img/meshtastic/04.png)
+1. Download the [firmware](https://github.com/meshtastic/firmware/releases) you need to run to your PC.
 
 :::tip
-Network issues can cause Flash buttons to fail to click. Of course, sometimes it appears gray, but it can still be manipulated.
+The format of the file should be "xxx.uf2".
 :::
 
-6. Continue.
+![](img/firmware_upload/01.png)
 
-![](img/meshtastic/05.png)
+2. Connect T114 and PC Via USB cable. Press the RST key twice in quick succession.
 
-7. Click the `Full Erase and Install`, then `Erase flash and install`.
+![](img/firmware_upload/02.png)
 
-![](img/meshtastic/06.png)
+3. At this point, the PC desktop will pop up a device named "HT-n5262".
 
-:::tip
-Network problems cause Flash pages to stay in "Conneting......".
-:::
+![](img/firmware_upload/03.png)
 
-8. Wait for the firmware to flash, and your device screen will display Meshtastic.
+4. Copy and paste the prepared firmware into the device.
 
-![](img/meshtastic/07.jpg)
+![](img/firmware_upload/04.png)
+
+5. After the transfer is complete, the device will automatically restart and run the new firmware.
+
 
 ## Install the Meshtastic App
 - [Android APP](https://meshtastic.org/docs/software/android/installation/)
