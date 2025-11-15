@@ -50,7 +50,7 @@ The classic WiFi LoRa 32 development board has been upgraded to the all-new V4 v
 
 ## Important Resources
 - [Datasheet](https://resource.heltec.cn/download/WiFi_LoRa_32_V4/datasheet/WiFi_LoRa_32_V4.2.0.pdf)
-- [Schematic diagram](https://resource.heltec.cn/download/WiFi_LoRa_32_V4/Schematic/WiFi_LoRa_32_V4.1_alpha.pdf)
+- [Schematic diagram](https://resource.heltec.cn/download/WiFi_LoRa_32_V4/Schematic/WiFi_LoRa_32_V4.2.pdf)
 - [Pin Map](https://resource.heltec.cn/download/WiFi_LoRa_32_V4/Pinmap/V4_pinmap.png)
 - [Related links](https://resource.heltec.cn/download/WiFi_LoRa_32_V4)
 
