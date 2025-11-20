@@ -1,4 +1,4 @@
-// Auto-generated Wiki data - Last updated: 2025-11-19T09:36:59.989Z
+// Auto-generated Wiki data - Last updated: 2025-11-20T02:40:01.985Z
 export const latestWikiData = [
   {
     "id": 1,
@@ -27,6 +27,17 @@ export const latestWikiData = [
     "pinned": false
   },
   {
+    "id": 7,
+    "title": "Heltec Visits Maker Faire Shenzhen 2025",
+    "description": "**Heltec Visits Maker Faire Shenzhen 2025 — Exploring the Future of Integrated Technology**",
+    "category": "news",
+    "date": "2025-11-018",
+    "image": "/news-assets/heltec-visits-maker-faire-shenzhen-2025/heltec-visits-maker-faire-shenzhen-2025/01.jpg",
+    "slug": "/news/heltec-visits-maker-faire-shenzhen-2025/heltec-visits-maker-faire-shenzhen-2025",
+    "tags": [],
+    "pinned": false
+  },
+  {
     "id": 3,
     "title": "HC-02 Wi-Fi HaLow Module",
     "description": "Pioneering a New Era of Long-Range, High-Speed Wireless Connectivity for IoT",
@@ -38,7 +49,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "IEEE WF IoT 2025 Smart and Sustainable",
     "description": "IEEE WF IoT 2025 Smart and Sustainable",
     "category": "news",
@@ -49,7 +60,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Maker Faire Rome whit Heltec Automation",
     "description": "Maker Faire Rome whit Heltec Automation",
     "category": "news",
@@ -60,7 +71,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "LoRa 32 V4 receiver sensitivity issue discussed",
     "description": "LoRa 32 V4 receiver sensitivity issue discussed",
     "category": "technical",
