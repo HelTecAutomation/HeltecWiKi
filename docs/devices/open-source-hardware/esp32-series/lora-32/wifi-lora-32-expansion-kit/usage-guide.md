@@ -3,28 +3,76 @@ sidebar_position: 1
 title: Usage Guide
 ---
 
-# WiFi LoRa 32 Expansion Kit Touchscreen Operation Guide
+# WiFi LoRa 32 Expansion Kit  Operation Guide
 
-The following sections will guide you step-by-step through the touchscreen button functions, interface navigation, notification sound settings, and how to switch to the new MUI interface. Each step can be accompanied by corresponding photos to provide a more intuitive understanding of the operation process.
+
+<iframe
+  width="100%"
+  height="500"
+  src=" https://www.youtube.com/embed/NNXZOnf5NNk"
+  title="Heltec Capsule Sensor V3. A Portable LoRa/LoRaWAN Node device compatible with Meshtastic"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+
+---
+This guide explains the physical button functions, touchscreen gestures (Expansion Kit only), UI navigation, notification sound configuration, and how to switch between Classic UI and MUI.
+
+
+:::note
+>Touchscreen support for the V4 Expansion Kit is available only in version [**2.7.14**](https://github.com/meshtastic/firmware/releases/tag/v2.7.14.e959000) and later.  
+> This document applies to **both** the WiFi LoRa 32 Expansion Kit (touchscreen version) and (non-touch version).  
+> **Both devices use the Classic UI by default**, but only the Expansion Kit supports touchscreen gestures.
+:::
+
+
+## Applicable Devices 
+
+- **WiFi LoRa 32 Expansion Kit (Touchscreen)** — Full button + touch support; recommended for MUI usage.  
+- **WiFi LoRa 32 V4 (Glass Panel, Non-Touch)** — Button-only operation; can run Classic UI.
 
 ##  Startup Mode
-Press and hold the `PWR` button for approximately 3 seconds to power on the device and enter the Classic UI.
+Press and hold the **PWR** button for approximately **3 seconds** to power on the device.  
+Both versions start in the **Classic UI** by default.
 
 
-## Button Instructions
-- USER Button: Next/Forward
-- GPO35 Button: Previous/Return
+## Button & Touch Instructions
+
+The operation of the physical buttons is the same across all versions.
+
+### 1. Physical Buttons
+
+- USER Button
+  - Single press: Next / Forward
+  - Long press: Confirm / Enter
+
+- GPIO35 button
+  - Single press: Back / Return
+  - Long press: Exit
+ 
 - PWR Button: Power switch
 - RST Button: Reset
-- Touch Screen Operation
-  - Click on the screen: Go to the next page (equivalent to the USER key)
-  - Long press the screen: Confirm and enter the interface
 
-## Prompt sound setting 
 
-When the system is turned on for the first time, prompt sounds will be played when pressing keys or touching. If you need to turn off or adjust the prompt sound, please follow the steps below:
+### 2. WiFi LoRa 32 Expansion Kit Touchscreen Operations 
 
-From the main interface, navigate to `System`, press and hold to enter the system settings, then select `Notifications` followed by `Buzzer Mode` to configure the notification sound as needed.
+
+- **Tap on the screen:** Next / Forward (same as USER key)  
+- **Long press on the screen:** Confirm / Enter
+
+The glass-panel version **does not support touch input** and relies entirely on physical buttons.
+
+---
+## Notification Sound Settings
+
+When the system is powered on for the first time, key press and touch prompt sounds may be enabled.  
+To adjust the buzzer behavior:
+
+1. Enter the **System** menu  
+2. Long press to enter system settings  
+3. Select **Notifications**  
+4. Open **Buzzer Mode** and choose the preferred option
 
 | Mode          | Click Sound | Message Notification Sound |
 |---------------|-------------|-----------------------------|
@@ -34,23 +82,44 @@ From the main interface, navigate to `System`, press and hold to enter the syste
 | Notifications | No          | Yes                         |
 | System Only   | Yes         | No                          |
 
+
+
 ## Switch to MUI
 
-The MUI interface supports advanced features such as full-screen touch control and an on-screen keyboard.
+The MUI interface provides enhanced touchscreen capabilities, including full-screen touch and a virtual keyboard.
 
-Switching steps:
-Enter the `System` menu, press and hold to access the system settings, select `Reboot/Shutdown`, tap `Switch to MUI`, and confirm with `Yes`; the device will then reboot into the new MUI touchscreen interface.
+### Switching Steps
 
-- When the screen is off, press the USER button once to wake the display.
-- The new interface supports full touchscreen operation.
-- A virtual keyboard will appear when sending messages in a channel.
-- This interface enables complete text input and browsing without relying on the mobile app.
+1. Enter the **System** menu  
+2. Long press to open system settings  
+3. Select **Reboot/Shutdown**  
+4. Tap **Switch to MUI**  
+5. Confirm with **Yes**  
+6. The device will reboot into MUI
+
+### Notes
+
+- **USER button** wakes the screen when it turns off  
+- MUI supports **full touchscreen operation**  
+- A virtual keyboard appears when sending messages in a channel  
+- MUI allows text input and browsing without relying on a phone
+
+
+
 
 ## Return from MUI to Classic UI
 
-In the MUI interface, tap the `settings` icon and open the `Reboot/Shutdown` menu. Then, press and hold the `Bluetooth icon` in the center and select `OK`; the device will restart and switch back to the Classic UI.
-
+1. In MUI, tap the **Settings** icon  
+2. Open **Reboot/Shutdown**  
+3. Press and hold the **Bluetooth icon** in the center  
+4. Select **OK**  
+5. The device will reboot back to Classic UI
 
 :::tip
-For more detailed instructions on Meshtastic operation, please refer to the [official documentation](https://meshtastic.org/docs/configuration/radio/).
+If you accidentally tap the Bluetooth icon, the device will enter Programming mode. If this happens, simply long-press the Bluetooth icon to return to the MUI interface. Once you're back in MUI, you can repeat the steps mentioned above.
+:::
+
+
+:::note
+**Reference:** Meshtastic official docs — https://meshtastic.org/docs/configuration/radio/
 :::
