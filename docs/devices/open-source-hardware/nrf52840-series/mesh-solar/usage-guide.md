@@ -38,7 +38,7 @@ If you purchase this [battery holder from Heltec](https://heltec.org/project/186
 When configuring the battery quantity, disconnect both external power and batteries to prevent circuit board damage.
 :::
 
-By default, MeshSolar support a 4-battery configuration. If you are using 1-3 batteries, you must properly short-circuit the unused battery circuits.
+By default, MeshSolar support 4 series battery configuration. If you are using 1-3 batteries, you must properly short-circuit the unused battery circuits.
 
 ![](img/usage-guide/01.jpg) 
 
@@ -100,7 +100,7 @@ After successful activation, **Do Not Remove the Batteries**, or the BMS chip re
 - The battery soldering points and switch configuration are correct
 - The BMS function has been activated
 
-2. Connect devices and PC via USB-C cable, open the [**Configuration Page**](https://flash.nmiot.net:3333) in your browser, click the `Connect` to choose the port.
+2. Connect devices and PC via USB-C cable, open the [**Configuration Page**](https://resource.heltec.cn/utils/flash) in your browser, click the `Connect` to choose the port.
 
 ![](img/usage-guide/03.jpg)
 
