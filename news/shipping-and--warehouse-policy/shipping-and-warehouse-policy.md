@@ -7,34 +7,50 @@ date: "2025-11-28"
 image: "img/parcel1.jpg"
 ---
 
-# Global Shipping & Warehouse Policy
-Welcome to our shipping guide! We aim to provide fast and reliable delivery worldwide. Below you will find all the necessary information about our fulfillment process, shipping methods, and customs policies.
 
-## Address & Order Management
-**Shipping Address**: You **must**provide shipping address and post code, using standard characters and numbers(Customers in Brazil, India, and Mexico must provide their mandatory local tax identification number (or equivalent ID) during checkout for customs clearance.). This ensures our courier partners can accurately process your delivery.
-**Check Before Checkout**: Due to system automation and time zone differences, please double-check your cart and address before payment.
-**Parcel Inspection**: Following standard courier practice, you must check the contents of your parcel before signing for your goods. We cannot be held responsible for transit damage if you sign without inspection.
+Welcome to our shipping and warehouse policy! We aim to provide fast and reliable delivery worldwide. Below you will find all the necessary information about our general guidence, warehouse and supported countries, and customs policies.
 
-
-## Warehouse Selection and Split Shipments
-
-**Priority Fulfillment**
-While you may select a preferred warehouse during checkout, we will always prioritize shipping your order from the nearest available warehouse to your location to minimize transit time.
-
-**Split Shipments** If your order contains items sourced from different inventory locations (warehouses), the items will be shipped separately and will arrive in multiple packages with individual tracking numbers.
-
-**Regional Restriction** Orders from the US Warehouse can only be shipped to the US supported states. Orders from the German Warehouse can only be shipped to the supported countries.
-
+## General Shipping Guidance
+**1. Accurate Shipping Details Required**: Please ensure your shipping address and postal/ZIP code are entered using standard English letters and numerals only. Inaccurate or non-standard formats may delay processing.
 
 
 :::note
-We utilize geographically located warehouses to offer faster shipping to key regions. If your specific location is not listed under a regional warehouse, your order will be fulfilled and shipped from our China Warehouse.
+To comply with customs regulations, customers shipping to Brazil, India, Mexico, Russia, and Turkey must provide a valid local Tax ID (e.g., CPF, GSTIN, RFC, INN, etc.) at checkout. Unable to provide this will result in shipment rejection or return.
 :::
+---
 
-## Regional warehouses and supported counties
+**2. Review Your Order Before Payment**:We currently do not offer a grace period for editing orders after placement — please double-check all items, quantities, and shipping details before confirming payment. Due to system automation and time zone differences, you may face with delays.
 
-### China Warehouse (Global Fulfillment)
-Fulfills all orders not supported by regional warehouses.
+
+**3. Inspect Upon Delivery**: In accordance with international courier standards, we strongly recommend inspecting your package for visible damage before signing for receipt. If damage is apparent, refuse delivery or note it with the carrier. Claims for transit damage cannot be accepted if the package was signed for without documented inspection.
+
+
+**4. Customs Duties and Taxes**:All import duties, taxes, customs fees, and related charges levied by your country’s government are solely the responsibility of the customer. These fees are not included in your order total and are not controlled by us.
+
+Additionally, we are legally required to collect certain taxes (including VAT, sales tax, or withholding tax) where applicable under local law. Such amounts will be calculated and added to your order at checkout — you are responsible for their payment.
+
+
+
+**5. Priority Fulfillment Based on Location**
+While you may select a preferred warehouse during checkout, we will always prioritize shipping your order from the nearest available warehouse to your location to minimize transit time.
+
+**6. Split Shipments** If your order contains items sourced from different inventory locations (warehouses), the items will be shipped separately and will arrive in multiple packages with individual tracking numbers and may arrive on different days.
+
+**7. Regional Restriction** 
+- Orders from the US Warehouse can only be shipped to the US supported states. 
+- Orders from the German Warehouse can only be shipped to the supported countries.
+
+:::note
+If no regional warehouse supports your location, your entire order will be fulfilled and shipped from our China Global Warehouse.
+:::
+---
+
+**8. High Cost and Inspection Risk on Battery Goods** 
+Express shipping channels for battery products incur **significantly higher shipping fees** and are subject to an **increased rate of customs inspection** due to strict aviation safety regulations.
+
+
+
+## Regional Warehouses and Supported Counties
 
 ### German Warehouse Supported Countries:
 
@@ -51,22 +67,23 @@ Austria, Belgium, Bulgaria, Croatia, Czech Republic, Denmark, Estonia, Finland, 
 
 
 **West**
-West: Arizona, California, Colorado, Idaho, Montana, Nevada, New Mexico, Oregon, Utah, Washington, Wyoming.
+ Arizona, California, Colorado, Idaho, Montana, Nevada, New Mexico, Oregon, Utah, Washington, Wyoming.
 
-Northeast: Connecticut, District of Columbia, Maine, Massachusetts, New Hampshire, New Jersey, New York, Rhode Island, Vermont.
+**Northest**
+ Connecticut, District of Columbia, Maine, Massachusetts, New Hampshire, New Jersey, New York, Rhode Island, Vermont.
 
 :::note
 Not Supported from US Warehouse: Alaska, Hawaii, Puerto Rico.
 :::
 ---
 
-# Shipping Methods & Carriers
+# Shipping Methods on platforms and Carriers
 We utilize various carriers to ensure global reach and cost efficiency. Shipping costs depend on the weight and chosen method. The exact cost and delivery time will be calculated at the checkout page.
 
 
-## Main Shipping Channel Summary
+## 
 
-| Platform | Product Type | Core Carriers |
+| Platform | Product Type | Carriers |
 | :--- | :--- | :--- |
 | **Amazon** | General / Integrated Battery | YanWen, YunTu, FeiE |
 | **AliExpress** | General / Integrated Battery | YunTu, DingLiTong |
@@ -74,13 +91,20 @@ We utilize various carriers to ensure global reach and cost efficiency. Shipping
 | **Official Site** | Express (Battery/general) | FedEx, DHL, ZhongBai |
 | **Official Site (Russia)** | General | China Post Shenzhen offline ePacket |
 
-:::caution WARNING: High Cost and Inspection Risk
-Express shipping channels for battery products incur **significantly higher shipping fees** and are subject to an **increased rate of customs inspection** due to strict aviation safety regulations.
-:::
+npm
 
 :::note
 All channels and platforms listed above refer to orders placed directly operated stores, and not through any third-party resellers or agents.
 :::
+
+
+
+
+For further assistance, contact our [Discord](https://discord.gg/sRmQuHT7) at [support@heltec.com] or visit our forum.
+
+
+Last Updated: Dec 2025
+
 
 
 ---
