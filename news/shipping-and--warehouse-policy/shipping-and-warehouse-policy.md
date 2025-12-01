@@ -91,7 +91,6 @@ We utilize various carriers to ensure global reach and cost efficiency. Shipping
 | **Official Site** | Express (Battery/general) | FedEx, DHL, ZhongBai |
 | **Official Site (Russia)** | General | China Post Shenzhen offline ePacket |
 
-npm
 
 :::note
 All channels and platforms listed above refer to orders placed directly operated stores, and not through any third-party resellers or agents.
@@ -100,8 +99,11 @@ All channels and platforms listed above refer to orders placed directly operated
 
 
 
-For further assistance, contact our [Discord](https://discord.gg/sRmQuHT7) at [support@heltec.com] or visit our forum.
 
+
+We reserve the right to update or revise this Shipping & Warehouse Policy at any time to reflect changes in our operations, shipping practices, carrier requirements, or applicable laws and regulations. The latest version will always be posted on this page, and continued use of our website after any updates constitutes your acceptance of the revised policy.
+
+For further assistance, contact us at [Discord](https://discord.gg/sRmQuHT7) or email to [support@heltec.com] or visit our forum.
 
 Last Updated: Dec 2025
 
