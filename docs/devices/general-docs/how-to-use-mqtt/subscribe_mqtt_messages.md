@@ -18,11 +18,11 @@ Take our official server as an example:[lora.heltec.org](https://lora.heltec.org
 
 The method of node connection connection L service is referred here:
 
-+ ESP32 Series: [Connect "ESP32 + LoRa" to LoRaWAN Server](1);
++ ESP32 Series: [Connect "ESP32 + LoRa" to LoRaWAN Server](/docs/devices/open-source-hardware/esp32-series/esp32-quick-start?esp32=lorawan);
 
-+ Cubecell Series: [Connect CubeCell to LoRaWAN Server](1);
++ Cubecell Series: [Connect CubeCell to LoRaWAN Server](/docs/devices/open-source-hardware/cubecell-series/cubecell-quick-start?cubecell=lorawan);
 
-+ STM Series: [Connect "STM32 + LoRa" to LoRaWAN Server](1).
++ nRF Series: [Connect "nRF + LoRa" to LoRaWAN Server](/docs/devices/open-source-hardware/nrf52840-series/nrf52840-series-quick-start?nrf52840=lorawan).
 
 ## Create an MQTT application
 
