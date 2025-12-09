@@ -70,8 +70,8 @@ The combination of WLED and LoRa allows fine-grained visual control with very li
 
 ## Hardware Realization
 
-![PCB Rendering 1](PCB_3D_1.png)
-![PCB Rendering 2](PCB_3D_2.png)
+![PCB Rendering 1](img/PCB_3D_1.png)
+![PCB Rendering 2](img/PCB_3D_2.png)
 
 ### Core: Heltec HT-CT62 Module
 
@@ -110,8 +110,8 @@ Using HT-CT62 instead of a fully discrete ESP32-C3 + SX1262 design brings severa
   * Firmware and user experience
 
 ### Power & Connectors
-![PCB Rendering Connectors](PCB_3D_3.png)
-![PCB Schematic](PCB.png)
+![PCB Rendering Connectors](img/PCB_3D_3.png)
+![PCB Schematic](img/PCB.png)
 
 The PCB is designed as a **single, compact board** that can live inside or on the frame of an LED gate:
 
