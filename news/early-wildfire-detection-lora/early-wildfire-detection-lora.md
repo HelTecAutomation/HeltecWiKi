@@ -1,6 +1,7 @@
 ---
 title: Early Wildfire Detection System Using BME688 and LoRa
 authors: jarodh moncada
+categories: [Contest]
 tags: [heltec, wildfire, bme688, meshtastic, lora, forest]
 image: (img/1.jpg)
 ---
