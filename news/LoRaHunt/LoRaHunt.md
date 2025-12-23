@@ -1,6 +1,6 @@
 ---
-title: "LoRaHunt"
-description: "Protecting endangered species"
+title: "LoRaHunt - Monitoring live traps for invasive species"
+description: "How we protect native wildlife with Heltec's LoRa modules"
 category: "News"
 author: "BrunoGriffon"
 date: "2025-12-08"
