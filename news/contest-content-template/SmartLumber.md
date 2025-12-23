@@ -1,7 +1,7 @@
 ---
 title: "🌲 SmartLumber: Industrial LoRaWAN Monitoring & Predictive Digital Twin"
 description: "Industrial LoRaWAN Monitoring & Predictive Digital Twin"
-category: "News"
+category: "2025 Maker Contest"
 author: "Jinzzakk"
 date: "2025-12-09"
 image: "![](./img/01.png)"
