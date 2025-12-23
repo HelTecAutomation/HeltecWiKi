@@ -151,3 +151,10 @@
   display: block;
   margin: 0 auto;
 }
+
+/* Tabs size */
+.customTabs1 {
+  font-size: 25px; 
+  font-weight: bold;
+}
+

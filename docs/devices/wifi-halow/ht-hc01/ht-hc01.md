@@ -41,6 +41,7 @@ HT-HC01 is a Wi-Fi HaLow module with excellent RF performance, which operates in
 - [Reference Design](https://resource.heltec.cn/download/HT-HC01/Reference_design)
 - [Footprint](https://resource.heltec.cn/download/Heltec_Module_Footprint/HT-HC01)
 - [Resource Station](https://resource.heltec.cn/download/HT-HC01)
-- [SDK on GitHub](https://github.com/HelTecAutomation/ESP_HaLow)
+- [MorseMicro Official SDK](https://github.com/MorseMicro)
 - [MorseMicro Wi-Fi HaLow](https://github.com/MorseMicro)
+
 For further design documentation for the module, please contact us at **support@heltec.cn**.
