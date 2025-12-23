@@ -4,6 +4,11 @@ title: Connect LoRa Server
 
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import styles from '@site/src/css/styles.module.css';
+
+
 ## Summary
 
 This article aims to describe how to connect HT-M00 Gatewayto a LoRa server, ssuch as [TTN](https://www.thethingsnetwork.org/)/[TTS](https://lora.heltec.org/), [ChirpStack](https://www.chirpstack.io/), which facilitates secondary development and rapid deployment of LoRa devices.
@@ -11,8 +16,17 @@ This article aims to describe how to connect HT-M00 Gatewayto a LoRa server, ssu
 Before all operation, make sure the HT-M00 is runing well . If not, please refer to this [HT-M00 Quick Start](/docs/devices/lorawan-application/lora-gateway/ht-m00/quick_start) document.
 
 
+<Tabs
+groupId="tts"
+queryString="tts"
+defaultValue="tts"
+className={styles.customTabs1}
+values={[
+{label: 'Connect to TTN/TTS', value:'tts'},
+{label: 'Connect to ChirpStack Server', value:'css'},
+]}>
 
-## Connect to TTN/TTS
+<TabItem value="tts">
 
 ### Register a LoRa gateway in TTN
 
@@ -47,9 +61,8 @@ View gateway status, it is runing:
 
 ![](img/connect_to_server/05.png)
 
-&nbsp;
-
-## Connect to ChirpStack Server
+</TabItem>
+<TabItem value="css">
 
 [ChirpStack](https://www.chirpstack.io/) is the most popular LoRa server open source project, widely used in many fields, and also the best choise for a private LoRa server.
 
@@ -81,3 +94,6 @@ In the HT-M00 gateway, the server address, port, frequency band, and channel nee
 View gateway status, it is runing:
 
 ![](img/connect_to_server/07.png)
+
+</TabItem>
+</Tabs>

@@ -4,6 +4,11 @@ title: Connect LoRa Server
 
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import styles from '@site/src/css/styles.module.css';
+
+
 ## Summary
 
 This article aims to describe how to connect HT-M00S to a LoRa server, such as [TTN](https://www.thethingsnetwork.org/)/[TTS](https://lora.heltec.org/), [ChirpStack](https://www.chirpstack.io/), which facilitates secondary development and rapid deployment of LoRa devices.
@@ -11,8 +16,18 @@ This article aims to describe how to connect HT-M00S to a LoRa server, such as [
 Before all operation, make sure the HT-M00S is running well . If not, please refer to this [HT-M00S_Quick Start](/docs/devices/lorawan-application/lora-gateway/ht-m00s/quick_start) document.
 
 
+<Tabs
+groupId="tts"
+queryString="tts"
+defaultValue="tts"
+className={styles.customTabs1}
+values={[
+{label: 'Connect to TTN/TTS', value:'tts'},
+{label: 'Connect to ChirpStack Server', value:'css'},
+{label: 'Connect to SnapEmu', value:'sna'},
+]}>
 
-## Connect to TTN/TTS
+<TabItem value="tts">
 
 ### Register a LoRa gateway in TTN/TTS
 
@@ -47,7 +62,8 @@ View gateway status, it is running:
 ![](img/connect_to_server/05.png)
 
 
-## Connect to ChirpStack Server
+</TabItem>
+<TabItem value="css">
 
 [ChirpStack](https://www.chirpstack.io/) is the most popular LoRa server open source project, widely used in many fields, and also the best choise for a private LoRa server.
 
@@ -81,7 +97,8 @@ View gateway status, it is running:
 ![](img/connect_to_server/07.png)
 
 
-## Connect to SnapEmu
+</TabItem>
+<TabItem value="sna">
 
 ### Register through SnapEmu APP
 Search the **App Store** for `SnapEmu`, download and install it.
@@ -144,3 +161,6 @@ After filling in the information, click Submit and refresh the page to see the d
 :::tip
 If the device shows "unactiveted", it means that the device was not successfully connected. Don't worry, it usually takes some time for the server to respond, please wait a minute and refresh the web page again.
 :::
+
+</TabItem>
+</Tabs>

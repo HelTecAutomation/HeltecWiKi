@@ -3,14 +3,30 @@ sidebar_position: 2
 title: Connect LoRa Server
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import styles from '@site/src/css/styles.module.css';
+
+
 ## Summary
 
 This article aims to describe how to connect HT-M02_V2 Gateway to a LoRa server, such as [TTN](https://www.thethingsnetwork.org/), [ChirpStack](https://www.chirpstack.io/), which facilitates secondary development and rapid deployment of LoRa devices.
 
 Before all operation, make sure the HT-M02 is runing well . If not, please refer to this [HT-M02_V2 Quick Start](/docs/devices/lorawan-application/lora-gateway/ht-m02_v2/quick_start) document.
 
+<Tabs
+groupId="tts"
+queryString="tts"
+defaultValue="tts"
+className={styles.customTabs1}
+values={[
+{label: 'Connect to TTN/TTS', value:'tts'},
+{label: 'Connect to ChirpStack Server', value:'css'},
+{label: 'Connect to SnapEmu', value:'sna'},
+]}>
 
-## Connect to TTN/TTS
+<TabItem value="tts">
+
 
 ### Configure Gateway
 
@@ -41,7 +57,8 @@ Configure your gateway and fill in the server address as the server you want to 
 
 
 
-## Connect to ChirpStack server
+</TabItem>
+<TabItem value="css">
 
 [ChirpStack](https://www.chirpstack.io/) is the most popular LoRa server open source project, widely used in many fields, and also the best choise for a private LoRa server.
 
@@ -68,10 +85,9 @@ Install ChirpStack Gateway Bridge: [https://www.chirpstack.io/gateway-bridge/ins
 
 ![](img/connect_to_server/08.png)
 
-&nbsp;
 
-(connect-to-snapemu)=
-## Connect to SnapEmu
+</TabItem>
+<TabItem value="sna">
 
 ### Register through SnapEmu APP
 *Search the **App Store** for `SnapEmu`, download and install it.*
@@ -130,3 +146,6 @@ Register and log in to SnapEmu: [SnapEmu Web Page link](platform.snapemu.com).
 :::tip
 If the device shows "unactiveted", it means that the device was not successfully connected. Don't worry, it usually takes some time for the server to respond, please wait a minute and refresh the web page again.
 :::
+
+</TabItem>
+</Tabs>

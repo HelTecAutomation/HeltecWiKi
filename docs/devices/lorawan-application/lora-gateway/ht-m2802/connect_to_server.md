@@ -3,12 +3,26 @@ sidebar_position: 2
 title: Connect LoRa Server
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import styles from '@site/src/css/styles.module.css';
+
 ## Summary
 Before all operation, make sure the HT-M2802 is runing well . If not, please refer to this [HT-M2802 Quick Start](/docs/devices/lorawan-application/lora-gateway/ht-m2802/quick_start) document.
 
+<Tabs
+groupId="tts"
+queryString="tts"
+defaultValue="tts"
+className={styles.customTabs1}
+values={[
+{label: 'Connect to TTN/TTS', value:'tts'},
+{label: 'Connect to ChirpStack Server', value:'css'},
+{label: 'Connect to SnapEmu', value:'sna'},
+]}>
 
+<TabItem value="tts">
 
-## Connect to TTN/TTS
 ### Configure Gateway
 Configure your gateway and fill in the server address as the server you want to connect to, please refer to the [HT-M2802 Quick Start](/docs/devices/lorawan-application/lora-gateway/ht-m2802/quick_start) document.
 
@@ -37,7 +51,8 @@ Configure your gateway and fill in the server address as the server you want to 
 
 
 
-## Connect to ChirpStack Server
+</TabItem>
+<TabItem value="css">
 
 [ChirpStack](https://www.chirpstack.io/) is the most popular LoRa server open source project, widely used in many fields, and also the best choise for a private LoRa server.
 
@@ -71,9 +86,8 @@ Install ChirpStack Gateway Bridge: [https://www.chirpstack.io/gateway-bridge/ins
 ![](img/connect_to_server/08.png)
 
 
-
-
-## Connect to SnapEmu
+</TabItem>
+<TabItem value="sna">
 
 ### Register through SnapEmu APP
 Search the **App Store** for `SnapEmu`, download and install it.
@@ -136,3 +150,6 @@ After filling in the information, click Submit and refresh the page to see the d
 :::tip
 If the device shows "unactiveted", it means that the device was not successfully connected. Don't worry, it usually takes some time for the server to respond, please wait a minute and refresh the web page again.
 :::
+
+</TabItem>
+</Tabs>
