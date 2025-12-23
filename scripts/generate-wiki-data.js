@@ -26,16 +26,19 @@ function normalizeImage(image, mdAbsPath, slug) {
 
   const fileName = path.basename(absImg);
   const parentDir = path.join(STATIC_DIR, STATIC_BUCKET);
-  const targetSlug = slug.toLowerCase(); // 统一小写 slug
+  const targetSlug = slug; // 保留原始大小写
   const destDir = path.join(parentDir, targetSlug);
   const destAbs = path.join(destDir, fileName);
-  const destUrl = `/${toUrlPath(path.join(STATIC_BUCKET, targetSlug, fileName)).toLowerCase()}`;
+  const destUrl = `/${toUrlPath(path.join(STATIC_BUCKET, targetSlug, fileName))}`; // 保持大小写
 
+  // ============================
+  // 1) 大小写不敏感删除旧目录
+  // ============================
   if (fs.existsSync(parentDir)) {
     try {
       const entries = fs.readdirSync(parentDir, { withFileTypes: true });
       for (const e of entries) {
-        if (e.isDirectory() && e.name.toLowerCase() === targetSlug) {
+        if (e.isDirectory() && e.name.toLowerCase() === targetSlug.toLowerCase()) {
           const fullPath = path.join(parentDir, e.name);
           try {
             fs.rmSync(fullPath, { recursive: true, force: true });
@@ -51,7 +54,7 @@ function normalizeImage(image, mdAbsPath, slug) {
   }
 
   // ============================
-  // 2) 再次强制删除目标（精确路径），以防上一步没有命中
+  // 2) 精确删除目标目录
   // ============================
   try {
     if (fs.existsSync(destDir)) {
@@ -63,7 +66,7 @@ function normalizeImage(image, mdAbsPath, slug) {
   }
 
   // ============================
-  // 3) 重新创建目录并拷贝文件（覆盖）
+  // 3) 创建目录并拷贝文件
   // ============================
   try {
     fs.mkdirSync(destDir, { recursive: true });

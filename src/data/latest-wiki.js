@@ -1,4 +1,4 @@
-// Auto-generated Wiki data - Last updated: 2025-12-23T11:01:38.636Z
+// Auto-generated Wiki data - Last updated: 2025-12-23T11:15:06.191Z
 export const latestWikiData = [
   {
     "id": 1,
@@ -32,7 +32,7 @@ export const latestWikiData = [
     "description": "Contest Entry for the 2025 Heltec Maker Contest",
     "category": "2025 maker contest",
     "date": "2025-12-9",
-    "image": "/news-assets/measure-your-living-environment/measure-your-living-environment/mjlo-box.jpg",
+    "image": "/news-assets/measure-your-living-environment/measure-your-living-environment/MJLO-box.jpg",
     "slug": "/news/measure-your-living-environment/measure-your-living-environment",
     "tags": [],
     "pinned": false
