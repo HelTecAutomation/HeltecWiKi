@@ -28,3 +28,8 @@ import DocCard from '@theme/DocCard';
 - The RF path was optimized according to the six-layer board structure.
 - The direction of the 2.4GHz Bluetooth antenna and IPEX LoRa antenna interface was changed to make them farther away.
 - Now the high-frequency Mesh node T114 can stably send long data packets in the "Long_Fast" channel of Meshtastic.
+
+## V2.1
+
+- Added a reverse-polarity protection resistor to enhance power input safety and system reliability.
+- Optimized ADC power consumption in sleep mode for Meshtastic, further reducing overall standby power usage.
