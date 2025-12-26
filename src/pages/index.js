@@ -183,7 +183,10 @@ function LatestWiki() {
                   <div className={styles.wikiContent}>
                     <span className={styles.wikiCategory}>{wiki.category}</span>
                     <Heading as="h3">{wiki.title}</Heading>
-                    <p>{wiki.description}</p>
+                    <p className={styles.clampFouer}>
+                      {wiki.description}
+                    </p>
+
                     <div className={styles.wikiMeta}>
                       <span className={styles.wikiDate}>{wiki.date}</span>
                       <Link to={wiki.slug} className={styles.wikiLink}>

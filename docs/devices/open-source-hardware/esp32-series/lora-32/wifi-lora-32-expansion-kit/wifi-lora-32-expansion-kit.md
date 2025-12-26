@@ -5,15 +5,9 @@ title: WiFi LoRa 32 V4 Expansion Kit
 
 import styles from '@site/src/css/styles.module.css';
 
-<iframe
-  width="100%"
-  height="400"
-  src=" https://www.youtube.com/embed/su8_bardLaM?start=65s"
-  title="Heltec Capsule Sensor V3. A Portable LoRa/LoRaWAN Node device compatible with Meshtastic"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
+<div style={{ textAlign: 'center' }}>
+  ![](img/V4-components.png)
+</div>
 
 The WiFi LoRa 32 Expansion Kit is a comprehensive set specifically designed for the WiFi LoRa 32 series, including protective cases, expansion carrier boards, sensor modules, and more. You can view 3D models and customize product parameters on the [MQB platform](https://mqb.heltec.org/) to assemble a kit that meets your needs.
 

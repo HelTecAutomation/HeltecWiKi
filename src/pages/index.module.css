@@ -436,6 +436,14 @@
   transition: color 0.3s ease;
 }
 
+.wikiContent .clampFouer {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+
 .wikiMeta {
   display: flex;
   justify-content: space-between;

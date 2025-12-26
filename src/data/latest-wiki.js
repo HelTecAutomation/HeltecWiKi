@@ -1,4 +1,4 @@
-// Auto-generated Wiki data - Last updated: 2025-12-23T11:15:06.191Z
+// Auto-generated Wiki data - Last updated: 2025-12-26T09:10:31.530Z
 export const latestWikiData = [
   {
     "id": 1,
@@ -27,13 +27,46 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 14,
+    "id": 12,
+    "title": "LoRa Gate PCB – WLED-Powered LED Gates with Heltec HT-CT62",
+    "description": "The LoRa Gate PCB is a custom controller board for wireless, battery-powered LED gates, built around the Heltec HT-CT62 module (ESP32-C3 + SX1262 LoRa). It is designed for applications where multiple LED “nodes” need to be controlled reliably over long distances with minimal wiring – for example **FPV race start/finish gates**, illuminated track elements, or interactive light installations.",
+    "category": "2025 maker contest",
+    "date": "2025-12-09",
+    "image": "/news-assets/led-lora-control/led-lora-control/usage.jpg",
+    "slug": "/news/led-lora-control/led-lora-control",
+    "tags": [],
+    "pinned": false
+  },
+  {
+    "id": 6,
+    "title": "🌲 SmartLumber: Industrial LoRaWAN Monitoring & Predictive Digital Twin",
+    "description": "Industrial LoRaWAN Monitoring & Predictive Digital Twin",
+    "category": "2025 maker contest",
+    "date": "2025-12-09",
+    "image": "/news-assets/contest-content-template/smartlumber/01.png",
+    "slug": "/news/contest-content-template/smartlumber",
+    "tags": [],
+    "pinned": false
+  },
+  {
+    "id": 16,
     "title": "Maker Contest: Measure Your Living Environment",
     "description": "Contest Entry for the 2025 Heltec Maker Contest",
     "category": "2025 maker contest",
     "date": "2025-12-9",
     "image": "/news-assets/measure-your-living-environment/measure-your-living-environment/MJLO-box.jpg",
     "slug": "/news/measure-your-living-environment/measure-your-living-environment",
+    "tags": [],
+    "pinned": false
+  },
+  {
+    "id": 14,
+    "title": "LoRaHunt - Monitoring live traps for invasive species",
+    "description": "How we protect native wildlife with Heltec's LoRa modules",
+    "category": "2025 maker contest",
+    "date": "2025-12-08",
+    "image": "/img/undraw_docusaurus_mountain.svg",
+    "slug": "/news/lorahunt/lorahunt",
     "tags": [],
     "pinned": false
   },
@@ -49,7 +82,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 15,
+    "id": 17,
     "title": "Shipping and warehouse policy",
     "description": "This Shipping & Delivery Policy outlines our methods, delivery times, and important terms regarding your orders.",
     "category": "template",
@@ -60,7 +93,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "LoRa Tracking in the Mountains",
     "description": "How We Tracked Paragliders Without Cellular Coverage",
     "category": "news",
@@ -126,7 +159,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 13,
+    "id": 15,
     "title": "Maker Faire Rome whit Heltec Automation",
     "description": "Maker Faire Rome whit Heltec Automation",
     "category": "news",
@@ -137,7 +170,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 16,
+    "id": 18,
     "title": "LoRa 32 V4 receiver sensitivity issue discussed",
     "description": "LoRa 32 V4 receiver sensitivity issue discussed",
     "category": "technical",
@@ -160,17 +193,6 @@ export const latestWikiData = [
       "maker",
       "contest"
     ],
-    "pinned": false
-  },
-  {
-    "id": 6,
-    "title": "Maker Contest Content Format Template",
-    "description": "Formatting Instructions for Documents Submitted for the 2025 Heltec Maker Contest",
-    "category": "template",
-    "date": "2025-9-23",
-    "image": "/news-assets/contest-content-template/contest-content-template/format.svg",
-    "slug": "/news/contest-content-template/contest-content-template",
-    "tags": [],
     "pinned": false
   },
   {
