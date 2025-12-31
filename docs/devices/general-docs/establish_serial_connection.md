@@ -3,13 +3,26 @@ sidebar_position: 2
 title: Establish Serial Connection
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import styles from '@site/src/css/styles.module.css';
 
-
-**[MacOS](for-macOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Windows](for-windows)**
 
 **This section provides guidance how to establish serial connection between your board and PC.**
 
-## For MacOS
+<Tabs
+groupId="gen"
+queryString="gen"
+defaultValue="gen"
+className={styles.customTabs}
+values={[
+{label: 'For MacOS', value:'gen'},
+{label: 'For Windows', value:'win'},
+]}>
+
+
+<TabItem value="gen">
+
 
 ### 1. Install the USB driver
 
@@ -47,7 +60,10 @@ title: Establish Serial Connection
 
     ls /dev/cu.*
 
-## For Windows
+
+
+</TabItem>
+<TabItem value ="win">
 
 ### 1.Install the USB driver
 
@@ -72,3 +88,6 @@ title: Establish Serial Connection
 **Figures below show serial port for Heltec board**
 
 ![](img/establish_serial_connection/windows_in_device_manager.png)
+
+</TabItem>
+</Tabs>
