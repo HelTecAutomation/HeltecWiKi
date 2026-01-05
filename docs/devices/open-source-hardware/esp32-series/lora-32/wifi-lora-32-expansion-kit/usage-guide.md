@@ -19,11 +19,18 @@ title: Usage Guide
 ---
 This guide explains the physical button functions, touchscreen gestures (Expansion Kit only), UI navigation, notification sound configuration, and how to switch between Classic UI and MUI.
 
+:::tip
+Starting from version 2.7.15 or newer, the firmware for the touchscreen version has been merged. Therefore, you can download them from the Releases section on Meshtastic’s GitHub.
+>Releases · meshtastic/firmware
+>Note that the file name should be “firmware-heltec-v4-tft-X.X.X.XXXX”. “tft” stands for the touch screen. <br />
+![](img/3.png) <br />
+If you are unsure how to install it, you can click this link and follow the guide provided to install the firmware.<br />
+[listing directory /download/WiFi_LoRa_32_V4/firmware/Touch](https://resource.heltec.cn/download/WiFi_LoRa_32_V4/firmware/Touch)
+:::
 
 :::note
->Touchscreen support for the V4 Expansion Kit is available only in version [**2.7.14**](https://github.com/meshtastic/firmware/releases/tag/v2.7.14.e959000) and later.  
-> This document applies to **both** the WiFi LoRa 32 Expansion Kit (touchscreen version) and (non-touch version).  
-> **Both devices use the Classic UI by default**, but only the Expansion Kit supports touchscreen gestures.
+This document applies to **both** the WiFi LoRa 32 Expansion Kit (touchscreen version) and (non-touch version).  
+**Both devices use the Classic UI by default**, but only the Expansion Kit supports touchscreen gestures.
 :::
 
 
