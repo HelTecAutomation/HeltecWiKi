@@ -18,6 +18,7 @@ The board combines **WLED**, **LoRa** and a robust power stage into a compact, p
 ## Idea
 
 ![Race Image](img/usage.jpg)
+<!-- truncate -->
 
 Traditional LED gate prototypes often rely on loose development boards, external LoRa modules, and a tangle of wires. This quickly becomes fragile and hard to replicate when you want to scale from a single prototype to a fleet of gates.
 
