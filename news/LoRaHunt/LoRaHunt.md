@@ -10,6 +10,7 @@ image: "img/LoRaHunt.jpg"
 ![image info](img/LoRaHunt.jpg)
 
 Invasive species introduced by humans threaten native fauna and flora through their unchecked spread. Therefore, invasive species must be monitored and, if necessary, relocated. LoRaHunt is a project to monitor the live traps required for this purpose.
+<!-- truncate -->
 
 ## Conserving native wildlife
 
