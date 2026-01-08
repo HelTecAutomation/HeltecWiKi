@@ -71,7 +71,7 @@ data[2] = bits_32_convert_data[2];
 data[3] = bits_32_convert_data[3];
 
 ```
-### 1.3 Data Packet Decoding Exampl
+### 1.4 Data Packet Decoding Example
 
 This is an example of a complete LoRaWAN data packet upload. (The data below is in hexadecimal):
 
