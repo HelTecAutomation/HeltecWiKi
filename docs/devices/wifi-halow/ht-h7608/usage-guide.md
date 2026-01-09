@@ -81,6 +81,21 @@ Click on the following link to get the configuration instructions for the corres
 - [Mesh Point Setup Guide](/docs/devices/wifi-halow/ht-h7608/mesh_point)  
 
 
+## USB-Based Ethernet Mode
+
+1.Use a SIM ejector pin to press and hold the LED button until the indicator turns solid blue/cyan, indicating Ethernet mode.
+                
+- Blue steady on: **STA** mode using USB, HaLow connected successfully
+- Cyan steady on:	**AP** Ethernet — Network connected     
+
+![](./img/03.png)
+
+2.Connect a USB Ethernet adapter to the USB port.
+
+3.Open the [configuration page](/docs/devices/wifi-halow/ht-h7608/usage-guide#first-enter-configuration-page) and complete the setup as required.
+
+
+
 
 ## View and Modify H7608's Configuration
 
