@@ -1,19 +1,15 @@
-// Auto-generated Wiki data - Last updated: 2025-12-26T09:28:41.403Z
+// Auto-generated Wiki data - Last updated: 2026-01-20T09:01:06.601Z
 export const latestWikiData = [
   {
-    "id": 1,
-    "title": "2025 Heltec Maker Contest (Pinned)",
-    "description": "The 2025 Heltec Maker Challenge is here—our very first global maker contest!",
-    "category": "iot",
-    "date": "2025-9-18",
-    "image": "/news-assets/2025-heltec-maker-contest/2025-heltec-maker-contest/01.png",
-    "slug": "/news/2025-heltec-maker-contest/2025-heltec-maker-contest",
-    "tags": [
-      "heltec",
-      "maker",
-      "contest"
-    ],
-    "pinned": true
+    "id": 10,
+    "title": "Heltec V4 Test Result",
+    "description": "We are assessing the Heltec LoRa 32 V4's performance and real-world application in Meshtastic networks.",
+    "category": "technical",
+    "date": "2026-01-20",
+    "image": "/news-assets/heltec-v4-test-result/heltec-v4-test-result/01.jpg",
+    "slug": "/news/heltec-v4-test-result/heltec-v4-test-result",
+    "tags": [],
+    "pinned": false
   },
   {
     "id": 4,
@@ -27,7 +23,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "LoRa Gate PCB – WLED-Powered LED Gates with Heltec HT-CT62",
     "description": "The LoRa Gate PCB is a custom controller board for wireless, battery-powered LED gates, built around the Heltec HT-CT62 module (ESP32-C3 + SX1262 LoRa). It is designed for applications where multiple LED “nodes” need to be controlled reliably over long distances with minimal wiring – for example **FPV race start/finish gates**, illuminated track elements, or interactive light installations.",
     "category": "2025 maker contest",
@@ -49,7 +45,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 16,
+    "id": 17,
     "title": "Maker Contest: Measure Your Living Environment",
     "description": "Contest Entry for the 2025 Heltec Maker Contest",
     "category": "2025 maker contest",
@@ -60,7 +56,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 14,
+    "id": 15,
     "title": "LoRaHunt - Monitoring live traps for invasive species",
     "description": "How we protect native wildlife with Heltec's LoRa modules",
     "category": "2025 maker contest",
@@ -82,7 +78,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 17,
+    "id": 18,
     "title": "Shipping and warehouse policy",
     "description": "This Shipping & Delivery Policy outlines our methods, delivery times, and important terms regarding your orders.",
     "category": "template",
@@ -93,7 +89,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 13,
+    "id": 14,
     "title": "LoRa Tracking in the Mountains",
     "description": "How We Tracked Paragliders Without Cellular Coverage",
     "category": "news",
@@ -126,7 +122,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Heltec Visits Maker Faire Shenzhen 2025",
     "description": "**Heltec Visits Maker Faire Shenzhen 2025 — Exploring the Future of Integrated Technology**",
     "category": "news",
@@ -148,7 +144,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "IEEE WF IoT 2025 Smart and Sustainable",
     "description": "IEEE WF IoT 2025 Smart and Sustainable",
     "category": "news",
@@ -159,7 +155,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 15,
+    "id": 16,
     "title": "Maker Faire Rome whit Heltec Automation",
     "description": "Maker Faire Rome whit Heltec Automation",
     "category": "news",
@@ -170,7 +166,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 18,
+    "id": 19,
     "title": "LoRa 32 V4 receiver sensitivity issue discussed",
     "description": "LoRa 32 V4 receiver sensitivity issue discussed",
     "category": "technical",
@@ -203,6 +199,21 @@ export const latestWikiData = [
     "date": "2025-9-22",
     "image": "/news-assets/2025-heltec-maker-contest-privacy-policy/2025-heltec-maker-contest-privacy-policy/policy.jpg",
     "slug": "/news/2025-heltec-maker-contest-privacy-policy/2025-heltec-maker-contest-privacy-policy",
+    "tags": [
+      "heltec",
+      "maker",
+      "contest"
+    ],
+    "pinned": false
+  },
+  {
+    "id": 1,
+    "title": "2025 Heltec Maker Contest (Pinned)",
+    "description": "The 2025 Heltec Maker Challenge is here—our very first global maker contest!",
+    "category": "iot",
+    "date": "2025-9-18",
+    "image": "/news-assets/2025-heltec-maker-contest/2025-heltec-maker-contest/01.png",
+    "slug": "/news/2025-heltec-maker-contest/2025-heltec-maker-contest",
     "tags": [
       "heltec",
       "maker",

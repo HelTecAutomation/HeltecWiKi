@@ -1,7 +1,7 @@
 {
-  "/news/2025-heltec-maker-contest/2025-heltec-maker-contest": {
-    "pinned": true,
-    "date": "2025-9-18"
+  "/news/heltec-v4-test-result/heltec-v4-test-result": {
+    "pinned": false,
+    "date": "2026-01-20"
   },
   "/news/christmas-gifts-and-2026-new-year/christmas-gifts-and-2026-new-year": {
     "pinned": false,
@@ -70,5 +70,9 @@
   "/news/2025-heltec-maker-contest-privacy-policy/2025-heltec-maker-contest-privacy-policy": {
     "pinned": false,
     "date": "2025-9-22"
+  },
+  "/news/2025-heltec-maker-contest/2025-heltec-maker-contest": {
+    "pinned": false,
+    "date": "2025-9-18"
   }
 }
