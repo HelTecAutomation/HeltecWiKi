@@ -1,6 +1,6 @@
 ---
-sidebar_position: 1
-title: Product Introduction
+sidebar_position: 4
+title: WiFi LoRa 32 Expansion Kit
 ---
 
 import styles from '@site/src/css/styles.module.css';
@@ -90,6 +90,9 @@ Devices with and without a touchscreen use different firmware versions. Firmware
 
 **The following documentation will help you get started quickly with the product**
 - [Meshtastic Quick Start Guide](/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-expansion-kit/usage-guide)
+- [Buzzer and Sensor Configuration Guide](/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-expansion-kit/sensor-setting)
 - [Install WiFi LoRa 32 V4 development environment](https://www.youtube.com/watch?v=oEhdyE-AA0g&t=69s)
 - [Applied to LoRaWAN](/docs/devices/open-source-hardware/esp32-series/esp32-quick-start?esp32=lorawan)
 - [Applied to Meshtatic](/docs/devices/open-source-hardware/esp32-series/esp32-quick-start?esp32=meshtastic)
+
+
