@@ -62,8 +62,10 @@ HR01 is powered by Raspberry PI, so it is sufficient to connect the Raspberry PI
 
 5. Select the mode you want to run and configure it accordingly.  
  
-
-
+- [Wi-Fi HaLow Gateway(AP) Mode](/docs/devices/wifi-halow/ht-h7608/gateway)
+- [Wi-Fi HaLow Client(STA) Mode](/docs/devices/wifi-halow/ht-h7608/station)
+- [Wi-Fi HaLow Mesh Gate Mode](/docs/devices/wifi-halow/ht-h7608/mesh_gate)
+- [Wi-Fi HaLow Mesh Point Mode](/docs/devices/wifi-halow/ht-h7608/mesh_point)
 
 
 
