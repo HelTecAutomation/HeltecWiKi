@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 title: GPIO Usage Guide
 ---
 
@@ -48,7 +48,9 @@ Although some of them may function as normal GPIOs after boot, external circuitr
 - Manual bootloader entry is required
 - Unstable or inconsistent startup behavior
 
+:::warning
 For example, connecting external circuitry to **GPIO46** may prevent normal boot and require manual entry into bootloader mode.
+:::
 
 ### ESP32-S3 Strapping Pins (per official documentation)
 
