@@ -106,6 +106,7 @@ After successful activation, **Do Not Remove the Batteries**, or the BMS chip re
 
 ![](img/usage-guide/13.jpg)
 
+
 :::tip
 If you are using Meshtastic firmware, you need to enable the device serial port function
 :::
@@ -113,6 +114,12 @@ If you are using Meshtastic firmware, you need to enable the device serial port 
 ![](img/usage-guide/24.png)
 
 ![](img/usage-guide/25.png)
+
+:::warning
+Once the device is successfully connected, verify that the module’s serial output is `enabled` and the operating mode is configured as `MS Config` Mode.
+:::
+
+![](img/usage-guide/26.png)
 
 ---
 
