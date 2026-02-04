@@ -8,10 +8,10 @@ title: Usage Guide
 [Instructional Video](https://www.youtube.com/watch?v=cDExK5QdVdU)
 
 Follow these steps **EXACTLY** to prevent board damage:
-- [Configure Battery Quantity](quantity)
-- [Connect Batteries](battery)
-- [BMS Activation](activation)
-- [BMS Setup](bms)
+- Configure Battery Quantity
+- Connect Batteries
+- BMS Activation
+- BMS Setup
 
 :::danger
 Verify the battery switch alignment with the solder points and ensure the battery is connected before applying power (activation/charging/setup) to avoid board damage.
