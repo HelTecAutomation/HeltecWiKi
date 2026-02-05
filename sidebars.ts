@@ -14,6 +14,7 @@ const sidebars: SidebarsConfig = {
         {
             type: 'category',
             label: 'Devices',
+            collapsed:false,
             items: generateSidebarWithIntroductions(docsDir, 'devices'),
         },
     ],
@@ -26,6 +27,7 @@ const sidebars: SidebarsConfig = {
         {
             type: 'category',
             label: 'Platform',
+            collapsed:false,
             items: generateSidebarWithIntroductions(docsDir, 'platform'),
         },
     ],
