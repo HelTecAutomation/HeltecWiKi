@@ -5,6 +5,7 @@ category: "2025 Maker Contest"
 author: "BrunoGriffon"
 date: "2025-12-08"
 image: "img/LoRaHunt.jpg"
+productCategory: ["LoRa32"]
 ---
 
 ![image info](img/LoRaHunt.jpg)

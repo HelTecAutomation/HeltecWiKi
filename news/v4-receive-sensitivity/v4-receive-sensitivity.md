@@ -5,6 +5,7 @@ category: "Technical"
 author: "Aaron Lee"
 date: "2025-10-15"
 image: "img/01.png"
+productCategory: ["LoRa32"]
 ---
 
 ![](img/01.png)

@@ -4,7 +4,8 @@ description: "The LoRa Gate PCB is a custom controller board for wireless, batte
 category: "2025 Maker Contest" 
 author: "PSi86" 
 date: "2025-12-09" 
-image: "img/usage.jpg" 
+image: "img/usage.jpg"
+productCategory: ["LoRa32"]
 ---
 
 # LoRa Gate PCB – WLED-Powered LED Gates with Heltec HT-CT62

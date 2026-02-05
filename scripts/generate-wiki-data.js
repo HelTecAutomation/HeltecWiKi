@@ -139,7 +139,7 @@ function scanDocsDirectory() {
               slug: pagePath,
               tags: (fm.tags || []).map(t => t.toLowerCase()),
               pinned,
-              productCategory: fm.productCategory ?? "",
+              productCategory: fm.productCategory ?? [],
             });
           }
         } catch (error) {

@@ -5,6 +5,7 @@ category: "News"
 author: "Hilbert Wang"
 date: "2025-11-27"
 image: "img/5.png"
+productCategory: ["LoRa32", "nRF", "LoRaWAN"]
 ---
 
 ![](img/1.png)

@@ -1,4 +1,4 @@
-// Auto-generated Wiki data - Last updated: 2026-01-20T09:01:06.601Z
+// Auto-generated Wiki data - Last updated: 2026-02-05T07:33:20.918Z
 export const latestWikiData = [
   {
     "id": 10,
@@ -9,7 +9,13 @@ export const latestWikiData = [
     "image": "/news-assets/heltec-v4-test-result/heltec-v4-test-result/01.jpg",
     "slug": "/news/heltec-v4-test-result/heltec-v4-test-result",
     "tags": [],
-    "pinned": false
+    "pinned": false,
+    "productCategory": [
+      "LoRa32",
+      "Meshtastic",
+      "Meshcore",
+      "LoRaWAN"
+    ]
   },
   {
     "id": 4,
@@ -20,7 +26,8 @@ export const latestWikiData = [
     "image": "/news-assets/christmas-gifts-and-2026-new-year/christmas-gifts-and-2026-new-year/03.png",
     "slug": "/news/christmas-gifts-and-2026-new-year/christmas-gifts-and-2026-new-year",
     "tags": [],
-    "pinned": false
+    "pinned": false,
+    "productCategory": ""
   },
   {
     "id": 13,
@@ -31,7 +38,8 @@ export const latestWikiData = [
     "image": "/news-assets/led-lora-control/led-lora-control/usage.jpg",
     "slug": "/news/led-lora-control/led-lora-control",
     "tags": [],
-    "pinned": false
+    "pinned": false,
+    "productCategory": ""
   },
   {
     "id": 6,
@@ -42,7 +50,8 @@ export const latestWikiData = [
     "image": "/news-assets/contest-content-template/smartlumber/01.png",
     "slug": "/news/contest-content-template/smartlumber",
     "tags": [],
-    "pinned": false
+    "pinned": false,
+    "productCategory": ""
   },
   {
     "id": 17,
@@ -53,7 +62,8 @@ export const latestWikiData = [
     "image": "/news-assets/measure-your-living-environment/measure-your-living-environment/MJLO-box.jpg",
     "slug": "/news/measure-your-living-environment/measure-your-living-environment",
     "tags": [],
-    "pinned": false
+    "pinned": false,
+    "productCategory": ""
   },
   {
     "id": 15,
@@ -64,7 +74,8 @@ export const latestWikiData = [
     "image": "/news-assets/lorahunt/lorahunt/LoRaHunt.jpg",
     "slug": "/news/lorahunt/lorahunt",
     "tags": [],
-    "pinned": false
+    "pinned": false,
+    "productCategory": ""
   },
   {
     "id": 8,
@@ -75,7 +86,8 @@ export const latestWikiData = [
     "image": "/news-assets/from-a-lora-communication-module-to-a-safe-text-message/from-a-lora-communication-module-to-a-safe-text-message/1.png",
     "slug": "/news/from-a-lora-communication-module-to-a-safe-text-message/from-a-lora-communication-module-to-a-safe-text-message",
     "tags": [],
-    "pinned": false
+    "pinned": false,
+    "productCategory": ""
   },
   {
     "id": 18,
@@ -86,7 +98,8 @@ export const latestWikiData = [
     "image": "/news-assets/shipping-and--warehouse-policy/shipping-and-warehouse-policy/parcel1.jpg",
     "slug": "/news/shipping-and--warehouse-policy/shipping-and-warehouse-policy",
     "tags": [],
-    "pinned": false
+    "pinned": false,
+    "productCategory": ""
   },
   {
     "id": 14,
@@ -97,7 +110,8 @@ export const latestWikiData = [
     "image": "/news-assets/lora-tracking-in-the-mountains/lora-tracking-in-the-mountains/5.png",
     "slug": "/news/lora-tracking-in-the-mountains/lora-tracking-in-the-mountains",
     "tags": [],
-    "pinned": false
+    "pinned": false,
+    "productCategory": ""
   },
   {
     "id": 3,
@@ -108,7 +122,8 @@ export const latestWikiData = [
     "image": "/news-assets/building-a-lifeline-in-the-storm/building-a-life-line-in-the-storm/1.jpg",
     "slug": "/news/building-a-lifeline-in-the-storm/building-a-life-line-in-the-storm",
     "tags": [],
-    "pinned": false
+    "pinned": false,
+    "productCategory": ""
   },
   {
     "id": 9,
@@ -119,7 +134,8 @@ export const latestWikiData = [
     "image": "/news-assets/happy-thanksgiving-from-heltec/happy-thanksgiving-from-heltec/4.png",
     "slug": "/news/happy-thanksgiving-from-heltec/happy-thanksgiving-from-heltec",
     "tags": [],
-    "pinned": false
+    "pinned": false,
+    "productCategory": ""
   },
   {
     "id": 11,
@@ -130,7 +146,8 @@ export const latestWikiData = [
     "image": "/news-assets/heltec-visits-maker-faire-shenzhen-2025/heltec-visits-maker-faire-shenzhen-2025/01.jpg",
     "slug": "/news/heltec-visits-maker-faire-shenzhen-2025/heltec-visits-maker-faire-shenzhen-2025",
     "tags": [],
-    "pinned": false
+    "pinned": false,
+    "productCategory": ""
   },
   {
     "id": 5,
@@ -141,7 +158,8 @@ export const latestWikiData = [
     "image": "/news-assets/compact-efficient-and-developer-friendly/compact-efficient-and-developer-friendly/01.png",
     "slug": "/news/compact-efficient-and-developer-friendly/compact-efficient-and-developer-friendly",
     "tags": [],
-    "pinned": false
+    "pinned": false,
+    "productCategory": ""
   },
   {
     "id": 12,
@@ -152,7 +170,8 @@ export const latestWikiData = [
     "image": "/news-assets/ieee-wf-iot-2025-smart-and-sustainable/ieee-wf-iot-2025-smart-and-sustainable/1.jpg",
     "slug": "/news/ieee-wf-iot-2025-smart-and-sustainable/ieee-wf-iot-2025-smart-and-sustainable",
     "tags": [],
-    "pinned": false
+    "pinned": false,
+    "productCategory": ""
   },
   {
     "id": 16,
@@ -163,7 +182,8 @@ export const latestWikiData = [
     "image": "/news-assets/maker-faire-rome-white-heltec-automation/maker-faire-rome-white-heltec-automation/foto3.webp",
     "slug": "/news/maker-faire-rome-white-heltec-automation/maker-faire-rome-white-heltec-automation",
     "tags": [],
-    "pinned": false
+    "pinned": false,
+    "productCategory": ""
   },
   {
     "id": 19,
@@ -174,7 +194,8 @@ export const latestWikiData = [
     "image": "/news-assets/v4-receive-sensitivity/v4-receive-sensitivity/01.png",
     "slug": "/news/v4-receive-sensitivity/v4-receive-sensitivity",
     "tags": [],
-    "pinned": false
+    "pinned": false,
+    "productCategory": ""
   },
   {
     "id": 7,
@@ -189,7 +210,8 @@ export const latestWikiData = [
       "maker",
       "contest"
     ],
-    "pinned": false
+    "pinned": false,
+    "productCategory": ""
   },
   {
     "id": 2,
@@ -204,7 +226,8 @@ export const latestWikiData = [
       "maker",
       "contest"
     ],
-    "pinned": false
+    "pinned": false,
+    "productCategory": []
   },
   {
     "id": 1,
@@ -219,7 +242,8 @@ export const latestWikiData = [
       "maker",
       "contest"
     ],
-    "pinned": false
+    "pinned": false,
+    "productCategory": []
   }
 ];
 

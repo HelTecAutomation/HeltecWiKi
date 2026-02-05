@@ -5,6 +5,7 @@ category: "Contest"
 date: "2025-9-23"
 tags: ["heltec", "maker", "contest"]
 image: "img/template.jpg"
+productCategory: [ ]
 ---
 
 ### Step 1

@@ -5,6 +5,7 @@ category: "IoT"
 date: "2025-9-22"
 tags: ["heltec", "maker", "contest"]
 image: "img/policy.jpg"
+productCategory: [ ]
 ---
 
 Data Controller: Heltec Automation Co., Ltd. 
