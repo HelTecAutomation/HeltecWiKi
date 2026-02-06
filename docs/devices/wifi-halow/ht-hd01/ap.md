@@ -1,13 +1,16 @@
 ---
-sidebar_position: 2
-title: AP-STA Mode User Guide
+sidebar_position: 3
+title: AP-STA Setup Guide (P-to-P & Point-to-Multipoint)
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import styles from '@site/src/css/styles.module.css';
 
-# HT-HD01 Mesh Mode User Guide
+# HT-HD01 AP-STA Setup Guide (P-to-P & Point-to-Multipoint)
+Any HD01 can be freely configured as AP or STA mode, enabling peer-to-peer or point-to-multipoint networking.
+
+This chapter provides detailed instructions on configuring an HD01 as either AP or STA to achieve flexible networking.
 
 <Tabs
 groupId="ap"

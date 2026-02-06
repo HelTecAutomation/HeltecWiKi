@@ -111,7 +111,74 @@ function isFirstLevelCategory(relativePath, rootDirName) {
  *   'platform/snapemu': 'SnapEmu 平台'
  * }
  */
-const DIR_NAME_MAP = {};
+const DIR_NAME_MAP = {
+  
+  'devices/general-docs': 'General Docs',
+  'devices/lorawan-application': 'LoRaWAN',
+  'devices/lorawan-application/lora-gateway': 'LoRaWAN Gateway',
+  'devices/lorawan-application/lora-gateway/ht-1303': 'HT-1303',
+  'devices/lorawan-application/lora-gateway/ht-m00': 'HT-M00',
+  'devices/lorawan-application/lora-gateway/ht-m00s': 'HT-M00S',
+  'devices/lorawan-application/lora-gateway/ht-m01': 'HT-M01',
+  'devices/lorawan-application/lora-gateway/ht-m01s_v2': 'HT-M01S V2',
+  'devices/lorawan-application/lora-gateway/ht-m02': 'HT-M02 V2',
+  'devices/lorawan-application/lora-gateway/ht-m2802': 'HT-M2802',
+  'devices/lorawan-application/lora-gateway/ht-m7603': 'HT-M7603',
+  'devices/lorawan-application/lora-node-devices': 'LoRaWAN Node Device',
+  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485': 'HRI-485X Wireless Converter',
+  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4851': 'HRI-4851',
+  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4851-lorawan': 'HRI-4851-L',
+  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4852': 'HRI-4852',
+  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4853': 'HRI-4853',
+  'devices/lorawan-application/lora-node-devices/hri-3621': 'HRI-3621',
+  'devices/lorawan-application/lora-node-devices/hri-3622': 'HRI-3622',
+  'devices/lorawan-application/lora-node-devices/hri-3631': 'HRI-3631',
+  'devices/lorawan-application/lora-node-devices/hri-3632': 'HRI-3632',
+  'devices/lorawan-application/lora-node-devices/hri-3633': 'HRI-3633',
+  'devices/lorawan-application/lora-node-devices/hri-3601': 'HRI-3601',
+  'devices/lorawan-application/lora-node-devices/hru-1000': 'HRU-1000',
+  'devices/lorawan-application/lora-node-devices/junction-box': 'Junction Box',
+  'devices/open-source-hardware': 'Open-Source Hardware',
+  'devices/open-source-hardware/cubecell-series': 'CubeCell ASR650X Series',
+  'devices/open-source-hardware/cubecell-series/htcc_ab01': 'HTCC-AB01',
+  'devices/open-source-hardware/cubecell-series/htcc_ab02': 'HTCC-AB02',
+  'devices/open-source-hardware/cubecell-series/htcc_ab02a': 'HTCC-AB02A',
+  'devices/open-source-hardware/cubecell-series/htcc_ab02s': 'HTCC-AB02S',
+  'devices/open-source-hardware/cubecell-series/htcc_am01': 'HTCC-AM01',
+  'devices/open-source-hardware/cubecell-series/htcc_am2': 'HTCC-AM02',
+  'devices/open-source-hardware/esp32-series': 'ESP32 Series',
+  'devices/open-source-hardware/esp32-series/lora-32': 'LoRa32 Series',
+  'devices/open-source-hardware/esp32-series/lora-32/capsule-sensor-v3': 'Capsule Sensor V3',
+  'devices/open-source-hardware/esp32-series/lora-32/wifi-kit-32': 'WiFi Kit 32',
+  'devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v3': 'WiFi LoRa 32 V3',
+  'devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v4': 'WiFi LoRa 32 V4',
+  'devices/open-source-hardware/esp32-series/lora-32/wireless-bridge': 'Wireless Bridge',
+  'devices/open-source-hardware/esp32-series/lora-32/wireless-mini-shell-ht-ct62': 'HT-CT62',
+  'devices/open-source-hardware/esp32-series/lora-32/wireless-paper': 'Wireless Paper',
+  'devices/open-source-hardware/esp32-series/lora-32/wireless-shell': 'Wireless Shell',
+  'devices/open-source-hardware/esp32-series/lora-32/wireless-stick': 'Wireless Stick',
+  'devices/open-source-hardware/esp32-series/lora-32/wireless-stick-lite': 'Wireless Stick Lite',
+  'devices/open-source-hardware/esp32-series/lora-32/wireless-tracker': 'Wireless Tracker',
+  'devices/open-source-hardware/esp32-series/vision-master': 'Vision Master Series',
+  'devices/open-source-hardware/esp32-series/vision-master/vison-master-e213': 'Vision Master E213',
+  'devices/open-source-hardware/esp32-series/vision-master/vison-master-e290': 'Vision Master E290',
+  'devices/open-source-hardware/esp32-series/vision-master/vison-master-T190': 'Vision Master T190',
+  'devices/open-source-hardware/esp32-series/three-platform': 'Three-Platform',
+  'devices/open-source-hardware/nrf52840-series': 'nRF52840 Series',
+  'devices/open-source-hardware/nrf52840-series/mesh-node-t114': 'MeshNode T114',
+  'devices/open-source-hardware/nrf52840-series/mesh-node-5262m': 'MeshNode N5262M',
+  'devices/open-source-hardware/nrf52840-series/mesh-solar': 'MeshSolar',
+  'devices/open-source-hardware/nrf52840-series/mesh-tower': 'MeshTower',
+  'devices/open-source-hardware/nrf52840-series/meshpocket': 'MeshPocket',
+  'devices/wifi-halow': 'WiFi HaLow',
+  'devices/wifi-halow/ht-hd01': 'HD01 WiFi HaLow Dongle',
+  'devices/wifi-halow/ht-h7608': 'H7608 WiFi HaLow Router',
+  'devices/wifi-halow/ht-hc01': 'HC01 WiFi HaLow Module',
+  'devices/wifi-halow/hc01p': 'HC01P WiFi HaLow Module',
+  'devices/wifi-halow/ht-hc02': 'HC02 WiFi HaLow AT Module',
+  'devices/wifi-halow/ht-hc32': 'HC32 ESP32 HaLow Camera',
+  'devices/wifi-halow/ht-hr01': 'HR01 Raspberry Pi CamLow',
+};
 
 /**
  * 获取目录的显示名称
@@ -177,6 +244,28 @@ function buildSidebarItems(dirPath, relativePath, dirName, rootDirName) {
   const subCategories = [];
   const docFiles = [];
 
+  // 辅助函数：获取文件的 sidebar_position
+  function getSidebarPosition(filePath) {
+    try {
+      const content = fs.readFileSync(filePath, "utf8");
+      const { data } = matter(content);
+      return data.sidebar_position !== undefined
+        ? data.sidebar_position
+        : Infinity;
+    } catch (error) {
+      return Infinity;
+    }
+  }
+
+  // 辅助函数：获取目录的 sidebar_position（从索引文档中读取）
+  function getCategorySidebarPosition(dirPath, dirName) {
+    const indexDocPath = getIndexDocumentPath(dirPath, dirName);
+    if (!indexDocPath) {
+      return Infinity;
+    }
+    return getSidebarPosition(indexDocPath);
+  }
+
   for (const entry of entries) {
     if (entry.isDirectory()) {
       const fullPath = path.join(dirPath, entry.name);
@@ -200,6 +289,7 @@ function buildSidebarItems(dirPath, relativePath, dirName, rootDirName) {
           type: "category",
           label: displayName,
           items: subItems,
+          _position: getCategorySidebarPosition(fullPath, entry.name), // 临时存储位置用于排序
         };
 
         // 如果是一级目录，设置为默认展开
@@ -212,6 +302,7 @@ function buildSidebarItems(dirPath, relativePath, dirName, rootDirName) {
     } else if (entry.isFile() && /\.(md|mdx)$/i.test(entry.name)) {
       // 跳过索引文档（已经作为 Introduction 添加了）
       if (!isIndexDocument(entry.name, dirName)) {
+        const filePath = path.join(dirPath, entry.name);
         const fileBaseName = path.basename(
           entry.name,
           path.extname(entry.name)
@@ -222,10 +313,32 @@ function buildSidebarItems(dirPath, relativePath, dirName, rootDirName) {
         docFiles.push({
           type: "doc",
           id: docId,
+          _position: getSidebarPosition(filePath), // 临时存储位置用于排序
         });
       }
     }
   }
+
+  // 按照 sidebar_position 排序
+  docFiles.sort((a, b) => {
+    if (a._position !== b._position) {
+      return a._position - b._position;
+    }
+    // 如果位置相同，按文件名排序
+    return a.id.localeCompare(b.id);
+  });
+
+  subCategories.sort((a, b) => {
+    if (a._position !== b._position) {
+      return a._position - b._position;
+    }
+    // 如果位置相同，按标签名排序
+    return a.label.localeCompare(b.label);
+  });
+
+  // 移除临时位置属性
+  docFiles.forEach((item) => delete item._position);
+  subCategories.forEach((item) => delete item._position);
 
   // 先添加文档文件，再添加子目录
   items.push(...docFiles);

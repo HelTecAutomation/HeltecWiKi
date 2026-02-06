@@ -1,48 +1,23 @@
 ---
-sidebar_position: 1
-title: Usage Guide
+sidebar_position: 2
+title: Default P-to-P Mode
 ---
 
-# Getting Start
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import styles from '@site/src/css/styles.module.css';
 
-## HD01 LED Indicator Description
-**The description may vary depending on the firmware version.**
-
-| **LED Indicator**                   | **Description**                                         |
-| ----------------------------------- | ------------------------------------------------------- |
-| 🔴 **Red (blinking)**               | Device is booting                                       |
-| 🔴 **Red (steady on)**              | Button pressed                                          |
-| 🟡 **Yellow (steady on, 3s hold)**  | Enter configuration mode                                |
-| ⚪ **White (steady on, 7s hold)**    | Restore factory settings                                |
-| 🟢🟡 **Green & Yellow alternating** | Configuration mode (WiFi + Ethernet)                    |
-| 🔵🟡 **Blue & Yellow alternating**  | Configuration mode (WiFi + USB)                         |
-| 🟢 **Green (blinking)**             | STA mode using Ethernet, HaLow not connected            |
-| 🟢 **Green (steady on)**            | STA mode using Ethernet, HaLow connected successfully   |
-| 🔵 **Blue (blinking)**              | STA mode using USB, HaLow not connected                 |
-| 🔵 **Blue (steady on)**             | STA mode using USB, HaLow connected successfully        |
-| 🩵 **Cyan (blinking)**              | AP mode using Ethernet, network input not connected     |
-| 🩵 **Cyan (steady on)**             | AP (Ethernet) — Network connected                       |
-| 🟣 **Purple (blinking)**            | AP mode using USB, network input not connected          |
-| 🟣 **Purple (steady on)**           | AP mode using USB, network input connected successfully |
-
-:::note
-When connecting the Dongle to a Windows system via a USB-to-Ethernet adapter, the [appropriate driver](https://resource.heltec.cn/download/HT-HD01/Driver/USB-NIC) must be installed first.
-:::
-
-## Overview
 We have provided a plug-and-play mode for the HT-HD01 to help you get started more quickly. The devices are pre-paired at the factory, and you can use them directly without any configuration. 
 
 Plug the AP-side device into your network source (e.g., a router).The STA-side device, once powered on, will provide either an Ethernet or 2.4GHz Wi-Fi connection for your end devices.
 
 ![](img/04.jpg)
 
+# Getting Start
+
 ## How to Distinguish Between AP Mode and STA Mode
 - Via Sticker, you can distinguish between the AP or STA side using stickers. 
-
-
 - After firmware version 2.6.6, you can also differentiate them by the RGB lights: AP-side devices will display cyan/purple after the red light turns off, while STA-side devices will show blue/green.
-
-
 
 ## Start Access Point
 1. Connect the Dongle-AP to the upstream router and power it on. 
@@ -53,57 +28,71 @@ Plug the AP-side device into your network source (e.g., a router).The STA-side d
 The RJ45 interface does not support PoE (Power-over-Ethernet) power supply. The USB cable can both supply power and networking.
 :::
 
-If your upstream network uses WiFi, you must enter the Wi-Fi credentials (SSID and password) in the configuration page. For instructions on accessing the configuration page, please refer to the following link:
-
-[Access Configuration](/docs/devices/wifi-halow/ht-hd01/access_configuration_page)
+:::tip
+If your upstream network is WiFi, you must enter the Wi-Fi credentials (SSID and password) in the configuration page. Please refer to the following link:[Access Configuration Page](https://wiki.heltec.org/docs/devices/wifi-halow/ht-hd01/access_configuration_page)
+:::
 
 2. When the device's red light changes to **Cyan/Purple** and stays on, it indicates that the device is functioning properly.
-
-
 
 ## Start Station
 Power on the Dongle-STA. When the device's red light changes to **blue/green** and stays on, it indicates that the device is functioning properly.
 
 ![](img/12.jpg)
 
-:::note
-If your STA device is no longer paired with the AP, you need to reconfigure the STA. Please refer to the ["Dongle STA Setup Guide"](/docs/devices/wifi-halow/ht-hd01/ap?ap=sta).
+:::tip
+If the STA device's indicator light remains solid blue/green or flashes, it indicates that the device has not obtained an IP address assigned by the AP. In this case, you may need to reconfigure the device. Please refer to the ["Dongle STA Setup Guide"](/docs/devices/wifi-halow/ht-hd01/ap?ap=sta).
 :::
 
-
-
 ## Start Using
-Connect your device to the Dongle-STA via ethernet cable or 2.4G WiFi.
+After the STA device is functioning normally, Connect your end device to the Dongle-STA via ethernet cable or 2.4G WiFi.
 
 ![](img/13.jpg)
 
-- Default 2.4G Wi-Fi SSID:HT-HD01-XXXX
-- Default Password:heltec.org
+<Tabs
+groupId="ethernet"
+queryString="ethernet"
+defaultValue="ethernet"
+className={styles.customTabs}
+values={[
+{label: ' Ethernet(RJ45,USB-C) ', value:'ethernet'},
+{label: ' 2.4G Wi-Fi ', value:'2.4gwifi'},
+]}>
 
-:::warning
+<TabItem value="ethernet">
+
+### Ethernet
 The STA blue light of the device represents a USB-C cable, and the green light represents an RJ45 cable. If the color of your indicator does not match the type of network cable you are connected to, you need to change the color of the indicator by pressing the button.
-:::
 
 ![](img/07.jpg)
 
+For Windows systems, installing a driver is required to use USB-C Ethernet:
+- [HD01-V2 Windows USB-C Ethernet Driver](https://resource.heltec.cn/download/HT-HD01_V2/driver).
+- [HD01-V1 Windows USB-C Ethernet Driver](https://resource.heltec.cn/download/HT-HD01/Driver/USB-NIC).
 
+:::tip
+If the device does not respond after installation, you can repeatedly toggle the switch shown in the image above to help the computer recognize the device.
+:::
 
-## Instructions for Other Modes
-For common mode types, see the [Overview section](/docs/devices/wifi-halow/ht-hd01/).<br />
-Detailed mode guides are available below:
+</TabItem>
+<TabItem value="2.4gwifi">
 
-- [Access-AP Mode(Includes Point-to-Point and Point-to-Multipoint topologies)](/docs/devices/wifi-halow/ht-hd01/ap)
-- [Mesh Mode(Self-configuring node network)](/docs/devices/wifi-halow/ht-hd01/meshgate)
+By default, the STA device's 2.4GHz Wi-Fi is enabled. The default SSID and password are as follows:
+- Default 2.4G Wi-Fi SSID:HT-HD01-XXXX
+- Default Password:heltec.org
 
+You can change the username and password on the configuration page. Please refer to [Access Configuration Page](https://wiki.heltec.org/docs/devices/wifi-halow/ht-hd01/access_configuration_page) for guidance.
 
-## View and Modify the SSID and Password
+</TabItem>
+</Tabs>
+
+# Other Modes
+You can view other modes and their configuration methods in the [**Introduction**](https://wiki.heltec.org/docs/devices/wifi-halow/ht-hd01/) section.
+
+# View and Modify the SSID and Password
 You can access the device's configuration page to set or modify its parameters. For methods to access the configuration page, please refer to the following link:
+[Access Configuration Page](https://wiki.heltec.org/docs/devices/wifi-halow/ht-hd01/access_configuration_page) for guidance.
 
-[Access Configuration](https://docs.heltec.org/en/wifi_halow/ht-hd01/access_configuration_page.html)
-
-
-
-## Factory reset
+# Factory reset
 
 :::warning
 In this mode, all existing configurations on the device are completely erased. You must reconfigure it anew before use.

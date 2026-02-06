@@ -1,4 +1,4 @@
-// Auto-generated Wiki data - Last updated: 2026-02-05T07:33:20.918Z
+// Auto-generated Wiki data - Last updated: 2026-02-06T07:06:12.631Z
 export const latestWikiData = [
   {
     "id": 10,
@@ -13,8 +13,7 @@ export const latestWikiData = [
     "productCategory": [
       "LoRa32",
       "Meshtastic",
-      "Meshcore",
-      "LoRaWAN"
+      "Meshcore"
     ]
   },
   {
@@ -27,7 +26,7 @@ export const latestWikiData = [
     "slug": "/news/christmas-gifts-and-2026-new-year/christmas-gifts-and-2026-new-year",
     "tags": [],
     "pinned": false,
-    "productCategory": ""
+    "productCategory": []
   },
   {
     "id": 13,
@@ -39,7 +38,9 @@ export const latestWikiData = [
     "slug": "/news/led-lora-control/led-lora-control",
     "tags": [],
     "pinned": false,
-    "productCategory": ""
+    "productCategory": [
+      "LoRa32"
+    ]
   },
   {
     "id": 6,
@@ -51,7 +52,10 @@ export const latestWikiData = [
     "slug": "/news/contest-content-template/smartlumber",
     "tags": [],
     "pinned": false,
-    "productCategory": ""
+    "productCategory": [
+      "LoRaWAN",
+      "RS485"
+    ]
   },
   {
     "id": 17,
@@ -63,7 +67,10 @@ export const latestWikiData = [
     "slug": "/news/measure-your-living-environment/measure-your-living-environment",
     "tags": [],
     "pinned": false,
-    "productCategory": ""
+    "productCategory": [
+      "LoRa32",
+      "LoRaWAN"
+    ]
   },
   {
     "id": 15,
@@ -75,7 +82,9 @@ export const latestWikiData = [
     "slug": "/news/lorahunt/lorahunt",
     "tags": [],
     "pinned": false,
-    "productCategory": ""
+    "productCategory": [
+      "LoRa32"
+    ]
   },
   {
     "id": 8,
@@ -87,7 +96,11 @@ export const latestWikiData = [
     "slug": "/news/from-a-lora-communication-module-to-a-safe-text-message/from-a-lora-communication-module-to-a-safe-text-message",
     "tags": [],
     "pinned": false,
-    "productCategory": ""
+    "productCategory": [
+      "LoRa32",
+      "nRF",
+      "Meshtastic"
+    ]
   },
   {
     "id": 18,
@@ -99,7 +112,7 @@ export const latestWikiData = [
     "slug": "/news/shipping-and--warehouse-policy/shipping-and-warehouse-policy",
     "tags": [],
     "pinned": false,
-    "productCategory": ""
+    "productCategory": []
   },
   {
     "id": 14,
@@ -111,7 +124,11 @@ export const latestWikiData = [
     "slug": "/news/lora-tracking-in-the-mountains/lora-tracking-in-the-mountains",
     "tags": [],
     "pinned": false,
-    "productCategory": ""
+    "productCategory": [
+      "LoRa32",
+      "nRF",
+      "LoRaWAN"
+    ]
   },
   {
     "id": 3,
@@ -123,7 +140,10 @@ export const latestWikiData = [
     "slug": "/news/building-a-lifeline-in-the-storm/building-a-life-line-in-the-storm",
     "tags": [],
     "pinned": false,
-    "productCategory": ""
+    "productCategory": [
+      "Meshtastic",
+      "nRF"
+    ]
   },
   {
     "id": 9,
@@ -135,7 +155,7 @@ export const latestWikiData = [
     "slug": "/news/happy-thanksgiving-from-heltec/happy-thanksgiving-from-heltec",
     "tags": [],
     "pinned": false,
-    "productCategory": ""
+    "productCategory": []
   },
   {
     "id": 11,
@@ -147,7 +167,7 @@ export const latestWikiData = [
     "slug": "/news/heltec-visits-maker-faire-shenzhen-2025/heltec-visits-maker-faire-shenzhen-2025",
     "tags": [],
     "pinned": false,
-    "productCategory": ""
+    "productCategory": []
   },
   {
     "id": 5,
@@ -159,7 +179,9 @@ export const latestWikiData = [
     "slug": "/news/compact-efficient-and-developer-friendly/compact-efficient-and-developer-friendly",
     "tags": [],
     "pinned": false,
-    "productCategory": ""
+    "productCategory": [
+      "WiFiHaLow"
+    ]
   },
   {
     "id": 12,
@@ -171,7 +193,7 @@ export const latestWikiData = [
     "slug": "/news/ieee-wf-iot-2025-smart-and-sustainable/ieee-wf-iot-2025-smart-and-sustainable",
     "tags": [],
     "pinned": false,
-    "productCategory": ""
+    "productCategory": []
   },
   {
     "id": 16,
@@ -183,7 +205,7 @@ export const latestWikiData = [
     "slug": "/news/maker-faire-rome-white-heltec-automation/maker-faire-rome-white-heltec-automation",
     "tags": [],
     "pinned": false,
-    "productCategory": ""
+    "productCategory": []
   },
   {
     "id": 19,
@@ -195,7 +217,9 @@ export const latestWikiData = [
     "slug": "/news/v4-receive-sensitivity/v4-receive-sensitivity",
     "tags": [],
     "pinned": false,
-    "productCategory": ""
+    "productCategory": [
+      "LoRa32"
+    ]
   },
   {
     "id": 7,
@@ -211,7 +235,7 @@ export const latestWikiData = [
       "contest"
     ],
     "pinned": false,
-    "productCategory": ""
+    "productCategory": []
   },
   {
     "id": 2,
