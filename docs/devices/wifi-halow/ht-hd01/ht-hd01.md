@@ -42,7 +42,7 @@ Here are some common parameters of the HD01. For detailed parameters, please ref
 |Operating temperature         |  		-20~ +70℃|
 |Dimensions       |  87.5 *32.5 *20mm |
 
-### HD01 LED Indicator Description
+### LED Indicator Description
 
 :::note
 **The description may vary depending on the firmware version.**
@@ -65,6 +65,7 @@ Here are some common parameters of the HD01. For detailed parameters, please ref
 | 🟣 **Purple (blinking)**            | AP mode using USB, network input not connected          |
 | 🟣 **Purple (steady on)**           | AP mode using USB, network input connected successfully |
 
+---------------------------------------
 
 ## Network Modes
 The HD01 supports multiple networking modes. Below are some common configurations. You can click the "**Setup Guide**" icon below the table to learn how to use them.
@@ -106,6 +107,7 @@ The HD01 supports multiple networking modes. Below are some common configuration
         </tr>
     </table>
 </div>
+--------------------------
 
 ## Important Resources
 - [Datasheet](https://resource.heltec.cn/download/HT-HD01/HT-HD01_Rev.1.0.0.pdf)

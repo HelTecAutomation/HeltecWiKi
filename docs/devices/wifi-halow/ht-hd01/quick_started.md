@@ -7,17 +7,15 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import styles from '@site/src/css/styles.module.css';
 
-We have provided a plug-and-play mode for the HT-HD01 to help you get started more quickly. The devices are pre-paired at the factory, and you can use them directly without any configuration. 
+We have provided a **plug-and-play mode** for the HT-HD01 to help you get started more quickly. The devices are pre-paired at the factory, and you can use them directly without any configuration. 
 
 Plug the AP-side device into your network source (e.g., a router).The STA-side device, once powered on, will provide either an Ethernet or 2.4GHz Wi-Fi connection for your end devices.
 
 ![](img/04.jpg)
 
-# Getting Start
-
 ## How to Distinguish Between AP Mode and STA Mode
-- Via Sticker, you can distinguish between the AP or STA side using stickers. 
-- After firmware version 2.6.6, you can also differentiate them by the RGB lights: AP-side devices will display cyan/purple after the red light turns off, while STA-side devices will show blue/green.
+- **Via Sticker**, you can distinguish between the AP or STA side using stickers. 
+- **Via RGB indicator**, after firmware version 2.6.6, you can also differentiate them by the RGB lights: AP-side devices will display cyan/purple after the red light turns off, while STA-side devices will show blue/green.
 
 ## Start Access Point
 1. Connect the Dongle-AP to the upstream router and power it on. 
@@ -85,14 +83,16 @@ You can change the username and password on the configuration page. Please refer
 </TabItem>
 </Tabs>
 
-# Other Modes
+-------------------------------
+
+## Other Modes
 You can view other modes and their configuration methods in the [**Introduction**](https://wiki.heltec.org/docs/devices/wifi-halow/ht-hd01/) section.
 
-# View and Modify the SSID and Password
+## View and Modify the SSID and Password
 You can access the device's configuration page to set or modify its parameters. For methods to access the configuration page, please refer to the following link:
 [Access Configuration Page](https://wiki.heltec.org/docs/devices/wifi-halow/ht-hd01/access_configuration_page) for guidance.
 
-# Factory reset
+## Factory reset
 
 :::warning
 In this mode, all existing configurations on the device are completely erased. You must reconfigure it anew before use.
