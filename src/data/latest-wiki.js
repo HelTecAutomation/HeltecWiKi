@@ -1,5 +1,16 @@
-// Auto-generated Wiki data - Last updated: 2026-01-20T09:01:06.601Z
+// Auto-generated Wiki data - Last updated: 2026-02-26T08:40:45.733Z
 export const latestWikiData = [
+  {
+    "id": 19,
+    "title": "Tech Guardian for Wildlife in Dinokeng Reserve",
+    "description": "New Technology System Helps Protect Wildlife in South Africa’s Dinokeng Reserve",
+    "category": "news",
+    "date": "2026-02-26",
+    "image": "/news-assets/tech-guardian-for-wildlife-in-dinokeng-reserve/tech-guardian-for-wildlife-in-dinokeng-reserve/06.png",
+    "slug": "/news/tech-guardian-for-wildlife-in-dinokeng-reserve/tech-guardian-for-wildlife-in-dinokeng-reserve",
+    "tags": [],
+    "pinned": false
+  },
   {
     "id": 10,
     "title": "Heltec V4 Test Result",
@@ -166,7 +177,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 19,
+    "id": 20,
     "title": "LoRa 32 V4 receiver sensitivity issue discussed",
     "description": "LoRa 32 V4 receiver sensitivity issue discussed",
     "category": "technical",
