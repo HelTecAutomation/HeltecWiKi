@@ -5,6 +5,7 @@ category: "News"
 author: "Hilbert Wang"
 date: "2025-12-04"
 image: "img/1.png"
+productCategory: ["LoRa32", "nRF", "Meshtastic"]
 ---
 
 ![](img/1.png)

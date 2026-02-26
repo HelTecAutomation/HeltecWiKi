@@ -5,6 +5,7 @@ category: "Technical"
 author: "la-resilience"
 date: "2026-01-20"
 image: "img/01.jpg"
+productCategory: ["LoRa32", "Meshtastic", "Meshcore"]
 ---
 
 ![](img/06.jpg)

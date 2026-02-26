@@ -5,6 +5,7 @@ category: "2025 Maker Contest"
 author: "Jinzzakk"
 date: "2025-12-09"
 image: "img/01.png"
+productCategory: ["LoRaWAN", "RS485"]
 ---
 
 ## 🌲 SmartLumber: Industrial LoRaWAN Monitoring & Predictive Digital Twin

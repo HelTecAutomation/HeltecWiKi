@@ -6,6 +6,7 @@ author: "heltec-author"
 date: "2025-9-18"
 tags: ["heltec", "maker", "contest"]
 image: "img/01.png"
+productCategory: [ ]
 ---
 
 Calling all tinkerers, hackers, and makers from around the world! The first global Heltec Maker Contest is here—time to showcast your wildest ideas and excellent projects.

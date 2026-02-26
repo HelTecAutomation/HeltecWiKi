@@ -5,6 +5,7 @@ category: "News"
 author: "Hilbert Wang"
 date: "2025-11-03"
 image: "img/1.jpg"
+productCategory: [ ]
 ---
 
 ![](img/1.jpg)

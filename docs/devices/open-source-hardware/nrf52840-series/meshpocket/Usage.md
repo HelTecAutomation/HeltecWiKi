@@ -91,6 +91,11 @@ For details, see the official documentation: [meshtastic.org](https://meshtastic
 
 The device comes preloaded with Meshtastic firmware. Firmware updates/flashing can be performed via the side-mounted magnetic programming interface.
 
+:::warning
+To ensure that the device’s serial port can be recognized, please make sure to connect the device to the computer using the magnetic cable. Connecting the device to the computer using a standard USB cable alone will not allow the system to recognize the serial port interface.
+:::
+
+
 <div style={{ textAlign: 'center' }}>
   ![](img/5.jpg)
 </div>

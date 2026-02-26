@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: LoRa Gateway 
+title: LoRa Gateway Overview
 ---
 
 import Tabs from '@theme/Tabs';

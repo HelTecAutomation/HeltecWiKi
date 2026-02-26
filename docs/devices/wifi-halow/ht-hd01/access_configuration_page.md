@@ -1,6 +1,6 @@
 ---
-sidebar_position: 4
-title: Access Configuration
+sidebar_position: 6
+title: Access Configuration Page
 ---
 
 

@@ -5,6 +5,7 @@ category: "Technical"
 author: "Hilbert Wang"
 date: "2025-11-11"
 image: "img/01.png"
+productCategory: ["WiFiHaLow"]
 ---
 
 ## Pioneering a New Era of Long-Range, High-Speed Wireless Connectivity for IoT

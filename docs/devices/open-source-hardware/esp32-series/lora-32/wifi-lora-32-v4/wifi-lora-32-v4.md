@@ -6,15 +6,9 @@ title: WiFi LoRa 32 V4
 
 import styles from '@site/src/css/styles.module.css';
 
-<iframe
-  width="100%"
-  height="400"
-  src=" https://www.youtube.com/embed/JRidd85Rm5U"
-  title="Heltec Capsule Sensor V3. A Portable LoRa/LoRaWAN Node device compatible with Meshtastic"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
+<div style={{ textAlign: 'center' }}>
+  ![](img/v4.jpg)
+</div>
 
 The classic WiFi LoRa 32 development board has been upgraded to the all-new V4 version. While retaining the advantages of previous editions, it features comprehensive improvements in craftsmanship and enhanced performance.
 
@@ -58,6 +52,7 @@ The classic WiFi LoRa 32 development board has been upgraded to the all-new V4 v
 
 **The following documentation will help you get started quickly with the product**
 - [Install development environment](/docs/devices/open-source-hardware/esp32-series/esp32-quick-start)
+- [Three Development Platforms](/docs/devices/open-source-hardware/esp32-series/three-platform/)
 - [Applied to LoRaWAN](/docs/devices/open-source-hardware/esp32-series/esp32-quick-start?esp32=lorawan)
 - [Applied to Meshtatic](/docs/devices/open-source-hardware/esp32-series/esp32-quick-start?esp32=meshtastic)
 - [How to use license](/docs/devices/general-docs/how_to_use_license)

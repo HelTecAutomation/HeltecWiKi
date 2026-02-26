@@ -8,10 +8,10 @@ title: Usage Guide
 [Instructional Video](https://www.youtube.com/watch?v=cDExK5QdVdU)
 
 Follow these steps **EXACTLY** to prevent board damage:
-- [Configure Battery Quantity](quantity)
-- [Connect Batteries](battery)
-- [BMS Activation](activation)
-- [BMS Setup](bms)
+- Configure Battery Quantity
+- Connect Batteries
+- BMS Activation
+- BMS Setup
 
 :::danger
 Verify the battery switch alignment with the solder points and ensure the battery is connected before applying power (activation/charging/setup) to avoid board damage.
@@ -106,6 +106,7 @@ After successful activation, **Do Not Remove the Batteries**, or the BMS chip re
 
 ![](img/usage-guide/13.jpg)
 
+
 :::tip
 If you are using Meshtastic firmware, you need to enable the device serial port function
 :::
@@ -113,6 +114,12 @@ If you are using Meshtastic firmware, you need to enable the device serial port 
 ![](img/usage-guide/24.png)
 
 ![](img/usage-guide/25.png)
+
+:::warning
+Once the device is successfully connected, verify that the module’s serial output is `enabled` and the operating mode is configured as `MS Config` Mode.
+:::
+
+![](img/usage-guide/26.png)
 
 ---
 

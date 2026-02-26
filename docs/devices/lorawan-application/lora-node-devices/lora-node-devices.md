@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: LoRa Node Devices
+title: LoRa Node Devices Overview
 ---
 
 import Tabs from '@theme/Tabs';

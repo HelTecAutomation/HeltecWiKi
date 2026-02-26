@@ -5,6 +5,7 @@ category: "News"
 author: "Hilbert Wang"
 date: "2025-11-25"
 image: "img/1.jpg"
+productCategory: ["Meshtastic", "nRF"]
 ---
 
 ![](img/2.jpg)

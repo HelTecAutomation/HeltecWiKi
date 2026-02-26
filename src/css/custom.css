@@ -180,6 +180,15 @@ h1, h2, h3, h4, h5, h6 {
   transition: color 0.3s ease;
 }
 
+
+.alert--secondary {
+  background-color: #bfe6ff   !important; /* 淺紅背景 /
+  border-left: 4px solid #ff4d4d !important; / 左側強調條 /
+  color: #3b0000 !important; / 文字顏色 */
+  --ifm-alert-border-color:#4096ff !important
+}
+
+
 /* Button improvements */
 .button {
   border-radius: var(--ifm-border-radius);
