@@ -31,7 +31,7 @@ title: Hardware Update Log
 
 ## V4.3.1
 
-
+![](img/hardware_update_log/v4.3.1.png)
 
 **The most significant hardware update in V4.3.1 focuses on improvements to the RX LNA section, incorporating user feedback to enhance RF flexibility and performance.**
 - 2026-2-25  update
