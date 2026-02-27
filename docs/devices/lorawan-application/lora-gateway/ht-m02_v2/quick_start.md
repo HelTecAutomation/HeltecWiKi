@@ -57,7 +57,7 @@ Connect the antenna and network cable to the gateway, and then connect the gatew
 
 ![](img/quick_start/01.png)
 
-Log in to the configuration page through the user name "HT-M02" and password "heltec. org".  The device used to log in to the configuration page needs to be on the same LAN as the gateway. The user can view the basic information of the gateway and configure the gateway on the configuration page.
+Log in to the configuration page through the user name "HT-M02" and password "heltec.org".  The device used to log in to the configuration page needs to be on the same LAN as the gateway. The user can view the basic information of the gateway and configure the gateway on the configuration page.
 
 ![](img/quick_start/02.jpg)
 
@@ -69,7 +69,7 @@ Connect the antenna to the gateway, and then connect the gateway power supply.  
 
 ![](img/quick_start/05.png)
 
-After connecting to WIFI, use this device to open 192.168.4.1, and use the user name "HT-M02" and password "heltec. org" to log in to the configuration page. The user can view the basic information of the gateway and configure the gateway on the configuration page.
+After connecting to WIFI, use this device to open 192.168.4.1, and use the user name "HT-M02" and password "heltec.org" to log in to the configuration page. The user can view the basic information of the gateway and configure the gateway on the configuration page.
 
 ![](img/quick_start/02.jpg)
 
@@ -79,7 +79,7 @@ After configuring the gateway information, click `Apply`.
 #### Connect to the network using WIFI
 
 ##### Access the configuration page through ETH
-Connect the antenna to the gateway, and then connect the gateway power supply.  Connect the gateway to the computer through the network cable, and use this computer to open 192.168.4.1.   And use the user name "HT-M02" and password "heltec. org" to log in to the configuration page. The user can view the basic information of the gateway and configure the gateway on the configuration page.
+Connect the antenna to the gateway, and then connect the gateway power supply.  Connect the gateway to the computer through the network cable, and use this computer to open 192.168.4.1.   And use the user name "HT-M02" and password "heltec.org" to log in to the configuration page. The user can view the basic information of the gateway and configure the gateway on the configuration page.
 
 ![](img/quick_start/02.jpg)
 
@@ -95,7 +95,7 @@ Connect the antenna to the gateway, and then connect the gateway power supply.  
 
 ![](img/quick_start/07.png)
 
-Log in to the configuration page through the user name "HT-M02" and password "heltec. org".  The device used to log in to the configuration page needs to be on the same LAN as the gateway. The user can view the basic information of the gateway and configure the gateway on the configuration page.
+Log in to the configuration page through the user name "HT-M02" and password "heltec.org".  The device used to log in to the configuration page needs to be on the same LAN as the gateway. The user can view the basic information of the gateway and configure the gateway on the configuration page.
 
 ![](img/quick_start/02.jpg)
 
@@ -112,7 +112,7 @@ Connect the antenna and network cable to the gateway, and then connect the gatew
 
 ![](img/quick_start/01.png)
 
-Log in to the configuration page through the user name "HT-M02" and password "heltec. org".  The device used to log in to the configuration page needs to be on the same LAN as the gateway. The user can view the basic information of the gateway and configure the gateway on the configuration page.
+Log in to the configuration page through the user name "HT-M02" and password "heltec.org".  The device used to log in to the configuration page needs to be on the same LAN as the gateway. The user can view the basic information of the gateway and configure the gateway on the configuration page.
 
 ![](img/quick_start/02.jpg)
 
@@ -130,7 +130,7 @@ Connect the antenna and network cable to the gateway, and then connect the gatew
 
 ![](img/quick_start/01.png)
 
-Log in to the configuration page through the user name "HT-M02" and password "heltec. org".  The device used to log in to the configuration page needs to be on the same LAN as the gateway. The user can view the basic information of the gateway and configure the gateway on the configuration page.
+Log in to the configuration page through the user name "HT-M02" and password "heltec.org".  The device used to log in to the configuration page needs to be on the same LAN as the gateway. The user can view the basic information of the gateway and configure the gateway on the configuration page.
 
 ![](img/quick_start/02.jpg)
 
@@ -142,7 +142,7 @@ Connect the antenna to the gateway, and then connect the gateway power supply.  
 
 ![](img/quick_start/05.png)
 
-After connecting to WIFI, use this device to open 192.168.4.1, and use the user name "HT-M02" and password "heltec. org" to log in to the configuration page. The user can view the basic information of the gateway and configure the gateway on the configuration page.
+After connecting to WIFI, use this device to open 192.168.4.1, and use the user name "HT-M02" and password "heltec.org" to log in to the configuration page. The user can view the basic information of the gateway and configure the gateway on the configuration page.
 
 ![](img/quick_start/02.jpg)
 
@@ -152,7 +152,7 @@ After configuring the gateway information, click `Apply`..
 #### Connect to the network using WIFI
 
 ##### Access the configuration page through ETH
-Connect the antenna to the gateway, and then connect the gateway power supply.  Connect the gateway to the computer through the network cable, and use this computer to open 192.168.4.1.   And use the user name "HT-M02" and password "heltec. org" to log in to the configuration page. The user can view the basic information of the gateway and configure the gateway on the configuration page.
+Connect the antenna to the gateway, and then connect the gateway power supply.  Connect the gateway to the computer through the network cable, and use this computer to open 192.168.4.1.   And use the user name "HT-M02" and password "heltec.org" to log in to the configuration page. The user can view the basic information of the gateway and configure the gateway on the configuration page.
 
 ![](img/quick_start/02.jpg)
 
@@ -166,7 +166,7 @@ Connect the antenna to the gateway, and then connect the gateway power supply.  
 
 ![](img/quick_start/05.png)
 
-Log in to the configuration page through the user name "HT-M02" and password "heltec. org".  The device used to log in to the configuration page needs to be on the same LAN as the gateway. The user can view the basic information of the gateway and configure the gateway on the configuration page.
+Log in to the configuration page through the user name "HT-M02" and password "heltec.org".  The device used to log in to the configuration page needs to be on the same LAN as the gateway. The user can view the basic information of the gateway and configure the gateway on the configuration page.
 
 ![](img/quick_start/02.jpg)
 
@@ -176,7 +176,7 @@ Select `Wifi Client` in `Net mode`,  and fill in the SSID and password of the ex
 
 
 ##### Access the configuration page through ETH
-Connect the antenna to the gateway, and then connect the gateway power supply.  Connect the gateway to the computer through the network cable, and use this computer to open 192.168.4.1.   And use the user name "HT-M02" and password "heltec. org" to log in to the configuration page. The user can view the basic information of the gateway and configure the gateway on the configuration page.
+Connect the antenna to the gateway, and then connect the gateway power supply.  Connect the gateway to the computer through the network cable, and use this computer to open 192.168.4.1.   And use the user name "HT-M02" and password "heltec.org" to log in to the configuration page. The user can view the basic information of the gateway and configure the gateway on the configuration page.
 
 ![](img/quick_start/02.jpg)
 
@@ -188,7 +188,7 @@ Connect the antenna to the gateway, and then connect the gateway power supply.  
 
 ![](img/quick_start/05.png)
 
-Log in to the configuration page through the user name "HT-M02" and password "heltec. org".  The device used to log in to the configuration page needs to be on the same LAN as the gateway. The user can view the basic information of the gateway and configure the gateway on the configuration page.
+Log in to the configuration page through the user name "HT-M02" and password "heltec.org".  The device used to log in to the configuration page needs to be on the same LAN as the gateway. The user can view the basic information of the gateway and configure the gateway on the configuration page.
 
 ![](img/quick_start/02.jpg)
 

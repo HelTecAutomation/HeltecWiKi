@@ -140,6 +140,13 @@
   padding: 0 !important;
 }
 
+.theme-doc-sidebar-item-link-level-4 .menu__link{
+   font-size: 22px !important;
+}
+.theme-doc-sidebar-menu .menu__list .menu__list .menu__list > .menu__list-item > .menu__link {
+   font-size: 22px !important;
+}
+
 /* 响应式网格布局 */
 @media (max-width: 1200px) {
   .categoryContent .row {

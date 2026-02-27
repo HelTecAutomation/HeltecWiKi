@@ -121,7 +121,7 @@ const DIR_NAME_MAP = {
   'devices/lorawan-application/lora-gateway/ht-m00s': 'HT-M00S',
   'devices/lorawan-application/lora-gateway/ht-m01': 'HT-M01',
   'devices/lorawan-application/lora-gateway/ht-m01s_v2': 'HT-M01S V2',
-  'devices/lorawan-application/lora-gateway/ht-m02': 'HT-M02 V2',
+  'devices/lorawan-application/lora-gateway/ht-m02_v2': 'HT-M02 V2',
   'devices/lorawan-application/lora-gateway/ht-m2802': 'HT-M2802',
   'devices/lorawan-application/lora-gateway/ht-m7603': 'HT-M7603',
   'devices/lorawan-application/lora-node-devices': 'LoRaWAN Node Device',
@@ -145,7 +145,7 @@ const DIR_NAME_MAP = {
   'devices/open-source-hardware/cubecell-series/htcc_ab02a': 'HTCC-AB02A',
   'devices/open-source-hardware/cubecell-series/htcc_ab02s': 'HTCC-AB02S',
   'devices/open-source-hardware/cubecell-series/htcc_am01': 'HTCC-AM01',
-  'devices/open-source-hardware/cubecell-series/htcc_am2': 'HTCC-AM02',
+  'devices/open-source-hardware/cubecell-series/htcc_am02': 'HTCC-AM02',
   'devices/open-source-hardware/esp32-series': 'ESP32 Series',
   'devices/open-source-hardware/esp32-series/lora-32': 'LoRa32 Series',
   'devices/open-source-hardware/esp32-series/lora-32/capsule-sensor-v3': 'Capsule Sensor V3',
@@ -178,6 +178,11 @@ const DIR_NAME_MAP = {
   'devices/wifi-halow/ht-hc02': 'HC02 WiFi HaLow AT Module',
   'devices/wifi-halow/ht-hc32': 'HC32 ESP32 HaLow Camera',
   'devices/wifi-halow/ht-hr01': 'HR01 Raspberry Pi CamLow',
+  'devices/general-docs/lorawan-instructions': 'LoRaWAN Instructions',
+  'devices/general-docs/how-to-use-mqtt': 'How to Use MQTT',
+  
+
+
 };
 
 /**

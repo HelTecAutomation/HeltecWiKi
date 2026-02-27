@@ -451,15 +451,15 @@ a:hover {
 }
 
 .theme-doc-sidebar-menu .menu__list > .menu__list-item > .menu__link {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .theme-doc-sidebar-menu .menu__list .menu__list > .menu__list-item > .menu__link {
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 .theme-doc-sidebar-menu .menu__list .menu__list .menu__list > .menu__list-item > .menu__link {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 /* Breadcrumb styling */
