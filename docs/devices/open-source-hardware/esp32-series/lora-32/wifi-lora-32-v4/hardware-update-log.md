@@ -3,6 +3,9 @@ sidebar_position: 3
 title: Hardware Update Log
 ---
 
+import styles from '@site/src/css/styles.module.css';
+
+
 ## V4.0
 
 ![](img/hardware_update_log/v4.png)
