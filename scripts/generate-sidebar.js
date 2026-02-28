@@ -180,7 +180,10 @@ const DIR_NAME_MAP = {
   'devices/wifi-halow/ht-hr01': 'HR01 Raspberry Pi CamLow',
   'devices/general-docs/lorawan-instructions': 'LoRaWAN Instructions',
   'devices/general-docs/how-to-use-mqtt': 'How to Use MQTT',
-  
+  'platform/snapemu/deploy': 'Deploy',
+  'platform/snapemu': 'SnapEmu',
+  'platform/snapemu/register-device': 'Register Device',
+
 
 
 };
