@@ -1,9 +1,9 @@
 ---
 sidebar_position: 6
-title: HT-M00S Single Channel LoRa Gateway
+title: Product Overview 
 ---
 
-
+# HT-M00S Single Channel LoRa Gateway
 
 HT-M00S single-channel lora gateway base on HT-CT62, so that it realizes single-channel LoRaWAN protocol communication. It is a perfect, low-cost tool that can listen to more than a dozen devices at the same time and upload the received data to the cloud via WiFi.
 It is worth noting that the gateway does not use an external antenna, so it is mainly used in scenarios such as scheme verification, communication link development, and smart home.

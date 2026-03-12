@@ -1,9 +1,11 @@
 ---
 sidebar_position: 4
-title: HT-HC02 Wi-Fi HaLow Passthrough Module
+title: Product Overview 
 ---
 
 import styles from '@site/src/css/styles.module.css';
+
+# HT-HC02 Wi-Fi HaLow Passthrough Module
 
 <div style={{ textAlign: 'center' }}>
   ![](img/1.png)

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: Wireless Tracker
+title: Product Overview
 ---
 # Wireless Tracker
 

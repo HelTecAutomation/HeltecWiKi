@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Three Development Platforms
+title: Platforms  Overview
 ---
 
 import Tabs from '@theme/Tabs';

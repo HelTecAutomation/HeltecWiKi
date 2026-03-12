@@ -1,10 +1,11 @@
 ---
 sidebar_position: 6
-title: ESP32 Wi-FI HaLow Camera
+title: Product Overview 
 ---
 
 import styles from '@site/src/css/styles.module.css';
 
+# ESP32 Wi-FI HaLow Camera
 
 <div style={{ textAlign: 'center' }}>
   ![](img/01.png)

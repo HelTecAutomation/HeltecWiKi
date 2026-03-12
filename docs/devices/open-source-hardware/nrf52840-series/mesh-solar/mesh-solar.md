@@ -1,12 +1,14 @@
 ---
 sidebar_position: 6
-title: MeshSolar
+title: Product Overview
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import styles from '@site/src/css/styles.module.css';
 import DocCard from '@theme/DocCard';
+
+# MeshSolar
 
 <div style={{ textAlign: 'center' }}>
   ![](img/1.jpg)

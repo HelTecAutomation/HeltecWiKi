@@ -1,6 +1,6 @@
 ---
 sidebar_position: 0
-title: ESP32 Series 
+title: ESP32 Series  Overview
 ---
 
 import Tabs from '@theme/Tabs';

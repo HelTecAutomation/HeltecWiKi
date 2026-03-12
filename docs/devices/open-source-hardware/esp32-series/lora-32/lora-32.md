@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: LoRa32 Series
+title: LoRa32 Series  Overview
 ---
 
 # Heltec LoRa32 Series

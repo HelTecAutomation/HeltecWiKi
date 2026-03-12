@@ -1,7 +1,9 @@
 ---
 sidebar_position: 8
-title: HT-M01 Evaluation LoRa Gateway
+title: Product Overview 
 ---
+
+# HT-M01 Evaluation LoRa Gateway
 
 HT-M01 is a Pico cell gateway. When we designing it, we wanted to provide users with an SX1308 gateway that can quickly verify communication solutions and support the standard LoRaWAN protocol. HT-M01 has a small size, can operating by Windows® or Linux. Windows® will have a GUI tool, which is friendly for none Linux experience users.
 

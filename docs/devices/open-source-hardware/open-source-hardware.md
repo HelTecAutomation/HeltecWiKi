@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Open Source Hardware
+title:  Overview
 ---
 
 

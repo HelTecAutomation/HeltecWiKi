@@ -1,10 +1,11 @@
 ---
 sidebar_position: 7
-title: Rasberry Pi HaLow Camera
+title: Product Overview 
 ---
 
 import styles from '@site/src/css/styles.module.css';
 
+# Rasberry Pi HaLow Camera
 
 <div style={{ textAlign: 'center' }}>
   ![](img/01.png)

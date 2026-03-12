@@ -1,9 +1,11 @@
 ---
 sidebar_position: 4
-title: HT M01S V2 Indoor LoRa Gateway 
+title: Product Overview 
 ---
 
 import styles from '@site/src/css/styles.module.css';
+
+# HT M01S V2 Indoor LoRa Gateway 
 
 <div style={{ textAlign: 'center' }}>
   ![](img/1.png)

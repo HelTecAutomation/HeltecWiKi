@@ -1,9 +1,11 @@
 ---
 sidebar_position: 5
-title: WiFi HaLow Module Mini PCIe Interface
+title: Product Overview
 ---
 
 import styles from '@site/src/css/styles.module.css';
+
+# WiFi HaLow Module Mini PCIe Interface
 
 <div style={{ textAlign: 'center' }}>
   ![](img/1.png)

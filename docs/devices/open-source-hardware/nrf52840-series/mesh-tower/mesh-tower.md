@@ -1,6 +1,6 @@
 ---
 sidebar_position: 6
-title: MeshTower
+title: Product Overview
 ---
 
 # MeshTower

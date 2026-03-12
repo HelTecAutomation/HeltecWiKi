@@ -1,9 +1,11 @@
 ---
 sidebar_position: 9
-title: Junction Box
+title: Product Overview 
 ---
 
 import styles from '@site/src/css/styles.module.css';
+
+# Junction Box
 
 <div style={{ textAlign: 'center' }}>
   ![](img/1.jpg)

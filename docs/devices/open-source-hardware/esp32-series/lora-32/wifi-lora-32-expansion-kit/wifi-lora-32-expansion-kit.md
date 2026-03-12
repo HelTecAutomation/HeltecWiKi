@@ -1,9 +1,11 @@
 ---
 sidebar_position: 4
-title: WiFi LoRa 32 Expansion Kit
+title: Product Overview
 ---
 
 import styles from '@site/src/css/styles.module.css';
+
+# WiFi LoRa 32 Expansion Kit
 
 <div style={{ textAlign: 'center' }}>
   ![](img/V4-components.png)

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: WiFi LoRa 32 V3
+title: Product  Overview
 ---
 # WiFi LoRa 32 V3
 

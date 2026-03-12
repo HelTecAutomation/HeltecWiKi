@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: Vision Master
+title: Vision Master Overview
 ---
 
 

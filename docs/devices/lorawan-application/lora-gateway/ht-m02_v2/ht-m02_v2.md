@@ -1,9 +1,11 @@
 ---
 sidebar_position: 3
-title: HT-M02 Edge LoRa Gateway 
+title: Product Overview  
 ---
 
 import styles from '@site/src/css/styles.module.css';
+
+# HT-M02 Edge LoRa Gateway
 
 <div style={{ textAlign: 'center' }}>
   ![](img/1.png)
