@@ -161,6 +161,7 @@ const DIR_NAME_MAP = {
   'devices/open-source-hardware/esp32-series/lora-32/wireless-tracker': 'Wireless Tracker',
   'devices/open-source-hardware/esp32-series/lora-32/wireless-tracker-v2': 'Wireless Tracker V2',
   'devices/open-source-hardware/esp32-series/vision-master': 'Vision Master Series',
+  'devices/open-source-hardware/esp32-series/lora-32/wireless-min-shell-ht-ct62': 'HT-CT62',
   'devices/open-source-hardware/esp32-series/vision-master/vison-master-e213': 'Vision Master E213',
   'devices/open-source-hardware/esp32-series/vision-master/vison-master-e290': 'Vision Master E290',
   'devices/open-source-hardware/esp32-series/vision-master/vison-master-t190': 'Vision Master T190',
