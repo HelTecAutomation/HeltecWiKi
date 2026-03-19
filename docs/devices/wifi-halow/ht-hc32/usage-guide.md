@@ -5,6 +5,10 @@ title: Usage Guide
 
 # HC32 Get started
 
+:::tip
+The operation of **HC33** is essentially the same as HC32. The only difference is that when selecting the board in Arduino, the **HC33** board should be chosen.
+:::
+
 ### Required Hardware
 
 - [ESP-HaLowCamera](https://heltec.org/project/ht-hc32/)

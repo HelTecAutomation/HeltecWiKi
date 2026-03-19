@@ -66,3 +66,14 @@ Please try the following steps:
 It indicates simultaneous support for both 868 MHz and 915 MHz frequency bands.
 
 In the initial design, we developed two separate hardware versions to achieve optimal RF performance. However, through subsequent debugging, we have successfully unified the hardware for both 868 MHz and 915 MHz while maintaining excellent RF characteristics.
+
+## Hardware version 4.3 requires new firmware
+
+Before these open-source projects are merged, you can use the firmware we have compiled:
+
+- [Meshtastic OLED 2.7.20](https://resource.heltec.cn/download/WiFi_LoRa_32_V4/firmware/firmware-heltec-v4-2.7.20.2be5225.factory(1).bin)
+- [Meshtastic Touch 2.7.20](https://resource.heltec.cn/download/WiFi_LoRa_32_V4/firmware/Touch/firmware-heltec-v4-tft-2.7.20.1116217.factory.bin)
+- [MeshCore OLED](https://resource.heltec.cn/download/WiFi_LoRa_32_V4/firmware/meshcore/heltec_v4_companion_radio_ble.bin)
+- [MeshCore Touch](https://resource.heltec.cn/download/WiFi_LoRa_32_V4/firmware/meshcore/heltec_v4_tft_companion_radio_ble.bin)
+
+For the flashing method, we recommend using the ESP32 tool. You can refer to this link: [How to use ESP32 flasher tool](https://resource.heltec.cn/download/tools/How%20to%20use%20ESP32%20Flasher%20tool.pdf).
