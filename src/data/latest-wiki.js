@@ -1,4 +1,4 @@
-// Auto-generated Wiki data - Last updated: 2026-03-17T07:50:28.893Z
+// Auto-generated Wiki data - Last updated: 2026-03-25T12:07:14.566Z
 export const latestWikiData = [
   {
     "id": 13,

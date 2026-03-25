@@ -70,11 +70,7 @@ values={[
     - **Bandwidth**: Different bandwidth configurations affect signal coverage, data transfer rate, and interference resistance. Narrower bandwidths (e.g., 1 MHz) offer better coverage and lower power consumption, while wider bandwidths provide higher data rates but have shorter range and higher power consumption.
     - **Channel**: Each bandwidth has specific frequencies as its channels. When there are other Wi-Fi HaLow devices in the area, you can reduce interference by setting different channels.
 
-6. Select the **Upstream Network**.You can choose from the following three upstream network modes:
-
-    ![](img/ap/07.png)
-
-----------------------------------
+9. Select the **Upstream Network**.You can choose from the following three upstream network modes:
 
 <Tabs
 groupId="none"

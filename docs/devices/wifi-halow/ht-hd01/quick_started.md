@@ -38,11 +38,11 @@ Power on the Dongle-STA. When the device's red light changes to **blue/green** a
 ![](img/12.jpg)
 
 :::tip
-If the STA device's indicator light remains solid blue/green or flashes, it indicates that the device has not obtained an IP address assigned by the AP. In this case, you may need to reconfigure the device. Please refer to the ["Dongle STA Setup Guide"](/docs/devices/wifi-halow/ht-hd01/ap?ap=sta).
+If the STA device's indicator light remains blue/green flashes, it indicates that the device has not obtained an IP address assigned by the AP. In this case, you may need to reconfigure the device. Please refer to the ["Dongle STA Setup Guide"](/docs/devices/wifi-halow/ht-hd01/ap?ap=sta).
 :::
 
 ## Start Using
-After the STA device is functioning normally, Connect your end device to the Dongle-STA via ethernet cable or 2.4G WiFi.
+After the STA device is functioning normally, connect your end device to the Dongle-STA via ethernet cable or 2.4G WiFi.
 
 ![](img/13.jpg)
 

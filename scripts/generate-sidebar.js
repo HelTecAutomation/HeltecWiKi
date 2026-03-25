@@ -166,6 +166,7 @@ const DIR_NAME_MAP = {
   'devices/open-source-hardware/esp32-series/vision-master/vison-master-e213': 'Vision Master E213',
   'devices/open-source-hardware/esp32-series/vision-master/vison-master-e290': 'Vision Master E290',
   'devices/open-source-hardware/esp32-series/vision-master/vison-master-t190': 'Vision Master T190',
+  'devices/open-source-hardware/esp32-series/wireless_boot': 'Wireless Boot',
   'devices/open-source-hardware/esp32-series/three-platform': 'Three Platform',
   'devices/open-source-hardware/nrf52840-series': 'nRF52840 Series',
   'devices/open-source-hardware/nrf52840-series/mesh-node-t114': 'MeshNode T114',
@@ -186,8 +187,6 @@ const DIR_NAME_MAP = {
   'platform/snapemu/deploy': 'Deploy',
   'platform/snapemu': 'SnapEmu',
   'platform/snapemu/register-device': 'Register Device',
-
-
 
 };
 
