@@ -1,7 +1,26 @@
-// Auto-generated Wiki data - Last updated: 2026-03-25T12:07:14.566Z
+// Auto-generated Wiki data - Last updated: 2026-03-26T07:35:44.214Z
 export const latestWikiData = [
   {
     "id": 13,
+    "title": "Heltec Wireless Tracker v2 – nRF",
+    "description": "What can the Heltec Wireless Tracker v2 be used for ? In situations of disruption (unavailable cellular network, infrastructure overload, loss of coordination), the main problem is not just communication, but knowing the whereabouts of family members, friends, or clans.",
+    "category": "news",
+    "date": "2026-03-26",
+    "image": "/news-assets/heltec-wireless-tracker-v2-nrf-beta-test/heltec-wireless-tracker-v2-nrf-beta-test/01.jpg",
+    "slug": "/news/heltec-wireless-tracker-v2-nrf-beta-test/heltec-wireless-tracker-v2-nrf-beta-test",
+    "tags": [
+      "heltec",
+      "meshtastic",
+      "lora",
+      "beta"
+    ],
+    "pinned": false,
+    "productCategory": [
+      "Lora"
+    ]
+  },
+  {
+    "id": 14,
     "title": "Heltec Wraps Up SCALE 2026",
     "description": "Heltec, a global leading enterprise specializing in IoT and smart hardware, today announced the successful conclusion of its participation in the Southern California Linux Expo (SCALE)",
     "category": "news",
@@ -36,7 +55,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "title": "Tech Guardian for Wildlife in Dinokeng Reserve",
     "description": "New Technology System Helps Protect Wildlife in South Africa’s Dinokeng Reserve",
     "category": "news",
@@ -76,7 +95,7 @@ export const latestWikiData = [
     "productCategory": []
   },
   {
-    "id": 15,
+    "id": 16,
     "title": "LoRa Gate PCB – WLED-Powered LED Gates with Heltec HT-CT62",
     "description": "The LoRa Gate PCB is a custom controller board for wireless, battery-powered LED gates, built around the Heltec HT-CT62 module (ESP32-C3 + SX1262 LoRa). It is designed for applications where multiple LED “nodes” need to be controlled reliably over long distances with minimal wiring – for example **FPV race start/finish gates**, illuminated track elements, or interactive light installations.",
     "category": "2025 maker contest",
@@ -105,7 +124,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "title": "Maker Contest: Measure Your Living Environment",
     "description": "Contest Entry for the 2025 Heltec Maker Contest",
     "category": "2025 maker contest",
@@ -120,7 +139,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "title": "LoRaHunt - Monitoring live traps for invasive species",
     "description": "How we protect native wildlife with Heltec's LoRa modules",
     "category": "2025 maker contest",
@@ -150,7 +169,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "title": "Shipping and warehouse policy",
     "description": "This Shipping & Delivery Policy outlines our methods, delivery times, and important terms regarding your orders.",
     "category": "template",
@@ -162,7 +181,7 @@ export const latestWikiData = [
     "productCategory": []
   },
   {
-    "id": 16,
+    "id": 17,
     "title": "LoRa Tracking in the Mountains",
     "description": "How We Tracked Paragliders Without Cellular Coverage",
     "category": "news",
@@ -231,7 +250,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "title": "IEEE WF IoT 2025 Smart and Sustainable",
     "description": "IEEE WF IoT 2025 Smart and Sustainable",
     "category": "news",
@@ -243,7 +262,7 @@ export const latestWikiData = [
     "productCategory": []
   },
   {
-    "id": 18,
+    "id": 19,
     "title": "Maker Faire Rome whit Heltec Automation",
     "description": "Maker Faire Rome whit Heltec Automation",
     "category": "news",
@@ -255,7 +274,7 @@ export const latestWikiData = [
     "productCategory": []
   },
   {
-    "id": 22,
+    "id": 23,
     "title": "LoRa 32 V4 receiver sensitivity issue discussed",
     "description": "LoRa 32 V4 receiver sensitivity issue discussed",
     "category": "technical",
@@ -267,22 +286,6 @@ export const latestWikiData = [
     "productCategory": [
       "LoRa32"
     ]
-  },
-  {
-    "id": 7,
-    "title": "Contest Content Template Usage Guide",
-    "description": "How to Use the Contest Content Template",
-    "category": "contest",
-    "date": "2025-9-23",
-    "image": "/news-assets/contest-content-template-usage-guide/contest-content-template-usage-guide/template.jpg",
-    "slug": "/news/contest-content-template-usage-guide/contest-content-template-usage-guide",
-    "tags": [
-      "heltec",
-      "maker",
-      "contest"
-    ],
-    "pinned": false,
-    "productCategory": []
   }
 ];
 
