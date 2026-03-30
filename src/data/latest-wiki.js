@@ -1,5 +1,25 @@
-// Auto-generated Wiki data - Last updated: 2026-03-26T07:35:44.214Z
+// Auto-generated Wiki data - Last updated: 2026-03-30T09:03:53.531Z
 export const latestWikiData = [
+  {
+    "id": 21,
+    "title": "Ond’Expo 2026: A Real-World Connection Through Mesh Networking",
+    "description": "Before Ond’Expo 2026 officially opened its doors to the public, the venue was already abuzz with intense yet orderly preparations.",
+    "category": "news",
+    "date": "2026-03-30",
+    "image": "/news-assets/ondexpo-2026-a-real-world-connection-through-mesh-networking/ondexpo-2026-a-real-world-connection-through-mesh-networking/07.jpg",
+    "slug": "/news/ondexpo-2026-a-real-world-connection-through-mesh-networking/ondexpo-2026-a-real-world-connection-through-mesh-networking",
+    "tags": [
+      "heltec",
+      "meshtastic",
+      "lora",
+      "meshcore"
+    ],
+    "pinned": false,
+    "productCategory": [
+      "Lora",
+      "meshcore"
+    ]
+  },
   {
     "id": 13,
     "title": "Heltec Wireless Tracker v2 – nRF",
@@ -55,7 +75,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "title": "Tech Guardian for Wildlife in Dinokeng Reserve",
     "description": "New Technology System Helps Protect Wildlife in South Africa’s Dinokeng Reserve",
     "category": "news",
@@ -169,7 +189,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "title": "Shipping and warehouse policy",
     "description": "This Shipping & Delivery Policy outlines our methods, delivery times, and important terms regarding your orders.",
     "category": "template",
@@ -272,20 +292,6 @@ export const latestWikiData = [
     "tags": [],
     "pinned": false,
     "productCategory": []
-  },
-  {
-    "id": 23,
-    "title": "LoRa 32 V4 receiver sensitivity issue discussed",
-    "description": "LoRa 32 V4 receiver sensitivity issue discussed",
-    "category": "technical",
-    "date": "2025-10-15",
-    "image": "/news-assets/v4-receive-sensitivity/v4-receive-sensitivity/01.png",
-    "slug": "/news/v4-receive-sensitivity/v4-receive-sensitivity",
-    "tags": [],
-    "pinned": false,
-    "productCategory": [
-      "LoRa32"
-    ]
   }
 ];
 
