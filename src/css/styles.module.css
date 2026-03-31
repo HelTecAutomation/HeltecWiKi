@@ -158,6 +158,11 @@
   font-weight: bold;
 }
 
+.customTabs1 {
+  font-size: 20px; 
+  font-weight: bold;
+}
+
 .cartIcon {
   font-size: 0.5em;   /* 尺寸缩小为一半 */
   margin-right: 6px;

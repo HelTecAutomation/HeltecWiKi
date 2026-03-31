@@ -131,8 +131,8 @@ http://localhost:8080
 
 The default username and password are both: `admin`
 
-![](img/connect_to_server/15.png)
+![](img/15.png)
 
 After completing the above steps, ChirpStack is successfully deployed.
 
-![](img/connect_to_server/16.png)
+![](img/16.png)
