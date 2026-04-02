@@ -31,7 +31,7 @@ The **Network Server** functionality is typically integrated into the cloud plat
 
 End devices (nodes) are battery-powered IoT endpoints responsible for sensing data or detecting events and transmitting compact payloads to the LoRaWAN network using low-power, long-range wireless communication. They operate in a highly energy-efficient manner, remaining in sleep mode for most of the time and waking only to transmit or receive data when required.
 
-In practical implementations, Heltec end devices are typically categorized into two types: ready-to-use [**LoRa Node Devices**](/docs/devices/lorawan-application/lora-node-devices/) for plug-and-play deployment, and [**Open-Source Hardware**](/docs/devices/open-source-hardware/) based on platforms such as ESP32, nRF52840, and CubeCell, which are designed for flexible and customizable IoT development.
+In practical implementations, Heltec end devices are typically categorized into two types: ready-to-use [**LoRa Node Devices**](/docs/devices/lorawan-application/lora-node-devices/) for plug-and-play deployment, and [**Open-Source Hardware**](/docs/devices/open-source-hardware/) based on platforms such as [ESP32](/docs/devices/open-source-hardware/esp32-series), [nRF52840](/docs/devices/open-source-hardware/nrf52840-series), and [CubeCell](/docs/devices/open-source-hardware/cubecell-series), which are designed for flexible and customizable IoT development.
 
 ---
 
@@ -42,12 +42,11 @@ In practical implementations, Heltec end devices are typically categorized into 
 The LoRa Gateway is responsible for receiving wireless data from LoRa end devices.
 By simultaneously monitoring multiple radio frequency channels and supporting different spreading factors (SF), the gateway can concurrently receive uplink data from devices operating at different data rates, enabling scalable deployment of end devices.
 
-### 2.Receiving LoRa Wireless Data
+### 2. Uplink Data Forwarding
 
-The LoRa Gateway is responsible for receiving wireless data from LoRa end devices.
-By simultaneously monitoring multiple radio frequency channels and supporting different spreading factors (SF), the gateway can concurrently receive uplink data from devices operating at different data rates, enabling scalable deployment of end devices.
+When LoRa end devices transmit uplink data, the gateway receives and demodulates LoRa signals across multiple channels and spreading factors. It then encapsulates the LoRaWAN frames with radio metadata such as RSSI, SNR, frequency, and timestamp, without interpreting the application payload. The uplink packets are subsequently forwarded to the network server via IP-based backhaul protocols such as UDP or MQTT.
 
-### 3.Downlink Data Transmission
+### 3. Downlink Data Transmission
 
 When the server issues a command, the LoRa Gateway transmits the downlink data over the LoRa link within the designated time window. Downlink success depends on the end device Class (A/B/C), network load, and RF environment, so proper scheduling and management are required in a LoRaWAN network.
 
@@ -77,7 +76,7 @@ The [SnapEmu](/docs/platform/snapemu/downlinkdata_example_on_snapemu) platform s
 
 ### 4.Application Integration and Open Interfaces
 
-- Provides APIs (e.g., RESTful or MQTT) for integration with third-party applications, cloud services, or BI systems.
+- Provides APIs for integration with third-party applications, cloud services, or BI systems.
 
 - Enables data sharing, automated control, and intelligent analytics.
 

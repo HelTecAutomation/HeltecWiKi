@@ -172,6 +172,7 @@ const DIR_NAME_MAP = {
   'devices/open-source-hardware/esp32-series/three-platform': 'Three Platform',
   'devices/open-source-hardware/nrf52840-series': 'nRF52840 Series',
   'devices/open-source-hardware/nrf52840-series/mesh-node-t114': 'MeshNode T114',
+  'devices/open-source-hardware/nrf52840-series/t096': 'Mesh Node T096',
   'devices/open-source-hardware/nrf52840-series/mesh-node-5262m': 'MeshNode N5262M',
   'devices/open-source-hardware/nrf52840-series/mesh-solar': 'MeshSolar',
   'devices/open-source-hardware/nrf52840-series/mesh-tower': 'MeshTower',
