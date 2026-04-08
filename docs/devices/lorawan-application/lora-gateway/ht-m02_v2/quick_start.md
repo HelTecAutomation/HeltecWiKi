@@ -118,6 +118,37 @@ Log in to the configuration page through the user name "HT-M02" and password "he
 
 After configuring the gateway information, the user needs to click the `Apply` key to make the changes take effect. If you want to use the **4G** function, select` Enable` under the 4G option in `Net Mode`.
 
+## VPN Configuration on the 4G Module
+
+1.Open a serial terminal tool and use the following command to connect to the 4G module's serial interface:
+
+```
+picocom -b 9600 /dev/ttyUSB2
+```
+
+2.Press the following key combination to exit picocom: first press `Ctrl + A`, then press `Ctrl + D`.
+
+3.Check SIM card status to verify whether it is properly detected by the module.
+
+```
+AT+QCCID
+```
+
+4.Check Network Registration Status
+
+```
+AT+CREG?
+```
+
+5.Query or Configure APN
+
+```
+AT+CGDCONT
+```
+:::note
+For APN configuration, please refer to the module [AT command manual](https://resource.heltec.cn/download/HT-M02_V2/Quectel_EC2x%26EG9x%26EG2x-G%26EM05_Series_AT_Commands_Manual_V2.0.pdf).
+:::
+
 </TabItem>
 <TabItem value="three" label="ETH & WIFI & 4G Versions">
 
@@ -211,6 +242,37 @@ If you want to use the "4G" function, select Enable under the 4G option in Net M
 Please refer to the figure below.
 
 ![](img/quick_start/16.png)
+
+## VPN Configuration on the 4G Module
+
+1.Open a serial terminal tool and use the following command to connect to the 4G module's serial interface:
+
+```
+picocom -b 9600 /dev/ttyUSB2
+```
+
+2.Press the following key combination to exit picocom: first press `Ctrl + A`, then press `Ctrl + D`.
+
+3.Check SIM card status to verify whether it is properly detected by the module.
+
+```
+AT+QCCID
+```
+
+4.Check Network Registration Status
+
+```
+AT+CREG?
+```
+
+5.Query or Configure APN
+
+```
+AT+CGDCONT
+```
+:::note
+For APN configuration, please refer to the module [AT command manual](https://resource.heltec.cn/download/HT-M02_V2/Quectel_EC2x%26EG9x%26EG2x-G%26EM05_Series_AT_Commands_Manual_V2.0.pdf).
+:::
 
 </TabItem>
 <TabItem value="ssh" label="Establish Serial/SSH Connection">

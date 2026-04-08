@@ -15,7 +15,7 @@ As shown below:
 
 
 ## Basic Settings
-1. Enter the configuration page, How to enter the configuration mode page” please refer to the corresponding product documentation.
+1. Enter the configuration page, How to enter the configuration mode page” please refer to the [corresponding product documentation](/docs/devices/wifi-halow/ht-h7608/usage-guide).
 
 :::note
 If it is a complete reset, you need to select the **Country** and **Hostname**, In summary, if this step appears, make the corresponding selection. If it does not appear, there is no need to take any action.

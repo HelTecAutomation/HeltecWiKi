@@ -44,7 +44,7 @@ You can also use the official [Espressif Arduino framework](https://github.com/e
 
 ## Preparation
 ### Hardware
-  - [Heltec ESP32 Series Node](https://heltec.org/product-category/lora/lrnode/esp32-lora/)
+  - [Heltec ESP32 Series Node](/docs/devices/open-source-hardware/esp32-series/)
   - High quality USB_Type_C cable
 
 :::tip
@@ -505,21 +505,30 @@ Using the four flashing methods for the WiFi LoRa 32 V4 as an example, the insta
 
 ---
 
-## ESP32 series devices supporting meshtastic
+## Supported ESP32 Devices for Meshtastic Web Flasher
 
 | Product | Description |
 |-|:-|
-| [WiFi LoRa 32 ](https://heltec.org/project/wifi-lora-32-v4/) | Upgraded to V4 version|
+| [WiFi LoRa 32 V3](https://heltec.org/project/wifi-lora-32-v3/) | ESP32-S3 · SX1262 · LoRa / Wi-Fi / BLE · OLED|
+| [WiFi LoRa 32 V4](https://heltec.org/project/wifi-lora-32-v4/) | 28 dBm TX Power|
+| [WiFi LoRa 32 Expansion Kit (Glass Panel)](https://heltec.org/project/wifi-lora-32-v4-expansion-housing/)|A complete expansion kit for the WiFi LoRa 32 series|
 | [Wireless Tracker](https://heltec.org/project/wireless-tracker/) | it comes with a GPS module. |
 | [Wireless Stick Lite](https://heltec.org/project/wireless-stick-lite-v2/) | no screen |
 | [Wireless Paper](https://heltec.org/project/wireless-paper/) | It comes with E-Ink screen |
-| [Wireless Bridge](https://heltec.org/project/wireless-bridge/) | It has a strong aluminum alloy shell |
-| [Capsule Sensor V3](https://heltec.org/project/heltec-capsule-sensor-v3/) | Stylish LoRaWAN toys that can integrate GPS modules |
-| [Wireless Mini Shell(HT-CT62)](https://heltec.org/project/ht-ct62/) | Cost-effective LoRa+ESP32-C3 module |
 | [Vision Master E213](https://heltec.org/project/vision-master-e213/) | 2.13 inch E-Ink Display |
 | [Vision Master E290](https://heltec.org/project/vision-master-e290/) | 2.90 inch E-Ink Display |
 | [Vision Master T190](https://heltec.org/project/vision-master-t190/) | 1.90 inch TFT Display |
 
+:::note
+- WiFi LoRa 32 Expansion Kit (Glass Panel)
+
+  Supports direct flashing of Meshtastic V4 firmware via the official Web Flasher.
+
+- WiFi LoRa 32 Expansion Kit (Touchscreen)
+
+  Does not support Web flashing. Firmware must be flashed using a local tool.
+  For more details, please refer to [this document](/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-expansion-kit/usage-guide#flash-via-esp32-flasher-tool).
+:::
 
 ## How to Use Meshtastic
 
@@ -600,11 +609,12 @@ If a window asks for a CAPTCHA appears, you need to look at your device's screen
 EU_433 and EU_868 have to adhere to an hourly duty cycle limitation of 10%. Your device will stop transmitting if you reach it, until it is allowed again
 :::
 
-5. Click the option below to select the channel you want to join。
+5. Click the option below to select the channel you want to join.
 
 ![](img/meshtastic/12.jpg)
 
-### Get started with Meshtastic
+### Get Started With Meshtastic
+
 1. The map option will be able to view the location information of the companion, which can be provided by the GPS module on the device, or by the phone to which the device is connected.
 
 ![](img/meshtastic/13.jpg)
@@ -617,7 +627,7 @@ EU_433 and EU_868 have to adhere to an hourly duty cycle limitation of 10%. Your
 
 ![](img/meshtastic/15.jpg)
 
-### More Settings and usage
+### More Settings and Usage
 Click the top right button to see more configurable options.
 
 ![](img/meshtastic/16.jpg)

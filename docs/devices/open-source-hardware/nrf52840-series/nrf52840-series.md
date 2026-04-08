@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: nRF52840 Series Overview
+title: Overview
 ---
 
 <div style={{ textAlign: 'center' }}>

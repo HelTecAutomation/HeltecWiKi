@@ -53,7 +53,6 @@ In a complete LoRaWAN communication process, a server is essential. A LoRaWAN se
 ###  LoRa Node Devices   
 |   LoRa Node Devices                                                             | Feature                                             |
 | -------------------------------------------------------------------------------- | --------------------------------------------------- |
-| [MeshPocket](/docs/devices/lorawan-application/lora-node-devices/meshpocket/)    | A Qi2 magnetic power bank with Bluetooth, LoRa, and e-ink displa |
 | [HRU-3601](/docs/devices/lorawan-application/lora-node-devices/hru-3601/)                                 | A low cost indoor LoRa t&h (temperature and humidity) monitor |
 | [Sensor Hub](/docs/devices/lorawan-application/lora-node-devices/hri-3621/)                             | A ready-to-use LoRa/LoRaWAN sensor for indoor (industrial) applications |
 | [Sensor Hub – Bus Transformer](/docs/devices/lorawan-application/lora-node-devices/hri-3622/)  | Drives third-party RS-485 sensors (outdoor series)  |
@@ -73,12 +72,14 @@ In a complete LoRaWAN communication process, a server is essential. A LoRaWAN se
 | Heltec ESP32 Series                                                                 | Feature                                  |
 | -------------------------------------------------------------------------------- | ---------------------------------------- |
 | [Heltec Capsule Sensor V3](/docs/devices/open-source-hardware/esp32-series/lora-32/capsule-sensor-v3/) | A portable LoRa/LoRaWAN device based on ESP32-S3 and SX1262 |
-| [WiFi LoRa 32(V3)](/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v3/)                  | A classic IoT development board          |
+| [WiFi LoRa 32 V3](/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v3/)                  | A classic IoT development board          |
+| [WiFi LoRa 32 V4](https://heltec.org/project/wifi-lora-32-v4/)   | A compact ESP32S3 board with Wi-Fi, Bluetooth, and LoRa |
 | [Wireless Paper](/devices/open-source-hardware/esp32-series/lora-32/wireless-paper/)                     | An E-Ink development kit with multiple wireless drive methods |
-| [Wireless Shell(V3)](/docs/devices/open-source-hardware/esp32-series/lora-32/wireless-shell/)              | Wi-Fi, BLE, and LoRa solutions           |
-| [Wireless Stick Lite(V3)](/docs/devices/open-source-hardware/esp32-series/lora-32/wireless-stick-lite/)    | A development board for Wi-Fi, Bluetooth and LoRa |
-| [Wireless Stick(V3)](/docs/devices/open-source-hardware/esp32-series/lora-32/wireless-stick/)              | High-performance, small size dev board   |
+| [Wireless Shell V3](/docs/devices/open-source-hardware/esp32-series/lora-32/wireless-shell/)              | Wi-Fi, BLE, and LoRa solutions           |
+| [Wireless Stick Lite V3](/docs/devices/open-source-hardware/esp32-series/lora-32/wireless-stick-lite/)    | A development board for Wi-Fi, Bluetooth and LoRa |
+| [Wireless Stick V3](/docs/devices/open-source-hardware/esp32-series/lora-32/wireless-stick/)              | High-performance, small size dev board   |
 | [Wireless Tracker](/docs/devices/open-source-hardware/esp32-series/lora-32/wireless-tracker/)                 | Development kit based on ESP32-S3FN8     |
+| [Wireless Tracker V2](https://heltec.org/project/wireless-tracker-v2/) | An ESP32-S3 LoRa GNSS tracker with up to 28 dBm output power.|
 | [Vision Master E213](/docs/devices/open-source-hardware/esp32-series/vision-master/vison-master-e213/)             | IoT development board with 2.13-inch E-Ink |
 | [Vision Master E290](/docs/devices/open-source-hardware/esp32-series/vision-master/vison-master-e290/)             | IoT development board with 2.9-inch E-Ink |
 | [Vision Master T190](/docs/devices/open-source-hardware/esp32-series/vision-master/vison-master-t190/)             | ESP32+LoRa development board with 1.9-inch TFT |
@@ -89,6 +90,7 @@ In a complete LoRaWAN communication process, a server is essential. A LoRaWAN se
 ### nRF52840 Series
 | nRF52840 Series                                                               | Feature                                  |
 | -------------------------------------------------------------------------------- | ---------------------------------------- |
+| [MeshPocket](/docs/devices/lorawan-application/lora-node-devices/meshpocket/)    | A Qi2 magnetic power bank with Bluetooth, LoRa, and e-ink displa |
 | [Mesh Node T114 (Rev.2.0)](/docs/devices/open-source-hardware/nrf52840-series/mesh-node-t114/)           | Low power board based on nRF52840 + SX1262 |
 | [Mesh Node 5262M](/docs/devices/open-source-hardware/nrf52840-series/mesh-node-5262m/) | A module based on the nRF52840 and SX1262 |
 | [MeshSolar](/docs/devices/open-source-hardware/nrf52840-series/mesh-solar/) | an outdoor solar solution with Bluetooth + LoRa |

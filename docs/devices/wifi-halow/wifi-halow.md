@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: Wi-FI HaLow Overview
+title: Overview
 ---
 
 

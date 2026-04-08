@@ -31,5 +31,6 @@ HT-M02 is an edge computing LoRa gateway with a durable aluminum shell for super
 - [Datasheet](https://resource.heltec.cn/download/HT-M02_V2/HT-M02_Edge_LoRa_Gateway_V1.1.pdf)
 - [Usage Guide](/docs/devices/lorawan-application/lora-gateway/ht-m02_v2/quick_start)
 - [LoRa Basics™ Station](/docs/devices/lorawan-application/lora-gateway/ht-m02_v2/lora_basic_station)
+- [ChirpStack Deployment via Docker](/docs/devices/lorawan-application/lora-gateway/ht-m02_v2/chirpstack_deployment_via_docker)
 - [Install TTS through Docker](/docs/devices/lorawan-application/lora-gateway/ht-m02_v2/tts-docker)
 - [Frequently Asked Questions](/docs/devices/lorawan-application/lora-gateway/ht-m02_v2/frequently_asked_questions)
