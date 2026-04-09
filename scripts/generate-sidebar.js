@@ -190,7 +190,10 @@ const DIR_NAME_MAP = {
   'platform/snapemu/deploy': 'Deploy',
   'platform/snapemu': 'SnapEmu',
   'platform/snapemu/register-device': 'Register Device',
-
+  'platform/chirpstack': 'ChirpStack',
+  'platform/chirpstack/gateways_connect_to_chirpstack': 'Gateway Connect to Chirpstack',
+  'platform/ttn': 'TTN/TTS',
+  'platform/ttn/gateways_connect_to_ttn': 'Gateway Connect to TTN/TTS',
 };
 
 /**
