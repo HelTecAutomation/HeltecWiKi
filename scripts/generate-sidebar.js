@@ -116,15 +116,15 @@ const DIR_NAME_MAP = {
   'devices/general-docs': 'General Docs',
   'devices/lorawan-application': 'LoRaWAN',
   'devices/lorawan-application/lora-gateway': 'LoRaWAN Gateway',
-  'devices/lorawan-application/lora-gateway/ht-1303': 'HT-1303',
-  'devices/lorawan-application/lora-gateway/ht-m00': 'HT-M00',
-  'devices/lorawan-application/lora-gateway/ht-m00s': 'HT-M00S',
-  'devices/lorawan-application/lora-gateway/ht-m01': 'HT-M01',
-  'devices/lorawan-application/lora-gateway/ht-m01s_v2': 'HT-M01S V2',
-  'devices/lorawan-application/lora-gateway/ht-m02_v2': 'HT-M02 V2',
+  'devices/lorawan-application/lora-gateway/ht-1303': 'HT 1303 LoRaWAN Module',
+  'devices/lorawan-application/lora-gateway/ht-m00': 'HT-M00 (Discontinued)',
+  'devices/lorawan-application/lora-gateway/ht-m00s': 'HT-M00S (Discontinued)',
+  'devices/lorawan-application/lora-gateway/ht-m01': 'HT-M01 (Discontinued)',
+  'devices/lorawan-application/lora-gateway/ht-m01s_v2': 'HT-M01S V2 Indoor Gateway',
+  'devices/lorawan-application/lora-gateway/ht-m02_v2': 'HT-M02 V2  Edge Gateway',
   'devices/lorawan-application/lora-gateway/ht-m02_v2/connect_to_server': 'Connect to Server',
-  'devices/lorawan-application/lora-gateway/ht-m2802': 'HT-M2802',
-  'devices/lorawan-application/lora-gateway/ht-m7603': 'HT-M7603',
+  'devices/lorawan-application/lora-gateway/ht-m2802': 'HT-M2802 Indoor Gateway',
+  'devices/lorawan-application/lora-gateway/ht-m7603': 'HT-M7603 Indoor Gateway',
   'devices/lorawan-application/lora-gateway/ht-m7603/connect_to_server': 'Connect to Server',
   'devices/lorawan-application/lora-node-devices': 'LoRaWAN Node Device',
   'devices/lorawan-application/lora-node-devices/hri-485x-rs-485': 'HRI-485X Wireless Converter',
@@ -137,11 +137,11 @@ const DIR_NAME_MAP = {
   'devices/lorawan-application/lora-node-devices/hri-3631': 'HRI-3631',
   'devices/lorawan-application/lora-node-devices/hri-3632': 'HRI-3632',
   'devices/lorawan-application/lora-node-devices/hri-3633': 'HRI-3633',
-  'devices/lorawan-application/lora-node-devices/hri-3601': 'HRI-3601',
-  'devices/lorawan-application/lora-node-devices/hru-1000': 'HRU-1000',
+  'devices/lorawan-application/lora-node-devices/hri-3601': 'HRI-3601 (Discontinued)',
+  'devices/lorawan-application/lora-node-devices/hru-1000': 'HRU-1000 (Discontinued)',
   'devices/lorawan-application/lora-node-devices/junction-box': 'Junction Box',
   'devices/open-source-hardware': 'Open Source Hardware',
-  'devices/open-source-hardware/cubecell-series': 'CubeCell ASR650X Series',
+  'devices/open-source-hardware/cubecell-series': 'CubeCell ASR650X Series (Phaseout)',
   'devices/open-source-hardware/cubecell-series/htcc_ab01': 'HTCC-AB01',
   'devices/open-source-hardware/cubecell-series/htcc_ab02': 'HTCC-AB02',
   'devices/open-source-hardware/cubecell-series/htcc_ab02a': 'HTCC-AB02A',
@@ -174,7 +174,7 @@ const DIR_NAME_MAP = {
   'devices/open-source-hardware/nrf52840-series/mesh-node-t114': 'MeshNode T114',
   'devices/open-source-hardware/nrf52840-series/t096': 'Mesh Node T096',
   'devices/open-source-hardware/nrf52840-series/mesh-node-5262m': 'MeshNode N5262M',
-  'devices/open-source-hardware/nrf52840-series/mesh-solar': 'MeshSolar',
+  'devices/open-source-hardware/nrf52840-series/mesh-solar': 'MeshSolar (Discontinued)',
   'devices/open-source-hardware/nrf52840-series/mesh-tower': 'MeshTower',
   'devices/open-source-hardware/nrf52840-series/meshpocket': 'MeshPocket',
   'devices/wifi-halow': 'WiFi HaLow',
@@ -212,7 +212,7 @@ function getDisplayName(relativePath, dirName) {
 }
 
 /**
- * 递归构建侧边栏结构，为每个有索引文档的目录添加 Introduction
+ * 递归构建侧边栏结构，为每个有索引文档的目录添加可点击 link
  * @param {string} dirPath - 目录的完整路径
  * @param {string} relativePath - 相对于 docs 的路径
  * @param {string} dirName - 目录名
@@ -244,17 +244,10 @@ function buildSidebarItems(dirPath, relativePath, dirName, rootDirName) {
       return a.name.localeCompare(b.name);
     });
 
-  // 如果当前目录有索引文档，先添加 Introduction
-  if (hasIndexDocument(dirPath, dirName)) {
-    const docId = getIndexDocumentId(relativePath);
-    // 从索引文档的 frontmatter 中获取 title，如果没有则使用 "Introduction"
-    const label = getIndexDocumentTitle(dirPath, dirName, "Introduction");
-    items.push({
-      type: "doc",
-      id: docId,
-      label: label,
-    });
-  }
+  // 当前目录的索引文档 id（如果存在）
+  const currentIndexDocId = hasIndexDocument(dirPath, dirName)
+    ? getIndexDocumentId(relativePath)
+    : null;
 
   // 处理子目录和文件
   const subCategories = [];
@@ -297,7 +290,11 @@ function buildSidebarItems(dirPath, relativePath, dirName, rootDirName) {
         rootDirName
       );
 
-      if (subItems.length > 0) {
+      const subIndexDocId = hasIndexDocument(fullPath, entry.name)
+        ? getIndexDocumentId(newRelativePath)
+        : null;
+
+      if (subItems.length > 0 || subIndexDocId) {
         // 使用映射获取显示名称，如果没有映射则使用实际目录名
         const displayName = getDisplayName(newRelativePath, entry.name);
 
@@ -307,6 +304,15 @@ function buildSidebarItems(dirPath, relativePath, dirName, rootDirName) {
           items: subItems,
           _position: getCategorySidebarPosition(fullPath, entry.name), // 临时存储位置用于排序
         };
+
+        // 让目录标题可点击并跳转到该目录的索引文档
+        // 例如点击 LoRaWAN Application 目录，默认打开 lorawan-application.md
+        if (subIndexDocId) {
+          category.link = {
+            type: "doc",
+            id: subIndexDocId,
+          };
+        }
 
         // 如果是一级目录，设置为默认展开
         if (isFirstLevelCategory(newRelativePath, rootDirName)) {
@@ -360,12 +366,14 @@ function buildSidebarItems(dirPath, relativePath, dirName, rootDirName) {
   items.push(...docFiles);
   items.push(...subCategories);
 
+  // 根目录本身（如 devices/platform）不在侧边栏渲染为单独 category，
+  // 因此这里不需要使用 currentIndexDocId 渲染 doc item。
   return items;
 }
 
 /**
  * 为指定的目录生成侧边栏配置
- * 在每个有索引文档的 category 开头添加 Introduction
+ * 为每个有索引文档的 category 添加可点击 link
  * @param {string} docsDir - docs 目录路径
  * @param {string} dirName - 目录名（如 'devices' 或 'platform'）
  * @returns {Array} 侧边栏配置项

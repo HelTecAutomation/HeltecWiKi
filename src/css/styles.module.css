@@ -174,3 +174,54 @@
   transform-origin: center;   /* 从中心缩放 */
 }
 
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.imageContainer {
+  flex: 3; /* 上面3/4 */
+  overflow: hidden;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.buttonContainer {
+  flex: 1; /* 下面1/4 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*网关结构*/
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #25c2a0;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #1da88a;
+}

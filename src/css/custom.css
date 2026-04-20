@@ -189,6 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
 /* Button improvements */
 .button {
   border-radius: var(--ifm-border-radius);
@@ -450,7 +451,7 @@ a:hover {
   color: var(--ifm-color-primary-light);
 }
 
-.theme-doc-sidebar-menu .menu__list > .menu__list-item > .menu__link {
+/* .theme-doc-sidebar-menu .menu__list > .menu__list-item > .menu__link {
   font-size: 1.2rem;
 }
 
@@ -460,7 +461,27 @@ a:hover {
 
 .theme-doc-sidebar-menu .menu__list .menu__list .menu__list > .menu__list-item > .menu__link {
   font-size: 0.95rem;
+} */
+
+.theme-doc-sidebar-item-link-level-1 .menu__link,
+.theme-doc-sidebar-item-category-level-1 .menu__link{
+  font-size: 1.2rem;
+  color: #03090e;
 }
+
+.theme-doc-sidebar-item-link-level-2 .menu__link,
+.theme-doc-sidebar-item-category-level-2 .menu__link{
+  font-size: 1.05rem;
+}
+
+.theme-doc-sidebar-item-link-level-3 .menu__link,
+.theme-doc-sidebar-item-category-level-3 .menu__link{
+  font-size: 1.0rem;
+}
+
+
+
+
 
 /* Breadcrumb styling */
 .breadcrumbs {

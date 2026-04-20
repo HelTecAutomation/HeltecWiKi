@@ -11,12 +11,13 @@ const sidebars: SidebarsConfig = {
             type: 'doc',
             id: 'intro',
         },
-        {
-            type: 'category',
-            label: 'Devices',
-            collapsed:false,
-            items: generateSidebarWithIntroductions(docsDir, 'devices'),
-        },
+        // {
+        //     type: 'category',
+        //     label: 'Devices',
+        //     collapsed:false,
+        //     items: generateSidebarWithIntroductions(docsDir, 'devices'),
+        // },
+        ...generateSidebarWithIntroductions(docsDir, 'devices'),
     ],
 
     snapemuSidebar: [
@@ -24,12 +25,13 @@ const sidebars: SidebarsConfig = {
             type: 'doc',
             id: 'platforms',
         },
-        {
-            type: 'category',
-            label: 'Platform',
-            collapsed:false,
-            items: generateSidebarWithIntroductions(docsDir, 'platform'),
-        },
+        // {
+        //     type: 'category',
+        //     label: 'Platform',
+        //     collapsed:false,
+        //     items: generateSidebarWithIntroductions(docsDir, 'platform'),
+        // },
+        ...generateSidebarWithIntroductions(docsDir, 'platform')
     ],
 };
 
