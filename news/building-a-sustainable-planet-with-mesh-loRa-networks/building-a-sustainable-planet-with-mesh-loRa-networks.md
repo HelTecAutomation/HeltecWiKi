@@ -10,7 +10,7 @@ productCategory: ["Lora"]
 ---
 
 ---
-![](img/01.png)
+![](imgs/01.png)
 
 Every April 22nd, the world pauses to reflect. But the planet doesn't pause — forests burn, sea levels rise, and the data we need to understand our changing environment often simply doesn't exist. The gap between awareness and action is, fundamentally, an **infrastructure problem**.
 
