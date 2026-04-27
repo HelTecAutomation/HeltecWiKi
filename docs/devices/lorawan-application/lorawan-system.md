@@ -93,10 +93,10 @@ This example presents a simplified LoRaWAN system with node-based data collectio
 - 1.The node has not successfully joined the network.
 
 - 2.The `AppEUI`, `DevEUI`, or `AppKey` in the node firmware do not match the values registered in the LoRaWAN NS.
-- 3.The frequency plan used by the node does not match the configured LoRaWAN **region**.
+- 3.The frequency plan used by the node does not match the configured LoRaWAN **Region**.
 - 4.The node and gateway are not operating on the same frequency band, so communication cannot be established properly.
-- 6.The node signal is too weak or the node is too far from the gateway, causing unstable communication.
-- 5.The node has joined the network, but it is not actually sending **uplink data**.
+- 5.The node signal is too weak or the node is too far from the gateway, causing unstable communication.
+- 6.The node has joined the network, but it is not actually sending **uplink data**.
 
 
 
