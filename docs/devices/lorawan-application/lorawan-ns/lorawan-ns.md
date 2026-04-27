@@ -18,13 +18,25 @@ As introduced in the previous chapter on LoRaWAN architecture, the first step in
 
 |LoRaWAN NS   | Descrption |
 |-------------|------------|
-|[Snapemu](/docs/platform/snapemu) | A comprehensive IoT management platform with LoRaWAN support developed by Heltec|
-|[ChirpStack](/docs/devices/lorawan-application/lorawan-ns/chirpstack_deployment_via_docker) | Well-known open-source solution |
-|[The Things Stack](/docs/devices/lorawan-application/lorawan-ns/tts-docker) | TTN/TTS, public LoRaWAN network |
+|[Snapemu](https://snapemu.com/) | A comprehensive IoT management platform with LoRaWAN support developed by Heltec, it's a lightweight and open-source IoT devices visualization management platform. Including device management, data analysis, curve drawing, and data storage.|
+|[ChirpStack](https://www.chirpstack.io/) | Well-known open-source solution |
+|[The Things Stack](https://www.thethingsnetwork.org/) | TTS, public LoRaWAN network |
 
 
+
+
+
+
+## Usage Guide
+
+This Usage Guide provides detailed operating instructions for LoRaWAN NS, helping users deploy quickly and use the system correctly and efficiently.
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+```
 
 :::note
 ChirpStack and The Things Stack are provided as reference examples only. Related content may change with version updates; please refer to the official documentation for the most accurate information.
 :::
-

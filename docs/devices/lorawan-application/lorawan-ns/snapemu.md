@@ -1,6 +1,6 @@
 ---
 sidebar_position: 0
-title: SnapEmu
+title: SnapEmu User Manual
 ---
 
 import { Redirect } from '@docusaurus/router';

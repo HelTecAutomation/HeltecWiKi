@@ -43,7 +43,7 @@ The relationship among the three can be described using this architectural diagr
 
 ![](img/lora.png)
 
-### Part 1. LoRa NS
+### Part 1. LoRaWAN NS
 
 This section comprises two parts: `LoRa Network Server` and `LoRa Application Server`. However, people habitually refer to these two components collectively as "LoRa NS". It typically runs on a server(local or cloud). It is the core network component that manages devices and processes data from gateways. It receives uplink data from LoRaWAN Gateways, handles routing and processing, and forwards data to applications or cloud platforms. It is also responsible for device authentication, network control, and data security.
 

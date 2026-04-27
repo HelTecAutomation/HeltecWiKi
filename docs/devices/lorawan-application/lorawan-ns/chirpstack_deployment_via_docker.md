@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: ChirpStack 
+title: ChirpStack Quick start
 ---
 
 # ChirpStack Deployment via Docker

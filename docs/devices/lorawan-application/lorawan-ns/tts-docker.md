@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: TTN/TTS
+title: The Things Stack Quick start
 ---
 
 # TTS Deployment via Docker
