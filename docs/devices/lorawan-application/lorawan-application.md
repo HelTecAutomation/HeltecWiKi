@@ -39,9 +39,9 @@ To build a LoRaWAN system, the following three components are essential.
 2. LoRa Gateway
 3. LoRa Node
 
+The relationship among the three can be described using this architectural diagram.
 
-
-
+![](img/lora.png)
 
 ### Part 1. LoRa NS
 
@@ -174,7 +174,7 @@ This category of products integrates essential peripherals such as power managem
 | Series          | Descrption    |
 |-----------------|---------------|
 |[WiFi LoRa 32 V3](https://heltec.org/project/wifi-lora-32-v3/) | ESP32-S3FN8 + SX1262 + OLED Display |
-|[WiFi LoRa 32 V4](https://heltec.org/project/wifi-lora-32-v4/) | ESP32-S3FN8 + SX1262 + OLED Display, 28 ± 1 dBm output |
+|[WiFi LoRa 32 V4](https://heltec.org/project/wifi-lora-32-v4/) | ESP32-S3R2 + SX1262 + OLED Display, 28 ± 1 dBm output |
 |[Wireless Tracker](https://heltec.org/project/wireless-tracker/) | ESP32-S3FN8 + SX1262 + UC6580 + LCD Display |
 |[Wireless Tracker V2](https://heltec.org/project/wireless-tracker-v2/) | ESP32-S3FN8 + SX1262 + UC6580 + LCD Display 28 ± 1 dBm output |
 |[Wireless Paper](https://heltec.org/project/wireless-paper/) | ESP32-S3FN8 + SX1262 + 2.13-inch E-Ink Display |

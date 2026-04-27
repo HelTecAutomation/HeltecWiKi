@@ -128,16 +128,16 @@ const DIR_NAME_MAP = {
   'devices/lorawan-application/lora-gateway/ht-m7603/connect_to_server': 'Connect to Server',
   'devices/lorawan-application/lora-node-devices': 'LoRaWAN Node Device',
   'devices/lorawan-application/lora-node-devices/hri-485x-rs-485': 'HRI-485X Wireless Converter',
-  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4851': 'HRI-4851',
-  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4851-lorawan': 'HRI-4851-L',
-  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4852': 'HRI-4852',
-  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4853': 'HRI-4853',
-  'devices/lorawan-application/lora-node-devices/hri-3621': 'HRI-3621',
-  'devices/lorawan-application/lora-node-devices/hri-3622': 'HRI-3622',
-  'devices/lorawan-application/lora-node-devices/hri-3631': 'HRI-3631',
-  'devices/lorawan-application/lora-node-devices/hri-3632': 'HRI-3632',
-  'devices/lorawan-application/lora-node-devices/hri-3633': 'HRI-3633',
-  'devices/lorawan-application/lora-node-devices/hri-3601': 'HRI-3601 (Discontinued)',
+  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4851': 'LoRa Wireless Converter',
+  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4851-lorawan': 'LoRaWAN Wireless Converter',
+  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4852': 'LoRa Wireless Converter',
+  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4853': 'TCP/UDP/MQTT Converter (Discontinued)',
+  'devices/lorawan-application/lora-node-devices/hri-3621': 'Sensor Hub (Phaseout)',
+  'devices/lorawan-application/lora-node-devices/hri-3622': 'Sensor Hub Bus Transformer (Phaseout)',
+  'devices/lorawan-application/lora-node-devices/hri-3631': 'Wireless Aggregator Sensor Docker',
+  'devices/lorawan-application/lora-node-devices/hri-3632': 'Wireless Aggregator Bus Transformer',
+  'devices/lorawan-application/lora-node-devices/hri-3633': 'Wireless Aggregator Valve Controller',
+  'devices/lorawan-application/lora-node-devices/hru-3601': 'HRI-3601 (Discontinued)',
   'devices/lorawan-application/lora-node-devices/hru-1000': 'HRU-1000 (Discontinued)',
   'devices/lorawan-application/lora-node-devices/junction-box': 'Junction Box',
   'devices/open-source-hardware': 'Open Source Hardware',
@@ -194,6 +194,7 @@ const DIR_NAME_MAP = {
   'platform/chirpstack/gateways_connect_to_chirpstack': 'Gateway Connect to Chirpstack',
   'platform/ttn': 'TTN/TTS',
   'platform/ttn/gateways_connect_to_ttn': 'Gateway Connect to TTN/TTS',
+  'devices/lorawan-application/lorawan-ns': 'LoRaWAN NS'
 };
 
 /**
@@ -316,7 +317,7 @@ function buildSidebarItems(dirPath, relativePath, dirName, rootDirName) {
 
         // 如果是一级目录，设置为默认展开
         if (isFirstLevelCategory(newRelativePath, rootDirName)) {
-          category.collapsed = false;
+          category.collapsed = true;
         }
 
         subCategories.push(category);
@@ -341,30 +342,38 @@ function buildSidebarItems(dirPath, relativePath, dirName, rootDirName) {
     }
   }
 
-  // 按照 sidebar_position 排序
-  docFiles.sort((a, b) => {
-    if (a._position !== b._position) {
-      return a._position - b._position;
-    }
-    // 如果位置相同，按文件名排序
-    return a.id.localeCompare(b.id);
-  });
+  // // 按照 sidebar_position 排序
+  // docFiles.sort((a, b) => {
+  //   if (a._position !== b._position) {
+  //     return a._position - b._position;
+  //   }
+  //   // 如果位置相同，按文件名排序
+  //   return a.id.localeCompare(b.id);
+  // });
 
-  subCategories.sort((a, b) => {
+  // subCategories.sort((a, b) => {
+  //   if (a._position !== b._position) {
+  //     return a._position - b._position;
+  //   }
+  //   // 如果位置相同，按标签名排序
+  //   return a.label.localeCompare(b.label);
+  // });
+  const files = [...docFiles, ...subCategories]
+   files.sort((a, b) => {
     if (a._position !== b._position) {
       return a._position - b._position;
     }
     // 如果位置相同，按标签名排序
-    return a.label.localeCompare(b.label);
+    return a.id ? a.id.localeCompare(b.id) :  a.label.localeCompare(b.label);
   });
 
   // 移除临时位置属性
-  docFiles.forEach((item) => delete item._position);
-  subCategories.forEach((item) => delete item._position);
-
+  files.forEach((item) => delete item._position);
+  // subCategories.forEach((item) => delete item._position);
+  
   // 先添加文档文件，再添加子目录
-  items.push(...docFiles);
-  items.push(...subCategories);
+  items.push(...files);
+  // items.push(...subCategories);
 
   // 根目录本身（如 devices/platform）不在侧边栏渲染为单独 category，
   // 因此这里不需要使用 currentIndexDocId 渲染 doc item。

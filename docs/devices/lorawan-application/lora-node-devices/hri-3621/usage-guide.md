@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Usage Guide
+title: Quick Start
 ---
 
 **The default firmware of HRI-3621 is LoRaWAN.**

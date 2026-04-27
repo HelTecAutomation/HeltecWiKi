@@ -29,6 +29,7 @@ title: Touchscreen Version Meshtastic Guide
 ### Flash via ESP32 Flasher Tool
 - Firmware address:
   - [Meshtastic-2.7.20-Touch](https://resource.heltec.cn/download/WiFi_LoRa_32_V4/firmware/Touch/firmware-heltec-v4-tft-2.7.20.1116217.factory.bin)
+  - [MeshCore-2.7.20-Touch](https://resource.heltec.cn/download/WiFi_LoRa_32_Expansion_Kit/firmware/MeshCore/Touch)
 - For usage instructions, please refer to this link:
 [How to use ESP32 Flash Tool](https://resource.heltec.cn/download/tools/How%20to%20use%20ESP32%20Flasher%20tool.pdf)
 

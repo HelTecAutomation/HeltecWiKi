@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: HRI-4851 Usage Guide
+title: Quick Start
 ---
 
 
