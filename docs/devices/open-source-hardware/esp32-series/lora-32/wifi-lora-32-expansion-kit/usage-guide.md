@@ -13,7 +13,7 @@ title: Touchscreen Version Meshtastic Guide
   allowfullscreen
 ></iframe>
 
-:::warning
+:::danger
 **For hardware version **V4.3**, please use firmware version **2.7.20** or above.**
 :::
 
@@ -25,7 +25,30 @@ title: Touchscreen Version Meshtastic Guide
 
 ## Firmware Flashing
 ### Web Flasher
-*For the touchscreen version, the WebFlasher has not been released yet.*
+
+1. **Enter Bootloader mode**
+
+  Since the CP2102 has been removed in the V4 version, you must enter Bootloader mode when flashing the firmware. The method is as follows:
+  - Connect the USB-C cable.
+  - Press and hold the USER button, press the RST button once, then release the USER button
+2. Go to the Meshtastic Web flash page: https://flasher.meshtastic.org/
+
+3. Select Heltec V4
+
+![](img/6.png)
+
+4. Select firmware versions 2.7.20 and above.
+
+![](img/07.png)
+
+5.After clicking `Flash`, select `Full Erase and Install`, then open the adjacent `Meshtastic UI` and click `Erase Flash and Install`. Next, choose the `paired serial port` and click `Connect`. The system will then erase the flash memory and automatically download and install the firmware.
+
+![](img/08.png)
+
+:::tip
+Version 2.7.20 defaults to the touchscreen **landscape layout**, while version 2.7.21 and later default to the touchscreen **portrait layout**.
+:::
+
 ### Flash via ESP32 Flasher Tool
 - Firmware address:
   - [Meshtastic-2.7.20-Touch](https://resource.heltec.cn/download/WiFi_LoRa_32_V4/firmware/Touch/firmware-heltec-v4-tft-2.7.20.1116217.factory.bin)
