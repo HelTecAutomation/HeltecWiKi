@@ -177,6 +177,7 @@ const DIR_NAME_MAP = {
   'devices/open-source-hardware/nrf52840-series/mesh-solar': 'MeshSolar (Discontinued)',
   'devices/open-source-hardware/nrf52840-series/mesh-tower': 'MeshTower',
   'devices/open-source-hardware/nrf52840-series/meshpocket': 'MeshPocket',
+  'devices/open-source-hardware/nrf52840-series/mesh-tower-v2': 'MeshTower V2',
   'devices/wifi-halow': 'WiFi HaLow',
   'devices/wifi-halow/ht-hd01': 'HD01 WiFi HaLow Dongle',
   'devices/wifi-halow/ht-h7608': 'H7608 WiFi HaLow Router',
