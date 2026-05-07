@@ -30,10 +30,10 @@ The DC interface is the solar panel input port, which uses an XT30 connector and
 ![](img/q2.png)
 
 
-## Turn on the power switch.
+## Turn on the Lithium Battery Power Switch.
 
-- Toggle the switch to the **Left** to turn off the power.
-- Toggle the switch to the **Right** to turn on the power.
+- Toggle the switch to the **Left** to turn off the Lithium Battery Power.
+- Toggle the switch to the **Right** to turn on the Lithium Battery Power.
 
 ![](img/q3.png)
 
@@ -74,11 +74,4 @@ At this point, the computer will pop up a USB drive named HT-n5262. Copy your fi
 ![](img/quick_start/11.jpg)
 
 
-## Hardware Installation
-### Wall-Mount
 
-![](img/quick_start/04.jpg)
-
-### Pole-Mount
-
-![](img/quick_start/05.jpg)
