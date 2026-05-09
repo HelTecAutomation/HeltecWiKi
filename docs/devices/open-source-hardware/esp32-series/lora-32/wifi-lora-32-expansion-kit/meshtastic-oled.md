@@ -23,6 +23,7 @@ title: Glass Panel (0.96-OLED) Version Meshtastic Guide
 ### Flash via ESP32 Flasher Tool
 1. Firmware address:
 - [Meshtastic-2.7.20-OLED](https://resource.heltec.cn/download/WiFi_LoRa_32_V4/firmware/firmware-heltec-v4-2.7.20.2be5225.factory(1).bin)
+
 2. For usage instructions, please refer to this link:
 [How to use ESP32 Flash Tool](https://resource.heltec.cn/download/tools/How%20to%20use%20ESP32%20Flasher%20tool.pdf)
 
