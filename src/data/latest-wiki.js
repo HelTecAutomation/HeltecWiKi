@@ -1,22 +1,20 @@
-// Auto-generated Wiki data - Last updated: 2026-04-24T08:43:33.777Z
+// Auto-generated Wiki data - Last updated: 2026-05-20T06:44:19.504Z
 export const latestWikiData = [
   {
-    "id": 4,
-    "title": "Building a Sustainable Planet with Mesh LoRa Networks",
-    "description": "From Awareness to Infrastructure: How Heltec's Wireless Ecosystem Is Powering Environmental Monitoring",
+    "id": 10,
+    "title": "Heltec Supports MeshCore Community Meetup in the Netherlands",
+    "description": "where local radio, LoRa, and mesh-networking enthusiasts gathered to exchange knowledge, test hardware, and discuss the future of decentralized communication networks.",
     "category": "news",
-    "date": "2026-04-23",
-    "image": "/news-assets/building-a-sustainable-planet-with-mesh-lora-networks/building-a-sustainable-planet-with-mesh-lora-networks/01.png",
-    "slug": "/news/building-a-sustainable-planet-with-mesh-lora-networks/building-a-sustainable-planet-with-mesh-lora-networks",
-    "tags": [
-      "heltec",
-      " \"meshtastic\"",
-      "lora",
-      "beta"
-    ],
+    "date": "2026-05-20",
+    "image": "/news-assets/heltec-supports-meshcore-community-meetup-in-the-netherlands/heltec-supports-meshcore-community-meetup-in-the-netherlands/01.jpg",
+    "slug": "/news/heltec-supports-meshcore-community-meetup-in-the-netherlands/heltec-supports-meshcore-community-meetup-in-the-netherlands",
+    "tags": [],
     "pinned": false,
     "productCategory": [
-      "Lora"
+      "LoRa32",
+      "Meshtastic",
+      "Meshcore",
+      "News"
     ]
   },
   {
@@ -122,7 +120,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "Christmas gifts and 2026 new years",
     "description": "Dual-Festival Promotion, Offering Tiered Discounts to Empower Developers for 2026",
     "category": "news",
@@ -148,7 +146,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 7,
+    "id": 6,
     "title": "🌲 SmartLumber: Industrial LoRaWAN Monitoring & Predictive Digital Twin",
     "description": "Industrial LoRaWAN Monitoring & Predictive Digital Twin",
     "category": "2025 maker contest",
@@ -192,7 +190,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "From a LoRa communication module to a safe text message",
     "description": "This is the story of Heltec's contribution to Louisiana's hurricane-resistant network.",
     "category": "news",
@@ -251,7 +249,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 10,
+    "id": 9,
     "title": "🦃 Happy Thanksgiving from Heltec! 🍁",
     "description": "This Thanksgiving, we want to express our heartfelt gratitude to all our amazing customers and community members.",
     "category": "news",
@@ -275,7 +273,7 @@ export const latestWikiData = [
     "productCategory": []
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "HC-02 Wi-Fi HaLow Module",
     "description": "Pioneering a New Era of Long-Range, High-Speed Wireless Connectivity for IoT",
     "category": "technical",
