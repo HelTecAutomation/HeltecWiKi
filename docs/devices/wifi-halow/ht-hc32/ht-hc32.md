@@ -36,7 +36,7 @@ ESP-HaLowCamera is a development board with integrated camera, based on the ESP3
 |HaLow Standard     |   	IEEE 802.11ah           |
 |Power Supply    | 			5V@USB, 2.7~4.2V@battery     |
 |Operating temperature         |  		-30 ~ +85℃|
-|Dimensions       |   60.00*33.50*7.10mm |
+|Dimensions       |   60.00 * 33.50 * 7.10mm |
 
 ## Important Resources
 - [Datasheet](https://resource.heltec.cn/download/HT-HC32/Datasheet/HT-HC32.pdf)

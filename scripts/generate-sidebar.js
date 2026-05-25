@@ -186,6 +186,7 @@ const DIR_NAME_MAP = {
   'devices/wifi-halow/ht-hc02': 'HC02 WiFi HaLow AT Module',
   'devices/wifi-halow/ht-hc32': 'HC32 ESP32 HaLow Camera',
   'devices/wifi-halow/ht-hr01': 'HR01 Raspberry Pi CamLow',
+  'devices/wifi-halow/ht-hr01-hat': 'HT-HC01P Raspberry Pi HAT',
   'devices/general-docs/lorawan-instructions': 'LoRaWAN Instructions',
   'devices/general-docs/how-to-use-mqtt': 'How to Use MQTT',
   'platform/snapemu/deploy': 'Deploy',
