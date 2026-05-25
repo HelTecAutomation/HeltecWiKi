@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 5
 title: Quick Start
 ---
 
@@ -8,7 +8,7 @@ import styles from '@site/src/css/styles.module.css';
 ### Hardware
 
 #### Hardware Preparation
-- [HT-HC01P V2 Raspberry Pi HAT]( https://heltec.org/project/ht-hc01p-hat/)
+- [HT-HC01P Raspberry Pi HAT]( https://heltec.org/project/ht-hc01p-hat/)
 - [WiFi HaLow Module Mini PCIe Interface](https://heltec.org/project/ht-hc01p/)
 - Raspberry Pi 1/2/3/4
 - Micro SD card
@@ -33,7 +33,7 @@ HC01P is powered by Raspberry PI, so it is sufficient to connect the Raspberry P
 
 ### Install firmware
 
-1. Download the [HC01P_V2_Firmware](https://resource.heltec.cn/download/HT-HC01P_V2/Raspiberry%20firmware) and [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
+1. Download the [HC01P_V2_Firmware](https://resource.heltec.cn/download/HT-HC01P_V2/Raspiberry%20firmware) /[HC01P_Firmware](https://resource.heltec.cn/download/HT-HC01P/Raspiberry%20firmware) and [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
 2. Insert the SD card into the card reader and connect it to your computer.
 3. Install and run the **Raspberry Pi Imager tool**.
 
