@@ -7,6 +7,7 @@ import styles from '@site/src/css/styles.module.css';
 
 # WiFi LoRa 32 Expansion kit Quick Start
 
+
 ## Installing the Battery
 After removing the casing, you can install the battery. Battery type:
 **18650 flat-top lithium battery**. Be careful not to reverse the positive and negative terminals.
@@ -36,6 +37,7 @@ Devices with and without a touchscreen use different firmware versions. Firmware
 
 ![](img/firmware.png)
 :::
+
 
 ## SDK
 Please refer to the: [Heltec ESP32 Series Quick Start](https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/esp32-quick-start).
