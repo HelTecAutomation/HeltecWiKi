@@ -154,6 +154,7 @@ const DIR_NAME_MAP = {
   'devices/open-source-hardware/esp32-series/lora-32/wifi-kit-32': 'WiFi Kit 32',
   'devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v3': 'WiFi LoRa 32 V3',
   'devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v4': 'WiFi LoRa 32 V4',
+  'devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v4_r8_board': 'WiFi LoRa 32 V4 R8',
   'devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-expansion-kit': 'WiFi LoRa 32 Expansion Kit',
   'devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v4r8': 'WiFi LoRa 32 Expansion Kit V2',
   'devices/open-source-hardware/esp32-series/lora-32/wireless-bridge': 'Wireless Bridge',

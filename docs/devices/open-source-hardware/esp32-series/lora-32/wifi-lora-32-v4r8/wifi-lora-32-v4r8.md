@@ -1,11 +1,11 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 title: Introduction
 ---
 
 import styles from '@site/src/css/styles.module.css';
 
-# WiFi LoRa 32 Expansion Kit
+# WiFi LoRa 32 Expansion Kit V2
 
 <div style={{ textAlign: 'center' }}>
   ![](img/r8c.png)

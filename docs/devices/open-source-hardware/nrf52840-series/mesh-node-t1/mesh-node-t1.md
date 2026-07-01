@@ -45,6 +45,7 @@ Mesh Node T1 is a compact LoRa terminal based on the nRF52840 and SX1262, featur
 - [Datasheet](https://resource.heltec.cn/download/Mesh_Node_T1/Datasheet)
 - [Schematic diagram](https://resource.heltec.cn/download/Mesh_Node_T1/schematic)
 - [nRF Development Framework](https://github.com/HelTecAutomation/Heltec_nRF52)
+- [Meshtastic Firmware](https://resource.heltec.cn/download/Mesh_Node_T1/firmware/Meshtastic)
 - [Related links](https://resource.heltec.cn/download/Mesh_Node_T1)
 
 ## Product Usage Guide
