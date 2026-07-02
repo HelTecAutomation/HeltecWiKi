@@ -1,9 +1,9 @@
 ---
-sidebar_position: 9
+sidebar_position: 7
 title: Manually Download Firmware
 ---
 
-If the firmware cannot be downloaded via the OTA configuration page, follow the steps below to manually obtain and install it.
+**If the firmware cannot be downloaded via the OTA configuration page, follow the steps below to manually obtain and install it.**
 
 ## Preparation
 
@@ -12,12 +12,12 @@ If the firmware cannot be downloaded via the OTA configuration page, follow the 
 - Ethernet cable
 - USB-to-UART module
 - 2.54 mm Dupont wires
-- [Firmware package](https://resource.heltec.cn/download/HT-HD01/firmware)
+- [Firmware package](https://resource.heltec.cn/download/HT-H7608_V2/firmware)
 - Serial debugging tool (e.g. [PuTTY](https://resource.heltec.cn/download/tools/putty.zip))
 - [Tftpd64](https://resource.heltec.cn/download/tools/Tftpd64-4.64-setup.zip)
 
 ## Operation steps
-1. Download the [corresponding firmware](https://resource.heltec.cn/download/HT-HD01/firmware) and record the file location
+1. Download the [corresponding firmware](https://resource.heltec.cn/download/HT-H7608_V2/firmware/openwrt-2.6.6-20260117-h7608-v2.bin) and record the file location
 
 ![](img/flase-firmware/1.png)
 
