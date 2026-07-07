@@ -14,6 +14,11 @@ As shown below:
 
 ![](img/mesh_gate/01.png)
 
+:::note
+For Windows systems, a driver is usually required for USB-C network devices to be recognized and function properly.
+
+- [H7608 Windows USB-C Ethernet Driver](https://resource.heltec.cn/download/HT-HD01_V2/driver/SR9900driver.rar)
+:::
 
 
 ## Basic Settings
