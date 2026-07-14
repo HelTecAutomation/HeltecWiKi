@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Quick Start
+title: F&T Quick Start
 ---
 
 >F&T is a MeshCore-based communication firmware system that supports device-to-device communication, real-time location sharing, target guidance, route tracking, and distance alert functions. This document describes the quick start guide for using the F&T system on the Mesh Node T1 device.
