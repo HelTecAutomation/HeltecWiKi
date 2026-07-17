@@ -13,23 +13,27 @@ When using the device for the first time, the battery may be low. It is recommen
 
 ## Power On/Off
 
-Press the button on the back of the device once; when the white indicator light turns on, the device is powered on. Press the same button on the back of the device once again to power off the device.
+
 
 ![](img/2.png)
+
+- **Power On/Off:** Press and hold the power button to turn the device on or off.
+- **Restart the Device:** Press the power button once briefly to restart the device.
+
+
 
 After powering on, the device will enter the default interface, which displays the device ID, MSG information, and the PIN required to connect to MeshCore.
 
 ## Function Selection
 
-![](img/3.png)
+![](img/10.png)
 
-**Double-press** the lower-left button to open the function selection menu, which contains seven available functions.
+**Double-Press** either the **Button1** or **Button2** to enter or exit the function selection menu, which provides access to seven available functions.
 
 
 - Press the `Button1` once to move the selection to the left.
 - Press the `Button2` once to move the selection to the right.
 - After selecting the desired function, press and hold the button to confirm and enter the corresponding function screen.
-
 
 
 | Function | Description |
@@ -127,11 +131,44 @@ If disabled, the MeshCore system will fall back to periodic location broadcastin
 Current logging rule: one point is recorded approximately every 50 meters of movement, Up to 600 track points can be stored.
 :::
 
+---
 
 
+## Quick Access Menu
+
+The Quick Access Menu provides shortcuts to commonly used functions and includes two function pages:
+
+- QuickPing
+- Compass
+
+**Press and hold Button1 or Button2** to enter the Quick Access Menu. The QuickPing page is displayed by default.
+
+### QuickPing
+
+The QuickPing page includes two functions: Send Message and Send Advert.
 
 
+**Send Message**
 
+Operation Steps: `Press and hold Button1 or Button2 to enter the function selection menu.`--> `Briefly press Button1 or Button2 to select Send Message.`--> `Press and hold BUTTON1 or BUTTON2 to enter the message sending page.`
+
+When sending a message, three sending modes are available:
+
+- **Broadcast:** Sends a message to all available devices in the network.
+- **Group:** Sends a message to a specific group. Users can select an existing group.
+- **Personal:** Sends a message to a specific device for point-to-point communication.
+
+After selecting the target, press and hold Button1 or Button2 to enter the message sending interface. The device supports preset messages (such as Hi and Bye) and custom messages entered through the built-in keyboard.
+
+**Send Advert**
+
+Send Advert allows the device to broadcast its information to the mesh network, enabling other devices to discover or update device information, such as Device ID and Device Name.
+
+### Compass
+
+The Compass page is used to calibrate the device's 9-axis sensor.
+
+Operation steps: `Enter the Compass page.` --> `Press and hold BUTTON1 or BUTTON2 to start calibration.` --> `Follow the on-screen instructions, such as “Move in figure-8 ”, to complete the 9-axis sensor calibration.`
 
 
 
