@@ -57,7 +57,7 @@ If an SD card is required, insert it as shown in the diagram, ensuring it is ori
 
 8.Insert the SD card into the device. The offline map will then be available for loading and use.
 
-
+---
 
 ## Programming & Firmware Flashing 
 

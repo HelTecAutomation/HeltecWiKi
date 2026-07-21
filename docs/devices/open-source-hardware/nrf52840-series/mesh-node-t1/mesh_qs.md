@@ -12,11 +12,12 @@ When using the device for the first time, the battery may be low. It is recommen
 
 ## Power On/Off
 
-Press the button on the back of the device once; when the white indicator light turns on, the device is powered on. Press the same button on the back of the device once again to power off the device.
-
 ![](img/2.png)
 
-After powering on, the device will enter the default interface, which displays the device ID, MSG information, and the PIN required to connect to MeshCore.
+- **Power On/Off:** Press and hold the power button to turn the device on or off.
+- **Restart the Device:** Press the power button once briefly to restart the device.
+- **DFU Mode:** Double-press the Power Button to enter DFU mode.
+
 
 ## Button Instructions
 
@@ -33,11 +34,11 @@ After powering on, the device will enter the default interface, which displays t
 
 ## Flash Firmware
 
-1.Double-click the **Power Button** on the back of the device to enter UF (Firmware Update) mode.
+1.Double-click the **Power Button** on the back of the device to enter DFU mode.
 
 ![](img/7.png)
 
-2.Copy the downloaded Firmware file to the device storage that appears in UF mode.
+2.Copy the downloaded Firmware file to the device storage that appears in DFU mode.
 
 - [Meshtastic](https://resource.heltec.cn/download/Mesh_Node_T1/firmware/Meshtastic)
 

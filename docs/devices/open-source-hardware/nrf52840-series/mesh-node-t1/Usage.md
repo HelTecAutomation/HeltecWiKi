@@ -19,10 +19,70 @@ When using the device for the first time, the battery may be low. It is recommen
 
 - **Power On/Off:** Press and hold the power button to turn the device on or off.
 - **Restart the Device:** Press the power button once briefly to restart the device.
+- **DFU Mode:** Double-press the Power Button to enter DFU mode.
 
 
 
 After powering on, the device will enter the default interface, which displays the device ID, MSG information, and the PIN required to connect to MeshCore.
+
+---
+
+## Flash F&T Firmware
+
+1.sOpen the Heltec Device Remote platform: https://devremote.heltec.org/
+
+2.Select **T1** from the device list, then click **Download the T1 F&T firmware.**
+
+![](img/f4.png)
+
+
+3. Connect the device to the computer via a USB cable, then **double-press** the **Power Button** to enter **DFU mode**. Once in DFU mode, the device storage will be recognized by the computer.
+
+![](img/7.png)
+
+4. Copy the downloaded the T1 F&T firmware file to the device storage.
+
+![](img/8.png)
+
+5. After the file transfer is completed, the device will automatically restart and complete the firmware flashing process.
+
+
+---
+
+:::note
+After flashing the F&T firmware, the device must be activated through the [Device Remote platform](https://devremote.heltec.org/) before use.
+:::
+
+
+## Activate the Device
+
+1. Open the Heltec Device Remote platform: https://devremote.heltec.org/
+
+2. Connect the device to the computer using a USB cable, then **double-press** the **Power Button** to enter **DFU mode**.
+
+4. On the Device Remote page, click **Connect**.
+
+![](img/f1.png)
+
+5. Select the corresponding serial port and click **Connect**.
+
+![](img/f2.png)
+
+
+
+
+
+
+6. After the connection is established, click **Activate**. The device will be activated automatically.
+
+![](img/f3.png)
+
+
+
+
+---
+
+
 
 ## Function Selection
 
