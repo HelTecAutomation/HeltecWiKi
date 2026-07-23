@@ -29,7 +29,7 @@ After powering on, the device will enter the default interface, which displays t
 
 ## Flash F&T Firmware
 
-1.sOpen the Heltec Device Remote platform: https://devremote.heltec.org/
+1.Open the Heltec Device Remote platform: https://devremote.heltec.org/
 
 2.Select **T1** from the device list, then click **Download the T1 F&T firmware.**
 
@@ -54,31 +54,25 @@ After flashing the F&T firmware, the device must be activated through the [Devic
 :::
 
 
-## Activate the Device
+### Activate the Device
 
-1. Open the Heltec Device Remote platform: https://devremote.heltec.org/
+***Please follow the steps below to activate the device:***
 
-2. Connect the device to the computer using a USB cable, then **double-press** the **Power Button** to enter **DFU mode**.
-
-4. On the Device Remote page, click **Connect**.
+1. On the [Device Remote page]( https://devremote.heltec.org/), click **Connect**.
 
 ![](img/f1.png)
 
-5. Select the corresponding serial port and click **Connect**.
+2. Select the corresponding serial port and click **Connect**.
 
 ![](img/f2.png)
 
-
-
-
-
-
-6. After the connection is established, click **Activate**. The device will be activated automatically.
+3. After the connection is established, click **Activate**. 
 
 ![](img/f3.png)
 
+4.The device will be activated automatically. Once activated, the device is ready to use the F&T system.
 
-
+![](img/f5.png)
 
 ---
 
@@ -93,8 +87,8 @@ After flashing the F&T firmware, the device must be activated through the [Devic
 
 - Press the `Button1` once to move the selection to the left.
 - Press the `Button2` once to move the selection to the right.
-- After selecting the desired function, press and hold the button to confirm and enter the corresponding function screen.
-
+- After selecting the desired function, `press and hold` the  **Button1/2** to confirm and enter the corresponding function screen.
+- `Double-press` the **Button1/2** to return to the previous menu.
 
 | Function | Description |
 |----------|-------------|
