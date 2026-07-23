@@ -12,7 +12,7 @@ import DocCard from '@theme/DocCard';
   ![](img/t1c.png)
 </div>
 
-Mesh Node T1 is a compact LoRa terminal based on the nRF52840 and SX1262, featuring BLE/LoRa dual-mode connectivity, integrated GNSS and 9-axis IMU for positioning and motion awareness. It offers ultra-low power consumption (11 µA sleep), 1850 mAh battery capacity, and IP67 protection for extended outdoor use. Compatible with Meshtastic and MeshCore, it also supports Arduino-based customization.
+Mesh Node T1 is a compact LoRa terminal based on the nRF52840 and SX1262, featuring BLE/LoRa dual-mode connectivity, integrated GNSS and 9-axis IMU for positioning and motion awareness. It offers ultra-low power consumption (11 µA sleep), 1850 mAh battery capacity, and IP65 protection for extended outdoor use. Compatible with Meshtastic and MeshCore, it also supports Arduino-based customization.
 
 
 
@@ -26,7 +26,6 @@ Mesh Node T1 is a compact LoRa terminal based on the nRF52840 and SX1262, featur
 
 - nRF52840 (BLE) + SX1262 (LoRa) with 0.96inch TFTLCD
 - 11µA Ultra-Low Power, 1850mAh Long Battery Life
-- IP67 Industrial-Grade Protection
 - Highly integrated LoRa terminal with GNSS, 9-axis IMU, and buzzer.
 
 

@@ -11,7 +11,7 @@ title: F&T Quick Start
 When using the device for the first time, the battery may be low. It is recommended to charge the device using a 5V USB power supply to ensure proper startup and stable operation.
 :::
 
-## Power On/Off
+## Power Button Operations
 
 
 
