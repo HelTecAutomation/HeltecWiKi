@@ -35,7 +35,7 @@ The WiFi LoRa 32  V4-R8. It features an integrated SD card slot, making it well-
 
 ## Usage Docs
 - [SDK](https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/esp32-quick-start)
-- [Meshtastic](/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-expansion-kit/usage-guide)
+- [Meshtastic](/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v4r8/meshtastic-qs)
 
 
 

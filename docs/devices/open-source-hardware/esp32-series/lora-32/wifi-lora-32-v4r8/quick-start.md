@@ -57,22 +57,3 @@ If an SD card is required, insert it as shown in the diagram, ensuring it is ori
 
 8.Insert the SD card into the device. The offline map will then be available for loading and use.
 
----
-
-## Programming & Firmware Flashing 
-
-1. Connect the device to your computer via USB-C.
-2. Enter BootLoader mode: Press and hold the USER button, press RST once, then release the USER button.
-3. Select the serial port to flash your code. After flashing is complete, press RST to restart.
-
-:::note
-  After entering Boot mode, the serial port number may change, so remember to reselect the port.
-:::
-
-:::warning
-The **WiFi LoRa 32 Expansion Kit V2** currently supports local firmware flashing only.
-Meshtastic firmware version **2.7.25** or later is required to support flashing for the WiFi LoRa 32 Expansion Kit V2.
-The firmware is provided as a .bin file that includes both `tft` and `factory` images.
-
-![](img/qs/r8mesh.png)
-:::
