@@ -1,4 +1,4 @@
-// Auto-generated Wiki data - Last updated: 2026-09-05T09:49:48.344Z
+// Auto-generated Wiki data - Last updated: 2026-09-07T02:36:29.320Z
 export const latestWikiData = [
   {
     "id": 14,
@@ -6,7 +6,7 @@ export const latestWikiData = [
     "description": "Recently, Daniel put Heltec V3 and V4 devices through real-world tests in the challenging mountain terrain of central Italy.",
     "category": "technical",
     "date": "2026-08-20",
-    "image": "/img/undraw_docusaurus_mountain.svg",
+    "image": "/news-assets/heltec-v3-v4-mountain-field-test-lora-mesh-performance-in-real-terrain/heltec-v3-v4-mountain-field-test-lora-mesh-performance-in-real-terrain/1.png",
     "slug": "/news/heltec-v3-v4-mountain-field-test-lora-mesh-performance-in-real-terrain/heltec-v3-v4-mountain-field-test-lora-mesh-performance-in-real-terrain",
     "tags": [],
     "pinned": false,
