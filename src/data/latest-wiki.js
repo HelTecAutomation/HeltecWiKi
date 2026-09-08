@@ -1,5 +1,24 @@
-// Auto-generated Wiki data - Last updated: 2026-09-05T09:49:48.344Z
+// Auto-generated Wiki data - Last updated: 2026-09-08T08:29:06.089Z
 export const latestWikiData = [
+  {
+    "id": 21,
+    "title": "Into the Orchard: Real-World Long-Range Wi-Fi HaLow Testing",
+    "description": "However, in large outdoor environments such as orchards and farms, the trade-off between long-range connectivity, low power consumption, and high bandwidth remains a major challenge when deploying wireless monitoring systems.",
+    "category": "news",
+    "date": "2026-09-08",
+    "image": "/news-assets/into-the-orchard-real-world-long-range-wi‑fi‑halow-testing/into-the-orchard-real-world-long-range-wi‑fi‑halow-testing/01.png",
+    "slug": "/news/into-the-orchard-real-world-long-range-wi‑fi‑halow-testing/into-the-orchard-real-world-long-range-wi‑fi‑halow-testing",
+    "tags": [
+      "heltec",
+      "wifi halow",
+      "lora",
+      "dongle"
+    ],
+    "pinned": false,
+    "productCategory": [
+      "Halow"
+    ]
+  },
   {
     "id": 14,
     "title": "Heltec V3 & V4 Mountain Field Test: LoRa Mesh Performance in Real Terrain",
@@ -48,7 +67,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "title": "LNA Guide",
     "description": "Learn about LNA and how to enable or disable it on your device.",
     "category": "technical",
@@ -97,7 +116,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "title": "Ond’Expo 2026: A Real-World Connection Through Mesh Networking",
     "description": "Before Ond’Expo 2026 officially opened its doors to the public, the venue was already abuzz with intense yet orderly preparations.",
     "category": "news",
@@ -171,7 +190,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 29,
+    "id": 30,
     "title": "Tech Guardian for Wildlife in Dinokeng Reserve",
     "description": "New Technology System Helps Protect Wildlife in South Africa’s Dinokeng Reserve",
     "category": "news",
@@ -211,7 +230,7 @@ export const latestWikiData = [
     "productCategory": []
   },
   {
-    "id": 21,
+    "id": 22,
     "title": "LoRa Gate PCB – WLED-Powered LED Gates with Heltec HT-CT62",
     "description": "The LoRa Gate PCB is a custom controller board for wireless, battery-powered LED gates, built around the Heltec HT-CT62 module (ESP32-C3 + SX1262 LoRa). It is designed for applications where multiple LED “nodes” need to be controlled reliably over long distances with minimal wiring – for example **FPV race start/finish gates**, illuminated track elements, or interactive light installations.",
     "category": "2025 maker contest",
@@ -240,7 +259,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "title": "Maker Contest: Measure Your Living Environment",
     "description": "Contest Entry for the 2025 Heltec Maker Contest",
     "category": "2025 maker contest",
@@ -255,7 +274,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "title": "LoRaHunt - Monitoring live traps for invasive species",
     "description": "How we protect native wildlife with Heltec's LoRa modules",
     "category": "2025 maker contest",
@@ -285,7 +304,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "title": "Shipping and warehouse policy",
     "description": "This Shipping & Delivery Policy outlines our methods, delivery times, and important terms regarding your orders.",
     "category": "template",
@@ -295,22 +314,6 @@ export const latestWikiData = [
     "tags": [],
     "pinned": false,
     "productCategory": []
-  },
-  {
-    "id": 23,
-    "title": "LoRa Tracking in the Mountains",
-    "description": "How We Tracked Paragliders Without Cellular Coverage",
-    "category": "news",
-    "date": "2025-11-27",
-    "image": "/news-assets/lora-tracking-in-the-mountains/lora-tracking-in-the-mountains/5.png",
-    "slug": "/news/lora-tracking-in-the-mountains/lora-tracking-in-the-mountains",
-    "tags": [],
-    "pinned": false,
-    "productCategory": [
-      "LoRa32",
-      "nRF",
-      "LoRaWAN"
-    ]
   }
 ];
 

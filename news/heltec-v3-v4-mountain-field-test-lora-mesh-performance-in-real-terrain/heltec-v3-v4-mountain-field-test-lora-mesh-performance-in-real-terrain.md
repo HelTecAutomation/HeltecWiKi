@@ -4,7 +4,7 @@ description: "Recently, Daniel put Heltec V3 and V4 devices through real-world t
 category: "Technical"
 author: "Lily"
 date: "2026-08-20"
-image: "img/01.jpg"
+image: "img/01.png"
 productCategory: ["LoRa32", "Meshtastic", "Meshcore"]
 ---
 We are pleased to share a detailed field test report from Daniel IU6WSC, a member of the LoRa and Meshtastic communities.
