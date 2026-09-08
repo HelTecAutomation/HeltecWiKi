@@ -14,6 +14,17 @@ productCategory: ["LoRa32"]
 
 >Our latest products, including [WiFi LoRa 32 V4](https://heltec.org/project/wifi-lora-32-v4/), [Tracker V2](https://heltec.org/project/wireless-tracker-v2/), and [Mesh Node T096](https://heltec.org/project/t096/), integrate LNA functionality to improve weak signal reception performance. In practical applications, users may have questions about when to enable LNA and how to configure it properly. This article introduces the basic working principles of LNA and provides configuration recommendations for different wireless environments to help users make better use of the LNA function.
 
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/7XknxbbXkYM"
+  title="Heltec Capsule Sensor V3. A Portable LoRa/LoRaWAN Node device compatible with Meshtastic"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+
+
 ## What is an LNA?
 
 An LNA (**Low Noise Amplifier**) is a critical RF component located at the receiver front end. Its primary purpose is to amplify weak RF signals from the antenna while maintaining a low noise figure. By providing low-noise amplification and increasing the signal level before further processing, the LNA helps minimize the impact of subsequent stages on overall receiver performance and improves receiver sensitivity.
