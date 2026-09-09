@@ -71,7 +71,7 @@ Compared with low-speed long-range communication technologies such as LoRaWAN, W
 ![](img/07.png)
 
 
-Field Testing in a Real Orchard Environment
+# Field Testing in a Real Orchard Environment
 
 To evaluate the performance of Wi-Fi HaLow in a real-world environment, LUMA Lab built a test network consisting of a fixed AP and mobile nodes.
 
