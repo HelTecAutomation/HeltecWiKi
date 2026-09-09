@@ -36,7 +36,7 @@ This creates new challenges for traditional low-power wireless communication tec
 
 ##### 1. Cellular Networks:
 
-During the initial stage of the project, a prototype system was built using an ESP32, camera, 4G modem, battery, and solar power supply. However, field tests in the orchard showed that the 4G network could not maintain a consistently stable connection in the environment. At the same time, the cellular modem and its power system increased the overall power consumption of the device. For outdoor terminals powered by a combination of batteries and solar energy, higher power consumption directly shortens maintenance intervals and increases deployment costs. Therefore, although cellular networks offer excellent data rates, they are not necessarily the optimal choice for all remote agricultural environments.
+During the initial stage of the project, a prototype system was developed using an ESP32, camera, 4G modem, battery, and solar power supply. However, field tests in the orchard revealed that the 4G network could not maintain a consistently stable connection under the environmental conditions.  At the same time, the cellular modem and its power system increased the overall power consumption of the device. For outdoor terminals powered by a combination of batteries and solar energy, higher power consumption directly shortens maintenance intervals and increases deployment costs. Therefore, although cellular networks offer excellent data rates, they are not necessarily the optimal choice for all remote agricultural environments.
 
 #### 2. LoRaWAN: 
 
@@ -68,6 +68,9 @@ Compared with low-speed long-range communication technologies such as LoRaWAN, W
 
 ---
 
+![](img/07.png)
+
+
 Field Testing in a Real Orchard Environment
 
 To evaluate the performance of Wi-Fi HaLow in a real-world environment, LUMA Lab built a test network consisting of a fixed AP and mobile nodes.
@@ -87,7 +90,7 @@ Data Transmission
 
 ![](img/03.png)
 
-The test used the Heltec WiFi HaLow Dongle, configured as a HaLow AP.
+The test used the [**Wi-Fi HaLow Dongle**](https://heltec.org/project/ht-hd01/), configured as a HaLow AP.
 
 Rather than being conducted in a laboratory, the test was carried out in actual apple orchards and road environments to evaluate how vegetation, terrain, and other environmental factors affected the wireless link.
 
@@ -109,7 +112,7 @@ The measured parameters included:
 
 * Latency
 
-Maximum communication interruption time
+* Maximum communication interruption time
 
 This testing approach differs from simply measuring the "maximum communication distance." Instead, it focuses more on whether the network can still provide usable data transmission at practical operating distances.
 
@@ -212,8 +215,6 @@ Internet / Ethernet
 [**Heltec Wi-Fi HaLow 7608 Router**](https://heltec.org/project/ht-h7608/)  
 ↓  
 [**Wi-Fi HaLow Dongle**](https://heltec.org/project/ht-hd01/)
-
-![](img/07.png)
 
 This architecture eliminates the need to equip every remote device with a cellular connection while retaining IP networking capabilities.
 
