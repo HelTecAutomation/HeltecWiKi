@@ -3,13 +3,30 @@ sidebar_position: 6
 title: Access Configuration Page
 ---
 
-
-
 The HD01 offers three methods to access the configuration page—you may use any one of them:
 - Via AP remote access, To use this mode, ensure the device's AP hotspot/Ethernet is active and connected. Devices in Bridge mode cannot use this method.
 - IP-Based connection, This mode requires both you and the device to be on the same LAN, and you must be able to connect to it via its IP address.
 - Configuration Mode, The device must enter configuration mode, during which normal operation will be temporarily suspended.
 
+
+:::danger
+### Linux Multi-Network Adapter Configuration
+
+**For Linux users:** If a wired connection is enabled while connected to the **HD01** hotspot via Wi-Fi, accessing `10.42.0.1` may fail.
+
+Run the following command in a terminal:
+
+```bash
+sudo ip route replace 10.42.0.0/24 dev wlXX
+```
+
+Replace `wlXX` with your Wi-Fi network interface name, then access `10.42.0.1` again.
+
+**Windows users can skip this step.**
+
+:::
+
+---
 
 ## Via AP/Ethernet access
 **To use this mode, ensure the device's AP hotspot/Ethernet is active and connected. Devices in Bridge mode cannot use this method.**

@@ -27,12 +27,18 @@ import DocCardList from '@theme/DocCardList';
 <DocCardList />
 ```
 
-## LoRa Server
+
+
+## Resource guidance stickers
+
+Building a LoRaWAN system aims to utilize Heltec [LoRa devices](/docs/intro#lorawan-appliaction) to achieve low-power, long-distance, low-data-rate wireless communication, especially for IoT applications. Data collected by Heltec [LoRa nodes](/docs/devices/lorawan-application/lora-node-devices/) is transmitted through a [LoRaWAN gateway](/docs/devices/lorawan-application/lora-gateway/) and can then be visualized on the SnapEmu cloud platform.
+
+## LoRaWAN NS
 
 
 ![Overview](/img/main-img/4.png)
 
-In a complete LoRaWAN communication process, a server is essential. A LoRaWAN server typically consists of two parts: the Network Server (NS) and the Application Server (AS). The NS is responsible for tasks such as node joining, acknowledgments, identity verification, and communication authentication. Today, there are many excellent LoRaWAN servers available. For example, Heltec provides SnapEmu, and detailed operation instructions can be found on its [platform](/docs/platforms).
+In a complete LoRaWAN communication process, a server is essential. A LoRaWAN server typically consists of two parts: the Network Server (NS) and the Application Server (AS). The NS is responsible for tasks such as node joining, acknowledgments, identity verification, and communication authentication. Today, there are many excellent LoRaWAN servers available. For example, Heltec provides SnapEmu, and detailed operation instructions can be found on its [platform](/docs/platform/snapemu/).
 
 
 

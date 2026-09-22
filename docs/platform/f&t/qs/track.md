@@ -17,21 +17,29 @@ Enable the **`GPS Track`** feature in **GPS** .
 
 1. Connect the device to a computer via a USB cable.
 
-3. Open [**DevRemote**](https://devremote.heltec.org/).
+2. Open [**DevRemote**](https://devremote.heltec.org/).
 
-4. Click **Connect**.
+3. Click **Connect**.
 
    ![](img/4.png)
 
-5. Select the serial port associated with the connected device.
+4. Select the serial port associated with the connected device.
 
    ![](img/5.png)
 
-6. Click **Route Map**. The tool automatically detects the number of track points recorded on the device.
+5. Click **Route Map**. The tool automatically detects the number of track points recorded on the device.
 
    ![](img/6.png)
+6. If the data is detected successfully, the recorded route is displayed on the map.
+  
+<div style={{textAlign: 'center'}}>
+  <img
+    src={require('./img/track.png').default}
+    style={{width: '600px'}}
+  />
+</div>
 
 :::tip
-Current logging rule: one point is recorded approximately every 50 meters of movement, Up to 600 track points can be stored.
+**Current logging rule:** one point is recorded approximately every 50 meters of movement, Up to 600 track points can be stored.
 :::
 

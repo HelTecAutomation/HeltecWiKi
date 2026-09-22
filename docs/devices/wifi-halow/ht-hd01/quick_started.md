@@ -17,6 +17,25 @@ Plug the AP-side device into your network source (e.g., a router).The STA-side d
 - **Via Sticker**, you can distinguish between the AP or STA side using stickers. 
 - **Via RGB indicator**, after firmware version 2.6.6, you can also differentiate them by the RGB lights: AP-side devices will display cyan/purple after the red light turns off, while STA-side devices will show blue/green.
 
+:::danger
+### Linux Multi-Network Adapter Configuration
+
+**For Linux users:** If a wired connection is enabled while connected to the **HD01** hotspot via Wi-Fi, accessing `10.42.0.1` may fail.
+
+Run the following command in a terminal:
+
+```bash
+sudo ip route replace 10.42.0.0/24 dev wlXX
+```
+
+Replace `wlXX` with your Wi-Fi network interface name, then access `10.42.0.1` again.
+
+**Windows users can skip this step.**
+
+:::
+
+
+
 ## Start Access Point
 1. Connect the Dongle-AP to the upstream router and power it on. 
 

@@ -5,9 +5,24 @@ title: Quick Start
 
 >The Meshtower V2 series is available in two variants: the Meshtower V2 standard-power version with an RF output power of 21 ±1 dBm, and the Meshtower V2H high-power version with an RF output power of 28 ±1 dBm. The setup and operating procedures are identical for both versions.
 
+## Turn on the Lithium Battery Power Switch
+
+:::danger
+The battery power switch must be **Turned On** before charging. The device cannot be charged when the battery power switch is turned off.
+
+:::
 
 
-## First Charge
+- Toggle the switch to the **Right** to **Turn on** the Lithium Battery Power.
+- Toggle the switch to the **Left** to **Turn off** the Lithium Battery Power.
+
+
+<img src={require('./img/q3.png').default} style={{width: '600px'}} />
+
+
+
+## Charging
+
 
 The Meshtower comes with preconfigured battery management settings. Once connected to an **18–24V solar panel** or a **USB-C PD3.0 (20V)** power source, and with the antenna properly installed, the device is ready for operation.
 
@@ -15,10 +30,11 @@ The Meshtower comes with preconfigured battery management settings. Once connect
 However, before first use, it is recommended to connect an 18–24V solar panel or a USB-C PD3.0 (20V) power source to activate the battery function, and fully charge the built-in battery through the USB-C port or DC power interface to ensure more stable power delivery and optimal performance.
 :::
 
-:::danger
-The power switch must be [turned on for the battery](/docs/devices/open-source-hardware/nrf52840-series/mesh-tower-v2/Usage#turn-on-the-lithium-battery-power-switch) to charge.
-:::
+:::note
 
+Before charging the device, make sure the battery power switch is **[Turned on](/docs/devices/open-source-hardware/nrf52840-series/mesh-tower-v2/Usage#turn-on-the-lithium-battery-power-switch)**.
+
+:::
 
 
 
@@ -34,12 +50,7 @@ The DC interface is the solar panel input port, which uses an XT30 connector and
 <img src={require('./img/q2.png').default} style={{width: '600px'}} />
 
 
-## Turn on the Lithium Battery Power Switch
 
-- Toggle the switch to the **Left** to turn off the Lithium Battery Power.
-- Toggle the switch to the **Right** to turn on the Lithium Battery Power.
-
-<img src={require('./img/q3.png').default} style={{width: '600px'}} />
 
 
 ## Checking Battery Level
