@@ -5,6 +5,11 @@ title: Quick Start
 
 >The Meshtower V2 series is available in two variants: the Meshtower V2 standard-power version with an RF output power of 21 ±1 dBm, and the Meshtower V2H high-power version with an RF output power of 28 ±1 dBm. The setup and operating procedures are identical for both versions.
 
+:::note
+
+**V1** and **V2** use different firmware. Select the correct device version before flashing. If the wrong firmware is flashed, fully erase the device before reflashing the correct firmware.
+:::
+
 ## Turn on the Lithium Battery Power Switch
 
 :::danger
@@ -64,7 +69,8 @@ The DC interface is the solar panel input port, which uses an XT30 connector and
 <img src={require('./img/q5.png').default} style={{width: '600px'}} />
 
 
-## Firmware
+## [Firmware](https://wiki.heltec.org/docs/devices/open-source-hardware/nrf52840-series/mesh-tower-v2/Usage)
+
 ### Pre-installed Firmware
 The Meshtower comes pre-installed with [Meshtastic firmware](https://resource.heltec.cn/download/MeshTower_V1.1/firmware-heltec-mesh-tower-2.7.21.efd2613(1).uf2v).<br />
 The default password is: **123456**.<br />
