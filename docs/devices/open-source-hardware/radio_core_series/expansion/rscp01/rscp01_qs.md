@@ -5,7 +5,7 @@ title: Quick Start
 
 # RS-CP01 Quick Start
 
-> Before getting started, refer to [this document](/docs/devices/open-source-hardware/radio_core_series/rc3268/rc3268_dev) to complete the development environment setup.
+> Before getting started, refer to **[this document](/docs/devices/open-source-hardware/radio_core_series/rc32/rc3268/rc3268_dev)** to complete the development environment setup.
 
 The RC3268 Expansion Kit Quick integrates a camera, allowing users to view real-time video through a Web interface.
 
@@ -14,6 +14,7 @@ The RC3268 Expansion Kit Quick integrates a camera, allowing users to view real-
 Open and one of the following example codes: **`As_VideoWebServer`** or **`halow_CameraWebServer`**
 
 ![](img/qs/1.png)
+
 
 
 ## 2.Configure the HaLow AP Connection

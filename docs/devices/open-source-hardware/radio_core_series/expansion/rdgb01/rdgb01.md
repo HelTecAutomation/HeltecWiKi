@@ -10,7 +10,7 @@ import styles from '@site/src/css/styles.module.css';
 </div>
 
 
-**RD-GB01** is an expansion enclosure for **[RC3262](/docs/devices/open-source-hardware/radio_core_series/rc32/rc3262/)** and **[RC5262](/docs/devices/open-source-hardware/radio_core_series/rc52/rc5262/)**, integrating a dedicated **enclosure**, **rotary switch**, and **18650 battery** to provide a compact and portable solution for IoT applications.
+**RD-GB01** is an expansion enclosure for **[RC32-62](/docs/devices/open-source-hardware/radio_core_series/rc32/rc3262/)** and **[RC52-62](/docs/devices/open-source-hardware/radio_core_series/rc52/rc5262/)**, integrating a dedicated **enclosure**, **rotary switch**, and **18650 battery** to provide a compact and portable solution for IoT applications.
 
 {<div className={styles.btnContainer}>
   <a href="  https://heltec.org/project/rd01/" className={styles.btnLink1}>

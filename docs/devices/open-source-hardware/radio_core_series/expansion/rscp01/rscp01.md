@@ -3,12 +3,22 @@ sidebar_position: 3
 title: RS-CP01
 ---
 
+import styles from '@site/src/css/styles.module.css';
+
+
 <div style={{textAlign: 'center'}}>
   <img src={require('./img/cp01.png').default} style={{width: '350px'}} />
 </div>
 
 
-**RS-CP01** is a handheld expansion enclosure for the **[RC3268](/docs/devices/open-source-hardware/radio_core_series/rc32/rc3268/)**, integrating a **Camera** and **PIR sensor** into a dedicated enclosure for **remote monitoring**, **motion detection**, and other IoT applications.
+**RS-CP01** is a handheld expansion enclosure for the **[RC32-68](/docs/devices/open-source-hardware/radio_core_series/rc32/rc3268/)**, integrating a **Camera** and **PIR sensor** into a dedicated enclosure for **remote monitoring**, **motion detection**, and other IoT applications.
+
+{<div className={styles.btnContainer}>
+  <a href="   https://heltec.org/project/rs-cp01-pir-camera-expansion-kit/" className={styles.btnLink1}>
+    Product Page
+  </a>
+</div>}
+
 
 ## Product Characteristics
 
