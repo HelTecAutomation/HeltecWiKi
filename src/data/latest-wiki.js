@@ -1,5 +1,19 @@
-// Auto-generated Wiki data - Last updated: 2026-09-09T01:46:28.949Z
+// Auto-generated Wiki data - Last updated: 2026-10-14T10:51:33.131Z
 export const latestWikiData = [
+  {
+    "id": 22,
+    "title": "KoaOS for Heltec V4",
+    "description": "A small Unix-style operating system for the Heltec WiFi LoRa 32 V4.",
+    "category": "technical",
+    "date": "2026-10-14",
+    "image": "/news-assets/koaos-for-heltec-v4-wiki/koaos-for-heltec-v4-wiki/v4.png",
+    "slug": "/news/koaos-for-heltec-v4-wiki/koaos-for-heltec-v4-wiki",
+    "tags": [],
+    "pinned": false,
+    "productCategory": [
+      "LoRa32"
+    ]
+  },
   {
     "id": 21,
     "title": "Into the Orchard: Real-World Long-Range Wi-Fi HaLow Testing",
@@ -67,7 +81,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "title": "LNA Guide",
     "description": "Learn about LNA and how to enable or disable it on your device.",
     "category": "technical",
@@ -116,7 +130,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "title": "Ond’Expo 2026: A Real-World Connection Through Mesh Networking",
     "description": "Before Ond’Expo 2026 officially opened its doors to the public, the venue was already abuzz with intense yet orderly preparations.",
     "category": "news",
@@ -190,7 +204,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 30,
+    "id": 31,
     "title": "Tech Guardian for Wildlife in Dinokeng Reserve",
     "description": "New Technology System Helps Protect Wildlife in South Africa’s Dinokeng Reserve",
     "category": "news",
@@ -230,7 +244,7 @@ export const latestWikiData = [
     "productCategory": []
   },
   {
-    "id": 22,
+    "id": 23,
     "title": "LoRa Gate PCB – WLED-Powered LED Gates with Heltec HT-CT62",
     "description": "The LoRa Gate PCB is a custom controller board for wireless, battery-powered LED gates, built around the Heltec HT-CT62 module (ESP32-C3 + SX1262 LoRa). It is designed for applications where multiple LED “nodes” need to be controlled reliably over long distances with minimal wiring – for example **FPV race start/finish gates**, illuminated track elements, or interactive light installations.",
     "category": "2025 maker contest",
@@ -259,7 +273,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "title": "Maker Contest: Measure Your Living Environment",
     "description": "Contest Entry for the 2025 Heltec Maker Contest",
     "category": "2025 maker contest",
@@ -274,7 +288,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "title": "LoRaHunt - Monitoring live traps for invasive species",
     "description": "How we protect native wildlife with Heltec's LoRa modules",
     "category": "2025 maker contest",
@@ -302,18 +316,6 @@ export const latestWikiData = [
       "nRF",
       "Meshtastic"
     ]
-  },
-  {
-    "id": 29,
-    "title": "Shipping and warehouse policy",
-    "description": "This Shipping & Delivery Policy outlines our methods, delivery times, and important terms regarding your orders.",
-    "category": "template",
-    "date": "2025-11-28",
-    "image": "/news-assets/shipping-and--warehouse-policy/shipping-and-warehouse-policy/parcel1.jpg",
-    "slug": "/news/shipping-and--warehouse-policy/shipping-and-warehouse-policy",
-    "tags": [],
-    "pinned": false,
-    "productCategory": []
   }
 ];
 
