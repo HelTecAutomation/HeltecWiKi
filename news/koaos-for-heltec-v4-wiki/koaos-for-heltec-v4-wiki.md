@@ -2,7 +2,7 @@
 title: "KoaOS for Heltec V4"
 description: "A small Unix-style operating system for the Heltec WiFi LoRa 32 V4."
 category: "Technical"
-author: "Kaden Lovelady"
+author: "Koakno"
 date: "2026-10-14"
 image: "img/v4.png"
 productCategory: ["LoRa32"]
