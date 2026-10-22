@@ -1,5 +1,19 @@
-// Auto-generated Wiki data - Last updated: 2026-10-14T10:51:33.131Z
+// Auto-generated Wiki data - Last updated: 2026-10-22T11:10:06.780Z
 export const latestWikiData = [
+  {
+    "id": 29,
+    "title": "MeshMesh — MeshCore firmware with an on-device interface for the Heltec V4 and T114",
+    "description": "MeshMesh is an open-source firmware for LoRa boards. It runs on the MeshCore network and stays compatible with standard MeshCore nodes, repeaters, room servers and the official MeshCore apps.",
+    "category": "technical",
+    "date": "2026-10-23",
+    "image": "/news-assets/meshmesh/meshmesh/t114-home.png",
+    "slug": "/news/meshmesh/meshmesh",
+    "tags": [],
+    "pinned": false,
+    "productCategory": [
+      "LoRa32 nRF52840"
+    ]
+  },
   {
     "id": 22,
     "title": "KoaOS for Heltec V4",
@@ -130,7 +144,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 29,
+    "id": 30,
     "title": "Ond’Expo 2026: A Real-World Connection Through Mesh Networking",
     "description": "Before Ond’Expo 2026 officially opened its doors to the public, the venue was already abuzz with intense yet orderly preparations.",
     "category": "news",
@@ -204,7 +218,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 31,
+    "id": 32,
     "title": "Tech Guardian for Wildlife in Dinokeng Reserve",
     "description": "New Technology System Helps Protect Wildlife in South Africa’s Dinokeng Reserve",
     "category": "news",
@@ -299,22 +313,6 @@ export const latestWikiData = [
     "pinned": false,
     "productCategory": [
       "LoRa32"
-    ]
-  },
-  {
-    "id": 11,
-    "title": "From a LoRa communication module to a safe text message",
-    "description": "This is the story of Heltec's contribution to Louisiana's hurricane-resistant network.",
-    "category": "news",
-    "date": "2025-12-04",
-    "image": "/news-assets/from-a-lora-communication-module-to-a-safe-text-message/from-a-lora-communication-module-to-a-safe-text-message/1.png",
-    "slug": "/news/from-a-lora-communication-module-to-a-safe-text-message/from-a-lora-communication-module-to-a-safe-text-message",
-    "tags": [],
-    "pinned": false,
-    "productCategory": [
-      "LoRa32",
-      "nRF",
-      "Meshtastic"
     ]
   }
 ];
