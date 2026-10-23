@@ -1,22 +1,19 @@
-// Auto-generated Wiki data - Last updated: 2026-04-23T08:09:07.620Z
+// Auto-generated Wiki data - Last updated: 2026-10-23T06:46:38.106Z
 export const latestWikiData = [
   {
-    "id": 4,
-    "title": "Building a Sustainable Planet with Mesh LoRa Networks",
-    "description": "From Awareness to Infrastructure: How Heltec's Wireless Ecosystem Is Powering Environmental Monitoring",
+    "id": 12,
+    "title": "Heltec Wi-Fi HaLow Enables Smart Farming",
+    "description": "A solar delta trap sent one photo per day from an orchard. On Thursday the 17th, other insects were visible, but no moths of interest; on Friday the 18th, we counted 14 specimens.",
     "category": "news",
-    "date": "2026-04-23",
-    "image": "/news-assets/building-a-sustainable-planet-with-mesh-lora-networks/building-a-sustainable-planet-with-mesh-lora-networks/01.png",
-    "slug": "/news/building-a-sustainable-planet-with-mesh-lora-networks/building-a-sustainable-planet-with-mesh-lora-networks",
-    "tags": [
-      "heltec",
-      " \"meshtastic\"",
-      "lora",
-      "beta"
-    ],
+    "date": "2026-10-23",
+    "image": "/news-assets/heltec-wifi-halow-enables-smart-farming/heltec-wifi-halow-enables-smart-farming/03.png",
+    "slug": "/news/heltec-wifi-halow-enables-smart-farming/heltec-wifi-halow-enables-smart-farming",
+    "tags": [],
     "pinned": false,
     "productCategory": [
-      "Lora"
+      "LoRa32",
+      "nRF",
+      "Wi-Fi Halow"
     ]
   },
   {
@@ -106,7 +103,7 @@ export const latestWikiData = [
     "productCategory": []
   },
   {
-    "id": 11,
+    "id": 10,
     "title": "Heltec V4 Test Result",
     "description": "We are assessing the Heltec LoRa 32 V4's performance and real-world application in Meshtastic networks.",
     "category": "technical",
@@ -122,7 +119,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "Christmas gifts and 2026 new years",
     "description": "Dual-Festival Promotion, Offering Tiered Discounts to Empower Developers for 2026",
     "category": "news",
@@ -148,7 +145,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 7,
+    "id": 6,
     "title": "🌲 SmartLumber: Industrial LoRaWAN Monitoring & Predictive Digital Twin",
     "description": "Industrial LoRaWAN Monitoring & Predictive Digital Twin",
     "category": "2025 maker contest",
@@ -192,7 +189,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "From a LoRa communication module to a safe text message",
     "description": "This is the story of Heltec's contribution to Louisiana's hurricane-resistant network.",
     "category": "news",
@@ -251,7 +248,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 10,
+    "id": 9,
     "title": "🦃 Happy Thanksgiving from Heltec! 🍁",
     "description": "This Thanksgiving, we want to express our heartfelt gratitude to all our amazing customers and community members.",
     "category": "news",
@@ -263,7 +260,7 @@ export const latestWikiData = [
     "productCategory": []
   },
   {
-    "id": 12,
+    "id": 11,
     "title": "Heltec Visits Maker Faire Shenzhen 2025",
     "description": "**Heltec Visits Maker Faire Shenzhen 2025 — Exploring the Future of Integrated Technology**",
     "category": "news",
@@ -275,7 +272,7 @@ export const latestWikiData = [
     "productCategory": []
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "HC-02 Wi-Fi HaLow Module",
     "description": "Pioneering a New Era of Long-Range, High-Speed Wireless Connectivity for IoT",
     "category": "technical",
