@@ -1,24 +1,159 @@
-// Auto-generated Wiki data - Last updated: 2026-10-22T11:10:06.780Z
+// Auto-generated Wiki data - Last updated: 2026-10-23T07:23:21.621Z
 export const latestWikiData = [
   {
-    "id": 4,
-    "title": "Building a Sustainable Planet with Mesh LoRa Networks",
-    "description": "From Awareness to Infrastructure: How Heltec's Wireless Ecosystem Is Powering Environmental Monitoring",
+    "id": 31,
+    "title": "MeshMesh — MeshCore firmware with an on-device interface for the Heltec V4 and T114",
+    "description": "MeshMesh is an open-source firmware for LoRa boards. It runs on the MeshCore network and stays compatible with standard MeshCore nodes, repeaters, room servers and the official MeshCore apps.",
+    "category": "technical",
+    "date": "2026-10-23",
+    "image": "/news-assets/meshmesh/meshmesh/t114-home.png",
+    "slug": "/news/meshmesh/meshmesh",
+    "tags": [],
+    "pinned": false,
+    "productCategory": [
+      "LoRa32 nRF52840"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Heltec Wi-Fi HaLow Enables Smart Farming",
+    "description": "A solar delta trap sent one photo per day from an orchard. On Thursday the 17th, other insects were visible, but no moths of interest; on Friday the 18th, we counted 14 specimens.",
     "category": "news",
-    "date": "2026-04-23",
-    "image": "/news-assets/building-a-sustainable-planet-with-mesh-lora-networks/building-a-sustainable-planet-with-mesh-lora-networks/01.png",
-    "slug": "/news/building-a-sustainable-planet-with-mesh-lora-networks/building-a-sustainable-planet-with-mesh-lora-networks",
-    "tags": [
-      "heltec",
-      " \"meshtastic\"",
-      "lora",
-      "beta"
-    ],
+    "date": "2026-10-23",
+    "image": "/news-assets/heltec-wifi-halow-enables-smart-farming/heltec-wifi-halow-enables-smart-farming/03.png",
+    "slug": "/news/heltec-wifi-halow-enables-smart-farming/heltec-wifi-halow-enables-smart-farming",
+    "tags": [],
     "pinned": false,
     "productCategory": [
       "LoRa32",
       "nRF",
       "Wi-Fi Halow"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Heltec v4 Exp Kit Distance Testing with BLackout Comms",
+    "description": "Blackout Comms dev distance tests the new Heltec v4 r8 Exp Kit Touchscreens.",
+    "category": "technical",
+    "date": "2026-10-15",
+    "image": "/news-assets/heltec-v4-range-testing-blackout-comms/heltec-v4-range-testing-blackout-comms/blackout_comms_firmware_heltec_v4_r8.jpg",
+    "slug": "/news/heltec-v4-range-testing-blackout-comms/heltec-v4-range-testing-blackout-comms",
+    "tags": [],
+    "pinned": false,
+    "productCategory": [
+      "LoRa32"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "KoaOS for Heltec V4",
+    "description": "A small Unix-style operating system for the Heltec WiFi LoRa 32 V4.",
+    "category": "technical",
+    "date": "2026-10-14",
+    "image": "/news-assets/koaos-for-heltec-v4-wiki/koaos-for-heltec-v4-wiki/v4.png",
+    "slug": "/news/koaos-for-heltec-v4-wiki/koaos-for-heltec-v4-wiki",
+    "tags": [],
+    "pinned": false,
+    "productCategory": [
+      "LoRa32"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Into the Orchard: Real-World Long-Range Wi-Fi HaLow Testing",
+    "description": "However, in large outdoor environments such as orchards and farms, the trade-off between long-range connectivity, low power consumption, and high bandwidth remains a major challenge when deploying wireless monitoring systems.",
+    "category": "news",
+    "date": "2026-09-08",
+    "image": "/news-assets/into-the-orchard-real-world-long-range-wi‑fi‑halow-testing/into-the-orchard-real-world-long-range-wi‑fi‑halow-testing/01.png",
+    "slug": "/news/into-the-orchard-real-world-long-range-wi‑fi‑halow-testing/into-the-orchard-real-world-long-range-wi‑fi‑halow-testing",
+    "tags": [
+      "heltec",
+      "wifi halow",
+      "lora",
+      "dongle"
+    ],
+    "pinned": false,
+    "productCategory": [
+      "Halow"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Heltec V3 & V4 Mountain Field Test: LoRa Mesh Performance in Real Terrain",
+    "description": "Recently, Daniel put Heltec V3 and V4 devices through real-world tests in the challenging mountain terrain of central Italy.",
+    "category": "technical",
+    "date": "2026-08-20",
+    "image": "/news-assets/heltec-v3-v4-mountain-field-test-lora-mesh-performance-in-real-terrain/heltec-v3-v4-mountain-field-test-lora-mesh-performance-in-real-terrain/1.png",
+    "slug": "/news/heltec-v3-v4-mountain-field-test-lora-mesh-performance-in-real-terrain/heltec-v3-v4-mountain-field-test-lora-mesh-performance-in-real-terrain",
+    "tags": [],
+    "pinned": false,
+    "productCategory": [
+      "LoRa32",
+      "Meshtastic",
+      "Meshcore"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Every Node Counts Meshtastic for Beginners — a community mesh-networking workshop",
+    "description": "Thank you to Heltec for supporting Every Node Counts.",
+    "category": "news",
+    "date": "2026-08-20",
+    "image": "/news-assets/every-node-counts-meshtastic-for-beginners-a-community-mesh-networking-workshop/every-node-counts-meshtastic-for-beginners-a-community-mesh-networking-workshop/1.png",
+    "slug": "/news/every-node-counts-meshtastic-for-beginners-a-community-mesh-networking-workshop/every-node-counts-meshtastic-for-beginners-a-community-mesh-networking-workshop",
+    "tags": [],
+    "pinned": false,
+    "productCategory": [
+      "LoRa32",
+      "V3",
+      "Meshtastic"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Turn a Heltec ESP32-S3 LoRa Board into a Multi-Protocol Debugging Workbench with ESP32 Bit Pirate 1.7",
+    "description": "ESP32 Bit Pirate 1.7 adds native support for the Heltec WiFi LoRa 32 V4 and Vision Master T190, turning their ESP32-S3 and SX1262 hardware into a browser-flashable workbench for LoRa analysis, Meshtastic testing and embedded hardware debugging.",
+    "category": "technical",
+    "date": "2026-08-10",
+    "image": "/news-assets/esp32-bit-pirate-heltec-submission/esp32-bit-pirate-heltec/esp32-bit-pirate-heltec/01.jpg",
+    "slug": "/news/esp32-bit-pirate-heltec-submission/esp32-bit-pirate-heltec/esp32-bit-pirate-heltec",
+    "tags": [],
+    "pinned": false,
+    "productCategory": [
+      "LoRa32",
+      "Meshtastic"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "LNA Guide",
+    "description": "Learn about LNA and how to enable or disable it on your device.",
+    "category": "technical",
+    "date": "2026-7-31",
+    "image": "/news-assets/lna/lna/8.jpg",
+    "slug": "/news/lna/lna",
+    "tags": [],
+    "pinned": false,
+    "productCategory": [
+      "LoRa32"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Amateur Radio Activities at ZLET 2025",
+    "description": "At the beginning of August 2025, members of the S59ABL radio club, in cooperation with the S59CST Koper and S59VEG radio clubs, participated in the all-Slovenian ZLET 2025 camping event",
+    "category": "iot",
+    "date": "2026-6-10",
+    "image": "/news-assets/amateur-radio-activities-at-zlet-2025/amateur-radio-activities-at-zlet-2025/06.png",
+    "slug": "/news/amateur-radio-activities-at-zlet-2025/amateur-radio-activities-at-zlet-2025",
+    "tags": [
+      "heltec",
+      "maker",
+      "contest"
+    ],
+    "pinned": false,
+    "productCategory": [
+      "Lora"
     ]
   },
   {
@@ -39,7 +174,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 30,
+    "id": 32,
     "title": "Ond’Expo 2026: A Real-World Connection Through Mesh Networking",
     "description": "Before Ond’Expo 2026 officially opened its doors to the public, the venue was already abuzz with intense yet orderly preparations.",
     "category": "news",
@@ -59,7 +194,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 18,
+    "id": 20,
     "title": "Heltec Wireless Tracker v2 – nRF",
     "description": "What can the Heltec Wireless Tracker v2 be used for ? In situations of disruption (unavailable cellular network, infrastructure overload, loss of coordination), the main problem is not just communication, but knowing the whereabouts of family members, friends, or clans.",
     "category": "news",
@@ -78,7 +213,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 19,
+    "id": 21,
     "title": "Heltec Wraps Up SCALE 2026",
     "description": "Heltec, a global leading enterprise specializing in IoT and smart hardware, today announced the successful conclusion of its participation in the Southern California Linux Expo (SCALE)",
     "category": "news",
@@ -97,7 +232,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 17,
+    "id": 19,
     "title": "Heltec WiFi LoRa 32 Expansion Kit",
     "description": "Test result and conclusion of Heltec WiFi LoRa 32 Expansion Kit",
     "category": "technical",
@@ -113,7 +248,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 32,
+    "id": 34,
     "title": "Tech Guardian for Wildlife in Dinokeng Reserve",
     "description": "New Technology System Helps Protect Wildlife in South Africa’s Dinokeng Reserve",
     "category": "news",
@@ -125,7 +260,7 @@ export const latestWikiData = [
     "productCategory": []
   },
   {
-    "id": 11,
+    "id": 16,
     "title": "Heltec V4 Test Result",
     "description": "We are assessing the Heltec LoRa 32 V4's performance and real-world application in Meshtastic networks.",
     "category": "technical",
@@ -141,7 +276,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Christmas gifts and 2026 new years",
     "description": "Dual-Festival Promotion, Offering Tiered Discounts to Empower Developers for 2026",
     "category": "news",
@@ -153,7 +288,7 @@ export const latestWikiData = [
     "productCategory": []
   },
   {
-    "id": 23,
+    "id": 25,
     "title": "LoRa Gate PCB – WLED-Powered LED Gates with Heltec HT-CT62",
     "description": "The LoRa Gate PCB is a custom controller board for wireless, battery-powered LED gates, built around the Heltec HT-CT62 module (ESP32-C3 + SX1262 LoRa). It is designed for applications where multiple LED “nodes” need to be controlled reliably over long distances with minimal wiring – for example **FPV race start/finish gates**, illuminated track elements, or interactive light installations.",
     "category": "2025 maker contest",
@@ -167,7 +302,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "🌲 SmartLumber: Industrial LoRaWAN Monitoring & Predictive Digital Twin",
     "description": "Industrial LoRaWAN Monitoring & Predictive Digital Twin",
     "category": "2025 maker contest",
@@ -180,144 +315,6 @@ export const latestWikiData = [
       "LoRaWAN",
       "RS485"
     ]
-  },
-  {
-    "id": 28,
-    "title": "Maker Contest: Measure Your Living Environment",
-    "description": "Contest Entry for the 2025 Heltec Maker Contest",
-    "category": "2025 maker contest",
-    "date": "2025-12-9",
-    "image": "/news-assets/measure-your-living-environment/measure-your-living-environment/MJLO-box.jpg",
-    "slug": "/news/measure-your-living-environment/measure-your-living-environment",
-    "tags": [],
-    "pinned": false,
-    "productCategory": [
-      "LoRa32",
-      "LoRaWAN"
-    ]
-  },
-  {
-    "id": 26,
-    "title": "LoRaHunt - Monitoring live traps for invasive species",
-    "description": "How we protect native wildlife with Heltec's LoRa modules",
-    "category": "2025 maker contest",
-    "date": "2025-12-08",
-    "image": "/news-assets/lorahunt/lorahunt/LoRaHunt.jpg",
-    "slug": "/news/lorahunt/lorahunt",
-    "tags": [],
-    "pinned": false,
-    "productCategory": [
-      "LoRa32"
-    ]
-  },
-  {
-    "id": 9,
-    "title": "From a LoRa communication module to a safe text message",
-    "description": "This is the story of Heltec's contribution to Louisiana's hurricane-resistant network.",
-    "category": "news",
-    "date": "2025-12-04",
-    "image": "/news-assets/from-a-lora-communication-module-to-a-safe-text-message/from-a-lora-communication-module-to-a-safe-text-message/1.png",
-    "slug": "/news/from-a-lora-communication-module-to-a-safe-text-message/from-a-lora-communication-module-to-a-safe-text-message",
-    "tags": [],
-    "pinned": false,
-    "productCategory": [
-      "LoRa32",
-      "nRF",
-      "Meshtastic"
-    ]
-  },
-  {
-    "id": 23,
-    "title": "Shipping and warehouse policy",
-    "description": "This Shipping & Delivery Policy outlines our methods, delivery times, and important terms regarding your orders.",
-    "category": "template",
-    "date": "2025-11-28",
-    "image": "/news-assets/shipping-and--warehouse-policy/shipping-and-warehouse-policy/parcel1.jpg",
-    "slug": "/news/shipping-and--warehouse-policy/shipping-and-warehouse-policy",
-    "tags": [],
-    "pinned": false,
-    "productCategory": []
-  },
-  {
-    "id": 18,
-    "title": "LoRa Tracking in the Mountains",
-    "description": "How We Tracked Paragliders Without Cellular Coverage",
-    "category": "news",
-    "date": "2025-11-27",
-    "image": "/news-assets/lora-tracking-in-the-mountains/lora-tracking-in-the-mountains/5.png",
-    "slug": "/news/lora-tracking-in-the-mountains/lora-tracking-in-the-mountains",
-    "tags": [],
-    "pinned": false,
-    "productCategory": [
-      "LoRa32",
-      "nRF",
-      "LoRaWAN"
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Building a life line in the storm",
-    "description": "**Heltec Devices Excel in Large-Scale Test of La Réunion's Gaulix Resilience Network**",
-    "category": "news",
-    "date": "2025-11-25",
-    "image": "/news-assets/building-a-lifeline-in-the-storm/building-a-life-line-in-the-storm/1.jpg",
-    "slug": "/news/building-a-lifeline-in-the-storm/building-a-life-line-in-the-storm",
-    "tags": [],
-    "pinned": false,
-    "productCategory": [
-      "Meshtastic",
-      "nRF"
-    ]
-  },
-  {
-    "id": 10,
-    "title": "🦃 Happy Thanksgiving from Heltec! 🍁",
-    "description": "This Thanksgiving, we want to express our heartfelt gratitude to all our amazing customers and community members.",
-    "category": "news",
-    "date": "2025-11-19",
-    "image": "/news-assets/happy-thanksgiving-from-heltec/happy-thanksgiving-from-heltec/4.png",
-    "slug": "/news/happy-thanksgiving-from-heltec/happy-thanksgiving-from-heltec",
-    "tags": [],
-    "pinned": false,
-    "productCategory": []
-  },
-  {
-    "id": 12,
-    "title": "Heltec Visits Maker Faire Shenzhen 2025",
-    "description": "**Heltec Visits Maker Faire Shenzhen 2025 — Exploring the Future of Integrated Technology**",
-    "category": "news",
-    "date": "2025-11-18",
-    "image": "/news-assets/heltec-visits-maker-faire-shenzhen-2025/heltec-visits-maker-faire-shenzhen-2025/01.jpg",
-    "slug": "/news/heltec-visits-maker-faire-shenzhen-2025/heltec-visits-maker-faire-shenzhen-2025",
-    "tags": [],
-    "pinned": false,
-    "productCategory": []
-  },
-  {
-    "id": 6,
-    "title": "HC-02 Wi-Fi HaLow Module",
-    "description": "Pioneering a New Era of Long-Range, High-Speed Wireless Connectivity for IoT",
-    "category": "technical",
-    "date": "2025-11-11",
-    "image": "/news-assets/compact-efficient-and-developer-friendly/compact-efficient-and-developer-friendly/01.png",
-    "slug": "/news/compact-efficient-and-developer-friendly/compact-efficient-and-developer-friendly",
-    "tags": [],
-    "pinned": false,
-    "productCategory": [
-      "WiFiHaLow"
-    ]
-  },
-  {
-    "id": 16,
-    "title": "IEEE WF IoT 2025 Smart and Sustainable",
-    "description": "IEEE WF IoT 2025 Smart and Sustainable",
-    "category": "news",
-    "date": "2025-11-03",
-    "image": "/news-assets/ieee-wf-iot-2025-smart-and-sustainable/ieee-wf-iot-2025-smart-and-sustainable/1.jpg",
-    "slug": "/news/ieee-wf-iot-2025-smart-and-sustainable/ieee-wf-iot-2025-smart-and-sustainable",
-    "tags": [],
-    "pinned": false,
-    "productCategory": []
   }
 ];
 
