@@ -41,8 +41,6 @@ import styles from '@site/src/css/styles.module.css';
 
 - The FEM chip has been upgraded to **KCT8103L**, allowing software control over whether the RX signal path passes through the LNA.
 
-- A SAW filter pad is now reserved in the RX chain. It is not populated by default, providing flexibility for future expansion, customization, and RF debugging.
-
 - GPIO Adjustments
 
   - GPIO5 has been reassigned as the FEM control pin.
@@ -60,7 +58,23 @@ import styles from '@site/src/css/styles.module.css';
 - The overall layout of the ESP32 has been optimized, including improvements to power routing, grounding design, RF trace layout, and the placement of UART and Flash components, thereby further enhancing system stability and RF performance.
 
 - About 1W (30 dBm) Output Requirement
+---
+A SAW filter pad is now reserved in the RX chain. It is not populated by default, providing flexibility for future expansion, customization, and RF debugging.
+  
+- Two SAW filter footprints are reserved on the PCB:
 
+  - **U10:** Located before the LNA input stage
+  - **U11:** Located after the LNA output stage
+
+- When installing a filter at U10: Remove resistor R32. Populate R37 and R38 with 0 Ω resistors (0402 package).
+
+- When installing a filter at U11: Remove resistor R30. Populate R35 and R36 with 0 Ω resistors (0402 package).
+
+- Recommended SAW filter models:
+
+  - **868:** B39871B4377P810
+  - **915:** B39921B4344P810
+---
 :::note
 Many users have expressed interest in a 1W (30 dBm) LoRa output. However, the maximum output of LoRa 32 V4 remains 28 dBm. This is because achieving 30 dBm output requires the FEM to operate at 5V, and battery boost conversion to 5V introduces significant efficiency loss, which is not suitable for low-power applications.
 :::

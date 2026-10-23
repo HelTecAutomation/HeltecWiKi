@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 8
 title: OTA Upgrade Procedure
 ---
 
@@ -39,3 +39,8 @@ HT-HD01 V1 Firmware Version 2.8.5-20250807 update:
 
 HT-HD01 V1 and HT-HD01 V2 Firmware Version 2.8.5-20250924 update:
 - Fixed a bug where devices kept rebooting after enabling the HaLow AP function in HaLow Mesh mode.
+
+- 2026/08/18: Firmware version 2.8.5 introduces **Easy Mesh** mode and improves mesh networking capabilities. 
+
+  Latest Firmware: [Download Firmware v2.8.5](https://resource.heltec.cn/download/HT-HD01_V2/firmware/openwrt-2.8.5-20260420-heltec-ht-hd01-v2-squashfs-sysupgrade.bin)
+

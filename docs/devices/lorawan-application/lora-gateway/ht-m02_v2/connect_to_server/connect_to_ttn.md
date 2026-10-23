@@ -10,7 +10,7 @@ import styles from '@site/src/css/styles.module.css';
 
 ## Summary
 
-This article aims to describe how to connect HT-M02_V2 Gateway to a LoRa server, such as [TTN](https://www.thethingsnetwork.org/), [ChirpStack](https://www.chirpstack.io/), which facilitates secondary development and rapid deployment of LoRa devices.
+This article aims to describe how to connect HT-M02_V2 Gateway to a LoRa server, such as [TTN/TTS](https://eu1.cloud.thethings.network/console/), [ChirpStack](https://www.chirpstack.io/), which facilitates secondary development and rapid deployment of LoRa devices.
 
 Before all operation, make sure the HT-M02 is runing well . If not, please refer to this [HT-M02_V2 Quick Start](/docs/devices/lorawan-application/lora-gateway/ht-m02_v2/quick_start) document.
 

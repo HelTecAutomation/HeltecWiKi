@@ -8,7 +8,9 @@ title: How to Use Heltec 1303 Module on a Windows computer
 
 Directly using the LoRaWAN gateway module on Windows computers can enable industrial computers to fully support all functions of the LoRaWAN gateway, effectively reducing costs. 
 
-**Note :** *only the USB version of the LoRaWAN module can be directly compatible with Windows computers.*
+:::note
+only the **`USB version`** of the LoRaWAN module can be directly compatible with Windows computers.
+:::
 
 ## Preparation
 
@@ -44,10 +46,6 @@ The server address and port number below should correspond to the user's server 
 
 Enter the SN serial number on the module through the [Heltec official website](https://resource.heltec.cn/search), search for the corresponding license, and get to ID. Open the cmd command window and enter `Heltec.LoraGateway.exe -s -1 license`  command. If everything is normal, it means that its service has been installed.
 
-> [!IMPORTANT]
->
-> If the user cannot find the license, don't worry. Run the command `Heltec.LoraGateway.exe - s` through cmd. Under normal circumstances, the gateway ID in the global_conf.json file will be updated, and the user needs to send the updated gateway ID to leehunter8801@gmail.com . We will solve this problem in the future.
-> I deeply apologize to the users who have encountered the above-mentioned issues. Due to the recent development of Windows service functionality, it was not included in previous shipments and was not written to the server. Therefore, module numbers and gateway IDs are required for numbering. This problem will not occur again in the future.
 
 ## Display
 

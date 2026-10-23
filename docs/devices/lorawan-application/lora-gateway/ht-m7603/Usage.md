@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Usage Guide
+title: Quick Start
 ---
 
 **This topic describes how to configure HT-M7603 quickly.**

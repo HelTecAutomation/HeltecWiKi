@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Usage Guide
+title: Quick Start
 ---
 
 import Tabs from '@theme/Tabs';
@@ -27,7 +27,6 @@ values={[
 {label: 'ETH & WIFI Version', value:'wifi'},
 {label: 'ETH & 4G Version', value:'4g'},
 {label: 'ETH & WIFI & 4G Versions', value:'three'},
-{label: 'Establish Serial/SSH Connection', value:'ssh'},
 ]}>
 
 
@@ -274,16 +273,26 @@ AT+CGDCONT
 For APN configuration, please refer to the module [AT command manual](https://resource.heltec.cn/download/HT-M02_V2/Quectel_EC2x%26EG9x%26EG2x-G%26EM05_Series_AT_Commands_Manual_V2.0.pdf).
 :::
 
+
+
+
 </TabItem>
-<TabItem value="ssh" label="Establish Serial/SSH Connection">
+</Tabs>
 
-If required, HT-M02_V2 can provide serial/SSH connection.
 
+---
+
+:::tip
+For advanced configuration, access and management can be performed via serial port/SSH.
+:::
+
+```
 Default login user name: root
 
 Default login password: heltec.org
+```
 
-### Serial
+#### Serial
 
 Because of the waterproof design, the UART interface is not directly exposed outside. If need a serial port connection, need to remove the protective board on the side of the HT-M02_V2, and also a UART-USB bridge is required (CP2102, CP2104, CH340G etc.).
 
@@ -295,12 +304,8 @@ Select an appropriate serial port debugging tool. Recommended to use [Putty](htt
 
 ![](img/quick_start/13.png)
 
-### SSH
+#### SSH
 
 Establish SSH connection need make sure the client in a same LAN with HT-M02_V2, SSH use default Port 22. 
 
 ![](img/quick_start/14.png)
-
-
-</TabItem>
-</Tabs>

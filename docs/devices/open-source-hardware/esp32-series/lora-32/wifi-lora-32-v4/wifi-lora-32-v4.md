@@ -6,7 +6,7 @@ title: Product  Overview
 
 import styles from '@site/src/css/styles.module.css';
 
-# WiFi_LoRa_32_V4
+# WiFi LoRa 32 V4
 
 <div style={{ textAlign: 'center' }}>
   ![](img/v4.jpg)
@@ -58,3 +58,16 @@ The classic WiFi LoRa 32 development board has been upgraded to the all-new V4 v
 - [Applied to LoRaWAN](/docs/devices/open-source-hardware/esp32-series/esp32-quick-start?esp32=lorawan)
 - [Applied to Meshtatic](/docs/devices/open-source-hardware/esp32-series/esp32-quick-start?esp32=meshtastic)
 - [How to use license](/docs/devices/general-docs/how_to_use_license)
+
+---
+:::danger
+
+In Arduino, it is recommended to update the required libraries to the latest version first. After the update, click `Reload Board Data` in the Tools menu to refresh the cache and ensure the latest configuration is applied correctly.
+
+For the WiFi LoRa 32 V4 development board, different hardware revisions also require selecting the correct LoRa FEM option in the Tools menu.
+
+- V4.2, select `USE_GC1109_PA`.
+- V4.3, select `USE_KCT8103L_PA`.
+:::
+
+![](img/8.png)

@@ -1,14 +1,19 @@
-// Auto-generated Wiki data - Last updated: 2026-10-23T06:46:38.106Z
+// Auto-generated Wiki data - Last updated: 2026-10-22T11:10:06.780Z
 export const latestWikiData = [
   {
-    "id": 12,
-    "title": "Heltec Wi-Fi HaLow Enables Smart Farming",
-    "description": "A solar delta trap sent one photo per day from an orchard. On Thursday the 17th, other insects were visible, but no moths of interest; on Friday the 18th, we counted 14 specimens.",
+    "id": 4,
+    "title": "Building a Sustainable Planet with Mesh LoRa Networks",
+    "description": "From Awareness to Infrastructure: How Heltec's Wireless Ecosystem Is Powering Environmental Monitoring",
     "category": "news",
-    "date": "2026-10-23",
-    "image": "/news-assets/heltec-wifi-halow-enables-smart-farming/heltec-wifi-halow-enables-smart-farming/03.png",
-    "slug": "/news/heltec-wifi-halow-enables-smart-farming/heltec-wifi-halow-enables-smart-farming",
-    "tags": [],
+    "date": "2026-04-23",
+    "image": "/news-assets/building-a-sustainable-planet-with-mesh-lora-networks/building-a-sustainable-planet-with-mesh-lora-networks/01.png",
+    "slug": "/news/building-a-sustainable-planet-with-mesh-lora-networks/building-a-sustainable-planet-with-mesh-lora-networks",
+    "tags": [
+      "heltec",
+      " \"meshtastic\"",
+      "lora",
+      "beta"
+    ],
     "pinned": false,
     "productCategory": [
       "LoRa32",
@@ -17,7 +22,24 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 22,
+    "id": 13,
+    "title": "Heltec Supports MeshCore Community Meetup in the Netherlands",
+    "description": "where local radio, LoRa, and mesh-networking enthusiasts gathered to exchange knowledge, test hardware, and discuss the future of decentralized communication networks.",
+    "category": "news",
+    "date": "2026-05-20",
+    "image": "/news-assets/heltec-supports-meshcore-community-meetup-in-the-netherlands/heltec-supports-meshcore-community-meetup-in-the-netherlands/01.jpg",
+    "slug": "/news/heltec-supports-meshcore-community-meetup-in-the-netherlands/heltec-supports-meshcore-community-meetup-in-the-netherlands",
+    "tags": [],
+    "pinned": false,
+    "productCategory": [
+      "LoRa32",
+      "Meshtastic",
+      "Meshcore",
+      "News"
+    ]
+  },
+  {
+    "id": 30,
     "title": "Ond’Expo 2026: A Real-World Connection Through Mesh Networking",
     "description": "Before Ond’Expo 2026 officially opened its doors to the public, the venue was already abuzz with intense yet orderly preparations.",
     "category": "news",
@@ -37,7 +59,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 14,
+    "id": 18,
     "title": "Heltec Wireless Tracker v2 – nRF",
     "description": "What can the Heltec Wireless Tracker v2 be used for ? In situations of disruption (unavailable cellular network, infrastructure overload, loss of coordination), the main problem is not just communication, but knowing the whereabouts of family members, friends, or clans.",
     "category": "news",
@@ -56,7 +78,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 15,
+    "id": 19,
     "title": "Heltec Wraps Up SCALE 2026",
     "description": "Heltec, a global leading enterprise specializing in IoT and smart hardware, today announced the successful conclusion of its participation in the Southern California Linux Expo (SCALE)",
     "category": "news",
@@ -75,7 +97,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "Heltec WiFi LoRa 32 Expansion Kit",
     "description": "Test result and conclusion of Heltec WiFi LoRa 32 Expansion Kit",
     "category": "technical",
@@ -91,7 +113,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 24,
+    "id": 32,
     "title": "Tech Guardian for Wildlife in Dinokeng Reserve",
     "description": "New Technology System Helps Protect Wildlife in South Africa’s Dinokeng Reserve",
     "category": "news",
@@ -103,7 +125,7 @@ export const latestWikiData = [
     "productCategory": []
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Heltec V4 Test Result",
     "description": "We are assessing the Heltec LoRa 32 V4's performance and real-world application in Meshtastic networks.",
     "category": "technical",
@@ -131,7 +153,7 @@ export const latestWikiData = [
     "productCategory": []
   },
   {
-    "id": 17,
+    "id": 23,
     "title": "LoRa Gate PCB – WLED-Powered LED Gates with Heltec HT-CT62",
     "description": "The LoRa Gate PCB is a custom controller board for wireless, battery-powered LED gates, built around the Heltec HT-CT62 module (ESP32-C3 + SX1262 LoRa). It is designed for applications where multiple LED “nodes” need to be controlled reliably over long distances with minimal wiring – for example **FPV race start/finish gates**, illuminated track elements, or interactive light installations.",
     "category": "2025 maker contest",
@@ -160,7 +182,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 21,
+    "id": 28,
     "title": "Maker Contest: Measure Your Living Environment",
     "description": "Contest Entry for the 2025 Heltec Maker Contest",
     "category": "2025 maker contest",
@@ -175,7 +197,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 19,
+    "id": 26,
     "title": "LoRaHunt - Monitoring live traps for invasive species",
     "description": "How we protect native wildlife with Heltec's LoRa modules",
     "category": "2025 maker contest",
@@ -189,7 +211,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "From a LoRa communication module to a safe text message",
     "description": "This is the story of Heltec's contribution to Louisiana's hurricane-resistant network.",
     "category": "news",
@@ -248,7 +270,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "🦃 Happy Thanksgiving from Heltec! 🍁",
     "description": "This Thanksgiving, we want to express our heartfelt gratitude to all our amazing customers and community members.",
     "category": "news",
@@ -260,7 +282,7 @@ export const latestWikiData = [
     "productCategory": []
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "Heltec Visits Maker Faire Shenzhen 2025",
     "description": "**Heltec Visits Maker Faire Shenzhen 2025 — Exploring the Future of Integrated Technology**",
     "category": "news",
@@ -272,7 +294,7 @@ export const latestWikiData = [
     "productCategory": []
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "HC-02 Wi-Fi HaLow Module",
     "description": "Pioneering a New Era of Long-Range, High-Speed Wireless Connectivity for IoT",
     "category": "technical",

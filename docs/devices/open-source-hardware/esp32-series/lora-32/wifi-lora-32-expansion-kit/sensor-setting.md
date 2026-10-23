@@ -60,6 +60,8 @@ Clicking “Save” will restart the device and automatically enable the buzzer.
 | Notifications | No          | Yes                         |
 | System Only   | Yes         | No                          |
 
+---
+
 ## 2.GXHTV3 and BME280 Sensor Settings
 
 If you need to manually install the sensor, first remove the rear panel of the expansion box.
@@ -76,6 +78,10 @@ If your expansion box is supplied with a pre-installed sensor, please skip the a
 :::
 
 ---
+
+## Meshtastic Setting
+
+***If you are using the Meshtastic App for device setup and configuration, please follow the steps below:***
 
 1. Complete the device connection in the Meshtastic App and ensure that the LoRa region is correctly configured.
 
@@ -107,9 +113,25 @@ Users can navigate to the last menu tab using the User button to view the sensor
 ![](img/usage-guide/9.jpg)
 
 
+---
 
+## MeshCore Setting
 
+***If you are using the MeshCore App for device setup and configuration, please follow the steps below:***
 
+1.Connect the device to the MeshCore App.
 
+2.Go to Settings → Telemetry.
 
+![](img/mc1.png) 
+![](img/mc2.png)
 
+3.The sensor data will be displayed.
+
+![](img/mc3.png) 
+
+:::note
+The telemetry data may be displayed on different channels depending on the device configuration. If no sensor data is shown, switch to another channel (for example, **Channel 2**) to view the data.
+:::
+
+![](img/mc4.png) 

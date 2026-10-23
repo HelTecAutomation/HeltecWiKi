@@ -128,16 +128,16 @@ const DIR_NAME_MAP = {
   'devices/lorawan-application/lora-gateway/ht-m7603/connect_to_server': 'Connect to Server',
   'devices/lorawan-application/lora-node-devices': 'LoRaWAN Node Device',
   'devices/lorawan-application/lora-node-devices/hri-485x-rs-485': 'HRI-485X Wireless Converter',
-  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4851': 'HRI-4851',
-  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4851-lorawan': 'HRI-4851-L',
-  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4852': 'HRI-4852',
-  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4853': 'HRI-4853',
-  'devices/lorawan-application/lora-node-devices/hri-3621': 'HRI-3621',
-  'devices/lorawan-application/lora-node-devices/hri-3622': 'HRI-3622',
-  'devices/lorawan-application/lora-node-devices/hri-3631': 'HRI-3631',
-  'devices/lorawan-application/lora-node-devices/hri-3632': 'HRI-3632',
-  'devices/lorawan-application/lora-node-devices/hri-3633': 'HRI-3633',
-  'devices/lorawan-application/lora-node-devices/hri-3601': 'HRI-3601 (Discontinued)',
+  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4851': 'LoRa Wireless Converter',
+  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4851-lorawan': 'LoRaWAN Wireless Converter',
+  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4852': 'LoRa Wireless Converter',
+  'devices/lorawan-application/lora-node-devices/hri-485x-rs-485/hri-4853': 'TCP/UDP/MQTT Converter (Discontinued)',
+  'devices/lorawan-application/lora-node-devices/hri-3621': 'Sensor Hub (Phaseout)',
+  'devices/lorawan-application/lora-node-devices/hri-3622': 'Sensor Hub Bus Transformer (Phaseout)',
+  'devices/lorawan-application/lora-node-devices/hri-3631': 'Wireless Aggregator Sensor Docker',
+  'devices/lorawan-application/lora-node-devices/hri-3632': 'Wireless Aggregator Bus Transformer',
+  'devices/lorawan-application/lora-node-devices/hri-3633': 'Wireless Aggregator Valve Controller',
+  'devices/lorawan-application/lora-node-devices/hru-3601': 'HRI-3601 (Discontinued)',
   'devices/lorawan-application/lora-node-devices/hru-1000': 'HRU-1000 (Discontinued)',
   'devices/lorawan-application/lora-node-devices/junction-box': 'Junction Box',
   'devices/open-source-hardware': 'Open Source Hardware',
@@ -154,7 +154,9 @@ const DIR_NAME_MAP = {
   'devices/open-source-hardware/esp32-series/lora-32/wifi-kit-32': 'WiFi Kit 32',
   'devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v3': 'WiFi LoRa 32 V3',
   'devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v4': 'WiFi LoRa 32 V4',
+  'devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v4_r8_board': 'WiFi LoRa 32 V4 R8',
   'devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-expansion-kit': 'WiFi LoRa 32 Expansion Kit',
+  'devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v4r8': 'WiFi LoRa 32 Expansion Kit V2',
   'devices/open-source-hardware/esp32-series/lora-32/wireless-bridge': 'Wireless Bridge',
   'devices/open-source-hardware/esp32-series/lora-32/wireless-mini-shell-ht-ct62': 'HT-CT62',
   'devices/open-source-hardware/esp32-series/lora-32/wireless-paper': 'Wireless Paper',
@@ -170,13 +172,33 @@ const DIR_NAME_MAP = {
   'devices/open-source-hardware/esp32-series/vision-master/vison-master-t190': 'Vision Master T190',
   'devices/open-source-hardware/esp32-series/wireless_boot': 'Wireless Boot',
   'devices/open-source-hardware/esp32-series/three-platform': 'Three Platform',
-  'devices/open-source-hardware/nrf52840-series': 'nRF52840 Series',
-  'devices/open-source-hardware/nrf52840-series/mesh-node-t114': 'MeshNode T114',
+  'devices/open-source-hardware/radio_core_series/rc32':'RC32 Series',
+  'devices/open-source-hardware/radio_core_series/rc32/rac32':'RC32',
+  'devices/open-source-hardware/radio_core_series/expansion':'RadioCore Expansion',
+  'devices/open-source-hardware/radio_core_series/rc32/rc3262':'RC32-62',
+  'devices/open-source-hardware/radio_core_series/expansion/rdga01':'RD-GA01',
+  'devices/open-source-hardware/radio_core_series/expansion/rdgb01':'RD-GB01',
+  'devices/open-source-hardware/radio_core_series/rc32/rc3268':'RC32-68',
+  'devices/open-source-hardware/radio_core_series/expansion/rscp01':'RS-CP01',
+  'devices/open-source-hardware/radio_core_series/rcc6':'RCC6 Series',
+  'devices/open-source-hardware/radio_core_series/rcc6/racc6':'RCC6',
+  'devices/open-source-hardware/radio_core_series/rcc6/rcc662':'RCC6-62',
+  'devices/open-source-hardware/radio_core_series/rc52/rc5262':'RC52-62',
+  'devices/open-source-hardware/radio_core_series/rc52':'RC52 Series',
+  'devices/open-source-hardware/radio_core_series/rc52/rac52':'RC52',
+  'devices/open-source-hardware/radio_core_series/expansion/rd01':'RD01',
+  'devices/open-source-hardware/radio_core_series/expansion/rdc1':'RDC1',
+  'devices/open-source-hardware/radio_core_series/expansion/radiocore_kit':'RadioCore Kit',
+  'devices/open-source-hardware/nrf52840-series':'nRF52840 Series',
+  'devices/open-source-hardware/nrf52840-series/mesh-node-t114': 'Mesh Node T114',
+  'devices/open-source-hardware/nrf52840-series/mesh-node-t1': 'Mesh Node T1',
   'devices/open-source-hardware/nrf52840-series/t096': 'Mesh Node T096',
-  'devices/open-source-hardware/nrf52840-series/mesh-node-5262m': 'MeshNode N5262M',
+  'devices/open-source-hardware/nrf52840-series/mesh-node-5262m': 'Mesh Node N5262M',
   'devices/open-source-hardware/nrf52840-series/mesh-solar': 'MeshSolar (Discontinued)',
   'devices/open-source-hardware/nrf52840-series/mesh-tower': 'MeshTower',
   'devices/open-source-hardware/nrf52840-series/meshpocket': 'MeshPocket',
+  'devices/open-source-hardware/nrf52840-series/mesh-tower-v2': 'MeshTower V2',
+  'devices/open-source-hardware/radio_core_series': 'RadioCore Series',
   'devices/wifi-halow': 'WiFi HaLow',
   'devices/wifi-halow/ht-hd01': 'HD01 WiFi HaLow Dongle',
   'devices/wifi-halow/ht-h7608': 'H7608 WiFi HaLow Router',
@@ -185,6 +207,7 @@ const DIR_NAME_MAP = {
   'devices/wifi-halow/ht-hc02': 'HC02 WiFi HaLow AT Module',
   'devices/wifi-halow/ht-hc32': 'HC32 ESP32 HaLow Camera',
   'devices/wifi-halow/ht-hr01': 'HR01 Raspberry Pi CamLow',
+  'devices/wifi-halow/ht-hr01-hat': 'HT-HC01P Raspberry Pi HAT',
   'devices/general-docs/lorawan-instructions': 'LoRaWAN Instructions',
   'devices/general-docs/how-to-use-mqtt': 'How to Use MQTT',
   'platform/snapemu/deploy': 'Deploy',
@@ -194,6 +217,12 @@ const DIR_NAME_MAP = {
   'platform/chirpstack/gateways_connect_to_chirpstack': 'Gateway Connect to Chirpstack',
   'platform/ttn': 'TTN/TTS',
   'platform/ttn/gateways_connect_to_ttn': 'Gateway Connect to TTN/TTS',
+  'devices/lorawan-application/lorawan-ns': 'LoRaWAN NS',
+  'platform/f&t':'F&T System',
+  'platform/f&t/devices':'Support Devices',
+  'platform/f&t/qs':'Quick Start',
+  'platform/f&t/devices/esp32':'ESP32 Series',
+  'platform/f&t/devices/nrf52840':'nRF52840 Series'
 };
 
 /**
@@ -316,7 +345,7 @@ function buildSidebarItems(dirPath, relativePath, dirName, rootDirName) {
 
         // 如果是一级目录，设置为默认展开
         if (isFirstLevelCategory(newRelativePath, rootDirName)) {
-          category.collapsed = false;
+          category.collapsed = true;
         }
 
         subCategories.push(category);
@@ -341,30 +370,38 @@ function buildSidebarItems(dirPath, relativePath, dirName, rootDirName) {
     }
   }
 
-  // 按照 sidebar_position 排序
-  docFiles.sort((a, b) => {
-    if (a._position !== b._position) {
-      return a._position - b._position;
-    }
-    // 如果位置相同，按文件名排序
-    return a.id.localeCompare(b.id);
-  });
+  // // 按照 sidebar_position 排序
+  // docFiles.sort((a, b) => {
+  //   if (a._position !== b._position) {
+  //     return a._position - b._position;
+  //   }
+  //   // 如果位置相同，按文件名排序
+  //   return a.id.localeCompare(b.id);
+  // });
 
-  subCategories.sort((a, b) => {
+  // subCategories.sort((a, b) => {
+  //   if (a._position !== b._position) {
+  //     return a._position - b._position;
+  //   }
+  //   // 如果位置相同，按标签名排序
+  //   return a.label.localeCompare(b.label);
+  // });
+  const files = [...docFiles, ...subCategories]
+   files.sort((a, b) => {
     if (a._position !== b._position) {
       return a._position - b._position;
     }
     // 如果位置相同，按标签名排序
-    return a.label.localeCompare(b.label);
+    return a.id ? a.id.localeCompare(b.id) :  a.label.localeCompare(b.label);
   });
 
   // 移除临时位置属性
-  docFiles.forEach((item) => delete item._position);
-  subCategories.forEach((item) => delete item._position);
-
+  files.forEach((item) => delete item._position);
+  // subCategories.forEach((item) => delete item._position);
+  
   // 先添加文档文件，再添加子目录
-  items.push(...docFiles);
-  items.push(...subCategories);
+  items.push(...files);
+  // items.push(...subCategories);
 
   // 根目录本身（如 devices/platform）不在侧边栏渲染为单独 category，
   // 因此这里不需要使用 currentIndexDocId 渲染 doc item。

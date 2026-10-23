@@ -32,7 +32,8 @@ Wireless Tracker V2 integrates the Semtech SX1262 LoRa transceiver and UC6580 GN
 - Onboard TFT display and enhanced GNSS reception.
 
 ## Important parameters
-| parameters         | Wireless Tracker V2         |
+
+| [parameters](https://resource.heltec.cn/download/Wireless_Tracker_V2/Wireless_Tracker_v2_Datasheet/Wireless%20Tracker%20v2.pdf)        | Wireless Tracker V2         |
 |--------------------|----------------------------|
 |Master and LoRa Chip      |	    ESP32-S3FN8 + SX1262                |
 |GNSS Chipset  |     UC6580               |

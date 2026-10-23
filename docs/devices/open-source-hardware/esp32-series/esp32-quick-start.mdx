@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 title: ESP32 SDK & Projects
 ---
 
@@ -15,6 +15,7 @@ defaultValue="esp32"
 className={styles.customTabs}
 values={[
 {label: 'ESP32 Series Quick Start', value:'esp32'},
+{label: 'Flash ', value:'ff'},
 {label: 'LoRaWAN', value:'lorawan'},
 {label: 'Meshtastic', value:'meshtastic'},
 ]}>
@@ -214,6 +215,45 @@ void loop() {
 compile it and upload, the  screen (if this board has a screen) will show and Arduino's serial monitor will print something, it means Heltec ESP32 board is running successfully!
 
 
+</TabItem>
+<TabItem value="ff" >
+
+
+# Flash Firmware via Flash Download Tool
+
+:::note
+If you encounter issues when flashing the firmware using the standard method, we recommend using the Flash Download Tool to flash the firmware instead.
+:::
+
+
+1. Download the [Flash Download Tool](https://dl.espressif.com/public/flash_download_tool.zip) from Espressif.
+
+
+2. Extract the downloaded package and open the Flash Download Tool application.
+
+   <img src={require('./img/3.png').default} style={{width: '600px'}} />
+
+3. Select the chip used by your device. Most of our devices use **ESP32-S3**. Select the corresponding chip type and click **OK**.
+   
+   <img src={require('./img/4.png').default} style={{width: '300px'}} />
+
+4. In the configuration interface, **select the corresponding firmware file** and set the Flash Address to **0**s.
+   
+   <img src={require('./img/5.png').default} style={{width: '500px'}} />
+
+
+5. Select the **COM** corresponding to your device.
+
+   <img src={require('./img/6.png').default} style={{width: '500px'}} />
+
+
+6. **Erase and Flash the Firmware:** First, click **Erase** to erase the existing firmware. Then click **START** to begin flashing the new firmware. 
+
+   <img src={require('./img/7.png').default} style={{width: '500px'}} />
+
+:::tip
+The flashing process may take some time. Do not disconnect the USB cable or power off the device during the process.
+:::
 
 
   
@@ -289,6 +329,25 @@ Print too much messages may cause the system unstable.
 8. Click `Upload` to upload the code.
 
 ![](img/config_parameter/06.png)
+
+---
+
+:::note
+It is recommended to refresh the cache after updating libraries in Arduino, so the changes can take effect immediately.
+:::
+
+
+![](img/config_parameter/7.png)
+
+
+:::danger
+For the WiFi LoRa 32 V4 development board, different hardware revisions require selecting the correct LoRa FEM option in the Tools menu.
+- V4.2, select `USE_GC1109_PA`.
+- V4.3, select `USE_KCT8103L_PA`.
+:::
+
+![](img/config_parameter/8.png)
+
 
 </TabItem>
 <TabItem value="connect-to-server" label="Connect to LoRaWAN server" default>
@@ -505,6 +564,9 @@ Using the four flashing methods for the WiFi LoRa 32 V4 as an example, the insta
 
 ---
 
+
+
+
 ## Supported ESP32 Devices for Meshtastic Web Flasher
 
 | Product | Description |
@@ -519,16 +581,8 @@ Using the four flashing methods for the WiFi LoRa 32 V4 as an example, the insta
 | [Vision Master E290](https://heltec.org/project/vision-master-e290/) | 2.90 inch E-Ink Display |
 | [Vision Master T190](https://heltec.org/project/vision-master-t190/) | 1.90 inch TFT Display |
 
-:::note
-- WiFi LoRa 32 Expansion Kit (Glass Panel)
 
-  Supports direct flashing of Meshtastic V4 firmware via the official Web Flasher.
-
-- WiFi LoRa 32 Expansion Kit (Touchscreen)
-
-  Does not support Web flashing. Firmware must be flashed using a local tool.
-  For more details, please refer to [this document](/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-expansion-kit/usage-guide#flash-via-esp32-flasher-tool).
-:::
+---
 
 ## How to Use Meshtastic
 

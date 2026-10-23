@@ -48,12 +48,18 @@ There are two ways to access the configuration page—you can choose either one:
 
 #### Via Ethernet
 
+
+
+
 1. Connect your H7608 to PC (laptop) using Ethernet cable.  
 2. Enter `10.42.0.1` in your browser to navigate to the configuration page, the default account is `root` and password is `heltec.org`.
 
 ![Ethernet Config](./img/05.png)
 
 #### Via Wi-Fi
+
+
+
 
 :::warning
 Do not enter Wi-Fi configuration page while connected to a network cable. If you do this accidentally, disconnect the power and reconnect.
@@ -65,7 +71,22 @@ Do not enter Wi-Fi configuration page while connected to a network cable. If you
 2. Enter `10.42.0.1` in your browser to navigate to the configuration page, the default account is `root` and password is `heltec.org`.  
    ![WiFi Login](./img/05.png)
 
+:::danger
+### Linux Multi-Network Adapter Configuration
 
+**For Linux users:** If a wired connection is enabled while connected to the **HD01** hotspot via Wi-Fi, accessing `10.42.0.1` may fail.
+
+Run the following command in a terminal:
+
+```bash
+sudo ip route replace 10.42.0.0/24 dev wlXX
+```
+
+Replace `wlXX` with your Wi-Fi network interface name, then access `10.42.0.1` again.
+
+**Windows users can skip this step.**
+
+:::
 
 ## Configuration
 

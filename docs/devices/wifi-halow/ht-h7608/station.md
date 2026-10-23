@@ -17,6 +17,11 @@ As shown below:
 Some devices, such as the HT-HR01, do not have 2.4G Wi-Fi functionality.
 :::
 
+:::warning
+For Windows systems, a driver is usually required for USB-C network devices to be recognized and function properly.
+
+- [H7608 Windows USB-C Ethernet Driver](https://resource.heltec.cn/download/HT-HD01_V2/driver/SR9900driver.rar)
+:::
 
 ## Basic Settings
 1. Enter the configuration page, How to enter the configuration mode page” please refer to the [corresponding product documentation](/docs/devices/wifi-halow/ht-h7608/usage-guide).
