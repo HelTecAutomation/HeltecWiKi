@@ -211,7 +211,7 @@ All of the following are stated rather than hidden:
 
 ---
 
-*Report generated 5 October 2026. All statistics and graphs computed directly from R2.csv and R8.csv via analyze.py and graphs.py in this project folder.*
+*Report generated 5 October 2026. All statistics and graphs computed directly from R2.csv and R8.csv via analyze.py and graphs.py in their respective project folder.*
 
 **Special Thanks to Dave Cuyler**
 
