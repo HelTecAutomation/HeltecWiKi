@@ -1,7 +1,22 @@
-// Auto-generated Wiki data - Last updated: 2026-10-23T07:23:21.621Z
+// Auto-generated Wiki data - Last updated: 2026-10-26T07:11:57.877Z
 export const latestWikiData = [
   {
-    "id": 31,
+    "id": 22,
+    "title": "How Far Can Heltec WiFi LoRa 32 V4 Reach? R2 vs R8 Tested in the Real World",
+    "description": "A 2.5 km field test in Singapore explores signal strength, real-world obstacles, and communication reliability between the R2 and R8 variants.",
+    "category": "technical",
+    "date": "2026-10-26",
+    "image": "/news-assets/how-far-can-heltec-wifi-lora-32-v4-reach-r2-vs-r8-tested-in-the-real-world/how-far-can-heltec-wifi-lora-32-v4-reach-r2-vs-r8-tested-in-the-real-world/01.png",
+    "slug": "/news/how-far-can-heltec-wifi-lora-32-v4-reach-r2-vs-r8-tested-in-the-real-world/how-far-can-heltec-wifi-lora-32-v4-reach-r2-vs-r8-tested-in-the-real-world",
+    "tags": [],
+    "pinned": false,
+    "productCategory": [
+      "LoRa32",
+      "v4"
+    ]
+  },
+  {
+    "id": 32,
     "title": "MeshMesh — MeshCore firmware with an on-device interface for the Heltec V4 and T114",
     "description": "MeshMesh is an open-source firmware for LoRa boards. It runs on the MeshCore network and stays compatible with standard MeshCore nodes, repeaters, room servers and the official MeshCore apps.",
     "category": "technical",
@@ -45,7 +60,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "title": "KoaOS for Heltec V4",
     "description": "A small Unix-style operating system for the Heltec WiFi LoRa 32 V4.",
     "category": "technical",
@@ -59,7 +74,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "title": "Into the Orchard: Real-World Long-Range Wi-Fi HaLow Testing",
     "description": "However, in large outdoor environments such as orchards and farms, the trade-off between long-range connectivity, low power consumption, and high bandwidth remains a major challenge when deploying wireless monitoring systems.",
     "category": "news",
@@ -125,7 +140,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "title": "LNA Guide",
     "description": "Learn about LNA and how to enable or disable it on your device.",
     "category": "technical",
@@ -174,7 +189,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 32,
+    "id": 33,
     "title": "Ond’Expo 2026: A Real-World Connection Through Mesh Networking",
     "description": "Before Ond’Expo 2026 officially opened its doors to the public, the venue was already abuzz with intense yet orderly preparations.",
     "category": "news",
@@ -248,7 +263,7 @@ export const latestWikiData = [
     ]
   },
   {
-    "id": 34,
+    "id": 35,
     "title": "Tech Guardian for Wildlife in Dinokeng Reserve",
     "description": "New Technology System Helps Protect Wildlife in South Africa’s Dinokeng Reserve",
     "category": "news",
@@ -288,7 +303,7 @@ export const latestWikiData = [
     "productCategory": []
   },
   {
-    "id": 25,
+    "id": 26,
     "title": "LoRa Gate PCB – WLED-Powered LED Gates with Heltec HT-CT62",
     "description": "The LoRa Gate PCB is a custom controller board for wireless, battery-powered LED gates, built around the Heltec HT-CT62 module (ESP32-C3 + SX1262 LoRa). It is designed for applications where multiple LED “nodes” need to be controlled reliably over long distances with minimal wiring – for example **FPV race start/finish gates**, illuminated track elements, or interactive light installations.",
     "category": "2025 maker contest",
@@ -299,21 +314,6 @@ export const latestWikiData = [
     "pinned": false,
     "productCategory": [
       "LoRa32"
-    ]
-  },
-  {
-    "id": 7,
-    "title": "🌲 SmartLumber: Industrial LoRaWAN Monitoring & Predictive Digital Twin",
-    "description": "Industrial LoRaWAN Monitoring & Predictive Digital Twin",
-    "category": "2025 maker contest",
-    "date": "2025-12-09",
-    "image": "/news-assets/contest-content-template/smartlumber/01.png",
-    "slug": "/news/contest-content-template/smartlumber",
-    "tags": [],
-    "pinned": false,
-    "productCategory": [
-      "LoRaWAN",
-      "RS485"
     ]
   }
 ];
